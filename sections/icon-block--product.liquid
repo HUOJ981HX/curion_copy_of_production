@@ -1,0 +1,60 @@
+<div class="container icon-block animate-in">
+    {%- if section.settings.subtitle != blank -%}
+        <span class="subtitle subtitle--{{ section.settings.subtitle_color | default: 'blue' }}">{{ section.settings.subtitle | escape }}</span>
+    {%- endif -%}
+
+    {% if section.settings.icon-block-title != blank %}
+        <h2 class="icon-block__header">{{ section.settings.icon-block-title }}</h2>
+    {% endif %}
+
+    <!-- Icon Block HTML  -->
+    <div class="icon-block icon-block--default">
+        <!-- Icon Item Loop  -->
+        {% if product.metafields.iamota.icon_block_icon_image.size > 0 %}
+            <ul class="icon-block__list ">
+                {% for icon_images in product.metafields.iamota.icon_block_icon_image %}
+                    {% assign icon_image = icon_images | first %}
+                    {% assign icon_title = product.metafields.iamota.icon_block_title[forloop.index0] %}
+                    {% assign icon_content = product.metafields.iamota.icon_block_icon_content[forloop.index0] %}
+                    {% assign icon_label = product.metafields.iamota.icon_block_icon_button_label[forloop.index0] %}
+                    {% assign icon_link = product.metafields.iamota.icon_block_icon_button_link[forloop.index0] %}
+
+                    <li class="icon-block__item animate-in--list-delay {% if product.metafields.iamota.icon_block_icon_image.size < 5 %}icon-block__item-spaced-out{% endif %}">
+                        <div class="icon-block__icon {% if icon_content != blank %}align-top{% endif %}">
+                            {% if icon_image != blank %}
+                                 <img src="{{ icon_image.src }}" alt="{{icon_image.alt}}" class="accordion-panel__image"/>
+                            {% endif %}
+                        </div>
+                        <div class="icon-block__content-wrapper">
+                            {% if icon_title != blank %}
+                                <h6 class="icon-block__title h6">{{ icon_title }}</h6>
+                            {% endif %}
+
+                            {% if icon_content != blank %}
+                                <div class="icon-block__copy">{{ icon_content }}</div>
+                            {% endif %}
+
+                            {% if icon_label != blank and icon_link!= blank %}
+                                <a href="{{ icon_link }}" 
+                                   class="icon-block__button button button--primary button--text"
+                                   {% if icon_link contains 'http://' or icon_link contains 'https://' %}target="_blank"{% endif %}
+                                >
+                                   {{ icon_label }} <span class="button__icon-wrapper">{% render 'icon', name: 'arrow--cta-short', class: 'button__icon' %}</span>
+                                </a>
+                            {% endif %}
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Icon Block",
+    "class": "page-section page-section--full-bleed page-section--icon-block page-section--icon-block--product",
+    "settings": [
+    ]
+}
+{% endschema %}

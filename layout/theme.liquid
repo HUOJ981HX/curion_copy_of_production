@@ -1,0 +1,344 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js" lang="{{ shop.locale }}"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="{{ shop.locale }}"> <!--<![endif]-->
+
+<head>
+    <!--  PageFly Head -->
+    {% if page and page.metafields.pagefly.html_meta %}
+        {{page.metafields.pagefly.html_meta}}
+    {% endif %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.color_accent }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon != blank -%}
+        <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+    {%- endif -%}
+
+    {%- capture seo_title -%}
+        {{ page_title }}
+        {%- if current_tags -%}
+            {%- assign meta_tags = current_tags | join: ', ' -%} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+        {%- endif -%}
+        {%- if current_page != 1 -%}
+            &ndash; {{ 'general.meta.page' | t: page: current_page }}
+        {%- endif -%}
+        {%- assign escaped_page_title = page_title | escape -%}
+        {%- unless escaped_page_title contains shop.name -%}
+            &ndash; {{ shop.name }}
+        {%- endunless -%}
+    {%- endcapture -%}
+    <title>{{ seo_title | strip }}</title>
+
+    {%- if page_description -%}
+        <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    {% comment %}Google Search Console Verification Tag - iamota{% endcomment %}
+    <meta name="google-site-verification" content="Gu_6r-2dOslhAunD-LBVFsOx_vCHsqBOreJgMiIqT6k" />
+    <meta name="facebook-domain-verification" content="z9og1csyia5krogbefv7ni9e9auqd3" />
+
+    <!-- Global site tag (gtag.js) - Google Ads: 736615104 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-736615104"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-736615104');
+    </script>
+
+    <script>
+        gtag('event', 'page_view', {
+            'send_to': 'AW-736615104',
+            'value': 'replace with value',
+            'items': [{
+                'id': 'replace with value',
+                'google_business_vertical': 'retail'
+            }]
+        });
+    </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://productreviews.shopifycdn.com">
+    <link rel="preconnect" href="https://ajax.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+    
+    {% render 'social-meta-tags' %}
+
+    {% if template contains 'customers' %}
+        {{ "shopify_common.js" | shopify_asset_url | script_tag }}
+        {{ "customer_area.js"  | shopify_asset_url | script_tag }}
+    {% endif %}
+
+    {% if template contains 'customers' %}
+        <script src="https://app.accentuate.io/dist/proxy.js"></script>
+    {% endif %}
+
+    {% render 'style-tags', layout: 'theme' %}
+
+    <!-- Yotpo Reviews - Start -->
+    <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/RyPxJPiHsxIhb9XoH8KWw3Evqg0JTfuPd5tT3nGc?languageCode={{ localization.language.iso_code | escape }}" async></script>
+    <!-- Yotpo Reviews - End   -->
+    
+    <script>
+        document.documentElement.className = document.documentElement.className.replace('no-js', '');
+
+        window.theme = {
+            strings: {
+                addToCart: {{ 'products.product.add_to_cart' | t | json }},
+                soldOut: {{ 'products.product.sold_out' | t | json }},
+                unavailable: {{ 'products.product.unavailable' | t | json }}
+            },
+            moneyFormat: {{ shop.money_format | json }}
+        };
+
+        {% if template.directory == 'customers' %}
+            theme.allCountryOptionTags = {{ all_country_option_tags | json }};
+        {% endif %}
+    </script>
+
+    {% comment %} Scripts needed for Video media on Product Carousel on PDP {% endcomment %}
+    {% if template contains 'product' %}
+        <script src="https://www.youtube.com/iframe_api" id="youtube-sdk"></script>
+        <script type="module" defer="" src="https://cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.en.js"></script>
+        <link href="https://cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css" rel="stylesheet" type="text/css" id="plyr-shopify-styles">
+    {% endif %}
+
+    <script>
+        window.translations = {
+            modalSuccessMessage       : {{ 'custom.modal.success_message' | t | json }},
+            addToCart                 : {{ 'custom.product.add_to_cart' | t | json }},
+            addingToCart              : {{ 'custom.product.adding_to_cart' | t | json }},
+            soldOut                   : {{ 'custom.product.sold_out' | t | json }},
+            notFreeShippingMessage    : {{ 'custom.free_shipping_message.not_enough' | t | json }},
+            freeShippingMessage       : {{ 'custom.free_shipping_message.enough' | t | json }},
+            shortQuantity             : {{ 'custom.quantity.short' | t | json }},
+            finalSaleLabel            : {{ 'custom.sale.final.label' | t | json }},
+            finalSaleMessage          : {{ 'custom.sale.final.message' | t | json }},
+            itemCountOne              : {{ 'custom.items_count.one' | t | json }},
+            itemCountOther            : {{ 'custom.items_count.other' | t | json }},
+            cartProductRemovedMessage : {{ 'custom.cart.product_removed_message' | t | json }},
+            cartUndoLabel             : {{ 'custom.cart.undo_label' | t | json }}
+        };
+
+        if ( {{ shop.locale | json }} == 'fr') {
+            window.localeUrl = '/fr';
+        } else {
+            window.localeUrl = '';
+        }
+    </script>
+
+    {% render 'script-tags', layout: 'theme' %}
+    {% render 'ga-gtm-tags.min', tag_placement: 'head' %}
+
+    {% comment %} Globo Mega Menu     
+        
+    {% endcomment %}
+
+
+
+    {% comment %} Power Tools Filter {% endcomment %}
+    {% section 'filter-menu-settings' %}
+
+    {% comment %} Credits Yard app {% endcomment %}
+    
+
+    {{ content_for_header }}
+
+
+
+    {% if template == 'product' and product.metafields.inventory.ShappifyHidden or product.type contains '_HIDDEN_' %}<meta name='robots' content='noindex'>{% endif %}
+    <script src="https://cdn.pagesense.io/js/biscocanadainc/9ba10324334c49c4b288aca39873dfaa.js"></script>
+
+    {% render 'gsf-conversion-pixels' %}
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '936135497510145');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=936135497510145&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Weglot Code -->
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script>
+    Weglot.initialize({
+        api_key: 'wg_ba09bed36c60fad509f2599ce8eaa22f7'
+    });
+    </script>
+    <!-- End Weglot Code -->
+    <!-- Start cookieyes banner -->
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/common/shopify.js"></script> 
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/8f58938431ffef9fa23a49d3/script.js"></script> 
+    <!-- End cookieyes banner -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .card--line-item .card__price--sale+.card__price--original.black-color-price {color:#484d60;padding-left:0;}
+
+  .product-tags.product-tags--badge--bfcm_red {
+    background-color: #f25752;
+    color: #001339;
+    }
+</style>
+
+{% include 'store-credit-launcher' %}
+{% include 'pagefly-app-header' %}
+<script>
+  var variantStock = {};
+</script>
+  
+</head>
+
+<body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
+
+    <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {% render 'ga-gtm-tags.min', tag_placement: 'body' %}
+    {% section 'header' %}
+
+    <main role="main" id="MainContent" class="main container layout--one-column">
+        {{ content_for_layout }}
+    </main>
+
+    {% section 'footer' %}
+
+    <script type="text/javascript" async src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VFadrv"></script>
+    {%- render 'flits_capture_code' with 'load_snippet',template:'flits_snippet' -%}
+
+{% include 'store-credit-launcher' %}
+</body>
+</html>

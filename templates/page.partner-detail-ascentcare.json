@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/HappyNecks_7a50dbab-1168-4b50-8bf0-3e036b525053.png",
+        "page-header-image--mobile": "shopify://shop_images/Ilumination-2_9d6c905d-eed0-4eab-9390-1b7ced4337fb.png",
+        "subtitle": "Ascentcare dental",
+        "subtitle_color": "coral",
+        "page-header-title": "Innovative Evolution",
+        "title_styling": "outline",
+        "page-header-text": "Passionate about engineering and innovation, the team at Ascentcare Dental continue to evolve product designs towards better durability, simplicity, and efficiency so that \nthe best is always offered for the clinicians and patient.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642551432fd444340": {
+      "type": "icon-block",
+      "blocks": {
+        "35e89416-8839-4314-9aa0-54d6a3bb2f24": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Ascentcare_Logo_copy_f57851ad-84e1-4ba9-8e14-299703cbb6a3.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "35e89416-8839-4314-9aa0-54d6a3bb2f24"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/cQ9vGYK5ss0",
+        "cover_image": "shopify://shop_images/balancer_copy_3.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "HVE Isolation"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "HVE Isolation Mouthpieces"
+          }
+        },
+        "64079368-fe66-4854-9d37-92f054950d62": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "HVE Mirror"
+          }
+        },
+        "e250f894-c479-475e-914f-3ff03165e232": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "HVE Illumination"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "64079368-fe66-4854-9d37-92f054950d62",
+        "e250f894-c479-475e-914f-3ff03165e232"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/vacuvueinuseINLINE_copy_af680904-fe8b-4865-9429-1885083a80b4.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "EXCLUSIVE PARTNER",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "Ascentcare Dental",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Muskegon, Michigan (USA)</p><p><strong>History</strong></p><p>Since 2012, founder Austin Ritter has been working closely with dental professionals to gain an insight into the diverse problems found in dentistry. By engineering, designing and manufacturing thoughtful dental solutions they have helped thousands of clinicians make every day dental procedures safe, efficient, and more comfortable for the patient.</p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about Acentcare Dental",
+        "copy_block_button_link": "https://www.ascentcaredental.com/"
+      }
+    },
+    "164210271992cab5bf": {
+      "type": "content-panel--list",
+      "blocks": {
+        "db27b9d3-2290-464d-95cf-2f6998788fdf": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Innovative products and solutions"
+          }
+        },
+        "913d9cb8-20d9-43f4-8fd4-68a468689df9": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Great engineering and high-quality materials"
+          }
+        },
+        "bca57fc5-87ac-4a78-ad02-f6fab4e86544": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Patient-centric approach"
+          }
+        },
+        "8000f890-a709-41a0-8259-d9482a39535f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Friendly and professional team"
+          }
+        }
+      },
+      "block_order": [
+        "db27b9d3-2290-464d-95cf-2f6998788fdf",
+        "913d9cb8-20d9-43f4-8fd4-68a468689df9",
+        "bca57fc5-87ac-4a78-ad02-f6fab4e86544",
+        "8000f890-a709-41a0-8259-d9482a39535f"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1313024654_copy_da3a7967-4c71-4900-bd62-5432c3bdce11.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting-edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "VacuLUX Isolation System",
+            "icon-content": "<p>VacuLUX HVE isolation system that is compatible with competitors’ mouthpieces. Fully autoclavable components that are uniquely designed for better patient comfort.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/vaculux-isolation-starter-kit-dryshield"
+          }
+        },
+        "9da4ae58-64bc-4353-8323-23370c6412fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "VacuLUX Adapters",
+            "icon-content": "<p>Fully autoclavable aluminum adapters designed to fit your standard HVE valve for an instant isolation system at any dental chair. Use with Isolite, Dryshield and the new VacuLUX isolation mouthpieces.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/ascentcare-vaculux-hve-adapter-dryshield-isolite-compatible"
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "HyperLUX Light Engine",
+            "icon-content": "<p>A portable fiber optic transillumination for your VacuLUX system.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/hyperlux-light-engine"
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "VacuVUE HVE Mirror",
+            "icon-content": "<p>Designed for evacuation and aerosol management. Ultralight construction with a replaceable HD mirror, whisper lite hose and wrist assist for ergonomics and comfort.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/vacuvue-hve-dental-mirror"
+          }
+        },
+        "948c8693-78b4-4203-b384-3291cb19c0fd": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "VacuValve HVE Lite",
+            "icon-content": "<p>A small but mighty compact HVE valve that doesn’t restrict airflow and drastically reduces the weight and size of a standard valve.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/ascentcare-vacuvalve-compact-aluminum-hve-valve"
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "9da4ae58-64bc-4353-8323-23370c6412fc",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "948c8693-78b4-4203-b384-3291cb19c0fd"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "vaculux-isolation-starter-kit-dryshield"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "ascentcare-vaculux-hve-adapter-dryshield-isolite-compatible"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "ascentcare-vaculux-hve-autoclavable-mouthpieces"
+          }
+        },
+        "163951144998bcda93-3": {
+          "type": "product",
+          "settings": {
+            "product": "vacuvue-hve-dental-mirror"
+          }
+        },
+        "fb2d450e-2841-4b61-8840-6a5495f3541b": {
+          "type": "product",
+          "settings": {
+            "product": "hyperlux-light-engine"
+          }
+        },
+        "bc31d342-a12c-492b-b8ba-73f4abbc319b": {
+          "type": "product",
+          "settings": {
+            "product": "ascentcare-vacuvalve-compact-aluminum-hve-valve"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "163951144998bcda93-1",
+        "163951144998bcda93-2",
+        "163951144998bcda93-3",
+        "fb2d450e-2841-4b61-8840-6a5495f3541b",
+        "bc31d342-a12c-492b-b8ba-73f4abbc319b"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799587888af1d7": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642551432fd444340",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "164210271992cab5bf",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799587888af1d7"
+  ]
+}

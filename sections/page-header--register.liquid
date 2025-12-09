@@ -1,0 +1,39 @@
+<div class="page-header page-header--account-form">
+    <div class="page-header__content">
+        {% if section.settings.subtitle != blank %}
+            <h2 class="page-header__subtitle h5">{{ section.settings.subtitle }}</h2>
+        {% endif %}
+
+        {% if section.settings.description != blank %}
+            <div class="page-header__description container--wysiwyg">{{ section.settings.description }}</div>
+        {% endif %}
+
+        {% if section.settings.title != blank %}
+            <h1 class="page-header__title">{{ section.settings.title }}</h1>
+        {% endif %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Page Header - Register",
+    "class": "page-header page-header--register-page",
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Page Subtitle"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Page Description"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Page Title"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,232 @@
+{% assign product = product %}
+{% assign isAjax = isAjax | default: false %}
+{% assign circle_swatches = circle_swatches | downcase %}
+{% assign text_swatches = text_swatches | downcase %}
+
+{% if product %}
+    {% if product.title contains "™" %}
+        {% assign product_title = product.title | replace: "™", "<sup>TM</sup>" %}
+    {% else %}
+        {% assign product_title = product.title %}
+    {% endif %}
+
+{% comment %}
+    Get Variant Metafields
+{% endcomment %}
+<script type="text/javascript">
+    theme.variants = [];
+</script>
+
+<script type="text/javascript">
+{% for variant in product.variants %}
+    {% assign variant_contents = variant.metafields.info.contents %}
+    {% assign variant_sku = variant.sku %}
+    {% assign variant_title = variant.title %}
+        theme.variants[{{variant.id}}] = []
+        theme.variants[{{variant.id}}].contents = {{ variant_contents | json }};
+        theme.variants[{{variant.id}}].sku = {{ variant_sku | json }};
+        theme.variants[{{variant.id}}].title =  {{ variant_title | prepend: " " | prepend: product_title | json  }};
+        theme.variants[{{variant.id}}].quantity =  {{ variant.inventory_quantity }};
+{% endfor %}
+</script>
+
+
+
+    <form data-is-ajax={{ isAjax }} data-add-cart-type="modal" action="/cart/add" method="post" data-product-form='' data-product-handle="{{ product.handle }}" enctype="multipart/form-data">
+        
+        {% unless product.has_only_default_variant %}
+            <div class="product__container">
+                {% for option in product.options_with_values %}
+                {% assign downcase_option_name = option.name | downcase %}
+                {%- if circle_swatches contains downcase_option_name or text_swatches contains downcase_option_name -%}
+                    <div class="selector-wrapper js form__field form__field--radio-{%- if circle_swatches contains downcase_option_name -%}color{%- elsif text_swatches contains downcase_option_name -%}text{%- endif -%}">
+                        <div class="form__element" id="option{{ option.position }}">
+                        {% for value in option.values %}
+                            {% assign variant_alternative_name = value %}
+                            {% if downcase_option_name == 'option' %}
+                                {% for variant in product.variants %}
+                                    {% assign variant_option = variant.option2 %}
+                                    {% if variant_option == value and variant.metafields.option.label %}
+                                        {% assign variant_alternative_name = variant.metafields.option.label %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                            <div class="swatch__option" data-swatch="{{ value }}">
+                                <input type="radio"
+                                    data-single-option-selector
+                                    id="{{ option.name }}-{{ forloop.index }}"
+                                    value="{{ value | escape }}"
+                                    name="{{ option.name }}"
+                                    data-index="option{{ option.position }}"
+                                    {% if option.selected_value == value %}checked{% endif %}>
+                                <label for="{{ option.name }}-{{ forloop.index }}" class="form__option-label">
+                                    <span class="form__option-label-inner"></span>
+                                    <span class="form__option-label-visually-hidden">
+                                        {% if downcase_option_name == 'option' %}
+                                            {{ variant_alternative_name }}
+                                        {% else %}
+                                            {{ value }}
+                                        {% endif %}
+                                    </span>
+                                </label>
+                            </div>
+                        {% endfor %}
+
+                        <p class="swatch__title" data-swatch-option="option{{ option.position }}">Select {{ option.name }}</p>
+                        </div>
+                    </div>
+                {%- else -%}
+                    <div class="selector-wrapper js form__field form__field--custom-select">
+                        <label for="SingleOptionSelector-{{ forloop.index0 }}" class="form__label">
+                            Select {{ option.name }}
+                        </label>
+                        <div class="form__element">
+                            <select
+                                id="SingleOptionSelector-{{ forloop.index0 }}"
+                                data-single-option-selector
+                                class="form__control form__select single-option-selector"
+                                data-single-option-selector
+                                data-index="option{{ option.position }}">
+                                {% for value in option.values %}
+                                    <option
+                                        value="{{ value | escape }}"
+                                        {% if option.selected_value == value %}selected="selected"{% endif %}>
+                                          {{ value }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            {% render 'icon', name: 'arrow--down', class: 'select__caret svg--baseline' %}
+                        </div>
+                    </div>
+                {%- endif -%}
+                {% endfor %}
+            </div>
+        {% endunless %}
+
+        <select name="id" class="no-js" data-product-select>
+            {% for variant in product.variants %}
+                <option
+                    {% if variant == current_variant %}selected="selected"{% endif %}
+                    {% unless variant.available %}disabled="disabled"{% endunless %}
+                    value="{{ variant.id }}" data-option-title="{{variant.title}}">
+                    {{ variant.title }}
+                </option>
+            {% endfor %}
+        </select>
+        <div class="price__wrapper">
+            <div data-price-wrapper class="product__price">
+                {% if product.compare_at_price_max > product.price %}
+                    <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
+                    <s data-compare-price class="price__sale">
+                        {% if current_variant.compare_at_price > current_variant.price %}
+                            {{ current_variant.compare_at_price | money }}
+                        {% endif %}
+                    </s>
+                {% endif %}
+
+                <span data-product-price class="price__original {% if current_variant.compare_at_price > current_variant.price %}price__original--sale{% endif %}">
+                    {{ current_variant.price | money }}
+                </span>
+            </div>
+
+            {% if product.tags contains 'final-sale' %}
+                <div class="line-item__final-sale">
+                    <span>Final Sale</span>
+                    <div class="tooltip tooltip--default">
+                        <span class="tooltip__icon tooltip__icon--final-sale">
+                            {% render 'icon', name: 'tooltip', class: 'svg--baseline' %}
+                        </span>
+                        <div class="tooltip__content">This item is final sale. No returns or exchanges allowed on this item.</div>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+        <div class='variant-title__wrapper' id="variant-title">
+            {{ product_title }} {{ current_variant.title }}
+        </div>
+        <div class='variant-sku__wrapper' id="variant-sku">
+            {{ current_variant.sku }}
+        </div>
+
+      {% if template.suffix == 'clearancesale' %}
+
+      
+      <div id="variant-inventory" class="{% unless current_variant.available %} hide {% endunless %}">
+        <!-- <strong><span style="color: rgb(255, 42, 0);"> Stock: {{ current_variant.inventory_quantity }}</span></strong> -->
+        <strong><span style="color: rgb(255, 42, 0);"> <span id="variant_inventory"> Stock : {{ current_variant.inventory_quantity }}</span></span></strong>
+      </div>
+{% endif %}
+
+      
+        <div class="variant-contents__wrapper" id="variant-contents">
+            {% comment %} You'll use this to dynamically display a variant's contents, if they're filled in {% endcomment %}
+            {% if current_variant.metafields.info.contents %}
+                {{ current_variant.metafields.info.contents }}
+            {% endif %}
+        </div>
+
+        <div id="productStickyContainer">
+            <div class="product__sticky-container">
+                <div class="product__sticky">
+                    <div class="product__container product__container--footer">
+                        <div class="product__quantity">
+                            <label for="Quantity" class="form__label form__label--product">{{ 'products.product.quantity' | t }}</label>
+                            <div class="form__input-container">
+                                <input type="number" id="Quantity" name="quantity" value="1" min="1" class="cart__quantity form__control form__input">
+                                <div class="form__increment form__increment--up"></div>
+                                <div class="form__increment form__increment--down"></div>
+                            </div>
+                        </div>
+
+                        <button
+                            type="submit"
+                            name="add"
+                            data-add-to-cart
+                            data-modal-target="cart_confirmation"
+                            {% unless current_variant.available %}disabled="disabled" {% endunless %}
+                            class="addtocart button--primary btn--add-to-cart--quick">
+                        {% assign preorder_handles = "bisco-quantium-universal-composite" | split: "," %}
+
+                        <span data-add-to-cart-text>
+                        {% if current_variant.available %}
+                            {% if preorder_handles contains product.handle %}
+                            {{ 'products.product.pre_order' | t }}
+                            {% else %}
+                            {{ 'products.product.add_to_cart' | t }}
+                            {% endif %}
+                        {% else %}
+                            {{ 'products.product.sold_out' | t }}
+                        {% endif %}
+                        </span>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            {% comment %} Flits: Wishlist {% endcomment %}
+            <div class='wishlist__container'>
+                {%- render 'flits_capture_code' with 'component',template:'comp_wishlistProdcutButton' -%}
+            </div>
+        </div>
+        <!-- <div class="product-sticky--mobile">
+            <a id="addToCartSticky" class="button button--mobile-cart" href="#productStickyContainer">Purchase</a>
+        </div> -->
+        <div class='cart__message'>
+            <p class='cart__message--error'>
+                <!-- Placeholder for error messages -->
+            </p>
+        </div>
+
+        {% for promotion_products_group in shop.metafields.globals.promotion_products %}
+            {% assign promotion_products =  promotion_products_group | split: '|' %}
+            {% if promotion_products contains product.handle and shop.metafields.globals.promotion_message[forloop.index0] %}
+                <div class='product-promotion__container'>
+                    {{ shop.metafields.globals.promotion_message[forloop.index0] }}
+                </div>
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    </form>
+    {% render "cart-confirmation", modal_id: 'cart_confirmation', variant: 'cart-confirmation' %}
+{% endif %}

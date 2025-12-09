@@ -1,0 +1,85 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/2023-Q1-Banner_45dcb508-ba43-49ab-baa5-7f987f198503.png",
+        "page-header-image--mobile": "shopify://shop_images/2023-Q1-Banner_45dcb508-ba43-49ab-baa5-7f987f198503.png",
+        "subtitle": "2023 Q1 SPECIAL OFFERS",
+        "subtitle_color": "coral",
+        "page-header-title": "ON SALE NOW!",
+        "title_styling": "no-outline",
+        "page-header-text": "<b>Great Saving on the TheraFamily Products.</b><br>Award-Winning Products with Unique Benefits.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1656624405711efc14": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-30451fc7"
+      }
+    },
+    "16566244604511776c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-2180e467"
+      }
+    },
+    "165662454295b69adb": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-0d026cc5"
+      }
+    },
+    "1656624510e4d46a3c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-4be5909d"
+      }
+    },
+    "165662456554b20407": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-c220114b"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    },
+    "e7e6ede2-d1ad-4aba-9597-f6d312278d13": {
+      "type": "featured-products-slider",
+      "settings": {
+        "subtitle": "",
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "1656624405711efc14",
+    "16566244604511776c",
+    "165662454295b69adb",
+    "1656624510e4d46a3c",
+    "165662456554b20407",
+    "main",
+    "e7e6ede2-d1ad-4aba-9597-f6d312278d13"
+  ]
+}

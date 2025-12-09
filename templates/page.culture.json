@@ -1,0 +1,389 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_CULTURE-Instill_joy_Dental_Supplies.jpg",
+        "subtitle": "CULTURE",
+        "subtitle_color": "blue",
+        "page-header-title": "Instill joy",
+        "title_styling": "outline",
+        "page-header-text": "Our mission is to inspire, renew and elevate dental careers. Bringing new-found passion and joy to your everyday practice.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642459773285ba074": {
+      "type": "vision-block",
+      "settings": {
+        "subtitle": "OUR PROMISE",
+        "subtitle_color": "blue",
+        "title": "To inspire, renew & elevate passion",
+        "text": "Our purpose is to heighten fulfilment and unleash passion in the careers of dentistry.\n\nWe’re inspired and excited by innovation and what the future holds. We’ve made it our mission to share our passion to empower new generations of dental professionals, one partnership at a time."
+      }
+    },
+    "164245718509548f89": {
+      "type": "content-panel",
+      "blocks": {
+        "7c43940b-80b2-405d-94c8-ed4a5cd7106b": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Our_human-centric_approach_Dental_Supplies.png",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_icon_CompanyCulture_Dental_Supplies.png",
+            "copy_block_subtitle": "our APPROACH",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Our human-centric approach",
+            "copy_block_text": "<p>- Collaborative<br/>- Strategic<br/>- Helpful</p><p> It’s why we go the extra-mile with the Curion Experience.</p>",
+            "copy_block_button_text": "Discover the experience",
+            "copy_block_button_link": "shopify://pages/experience",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c43940b-80b2-405d-94c8-ed4a5cd7106b"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "16424577896d53ca3b": {
+      "type": "content-panel",
+      "blocks": {
+        "25e006f7-ea05-4750-b7ec-dd002e9fcfbd": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_OUR_VALUES_Dental_Supplies.jpg",
+            "copy_block_subtitle": "our VALUES",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "At Curion, we are guided by our values",
+            "copy_block_text": "<p><strong>Act with integrity</strong><br/>To be honest,transparent, and respectful in each action and every interaction. </p><p><strong>Lead with positivity</strong><br/>To create positive team energy, empower and lift each other up.<br/>To see beyond problems and seek solutions.</p><p><strong>Pursue growth</strong><br/>To commit to the pursuit of innovation and science. <br/>To learn from every experience so we remain masters in what we do. </p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "25e006f7-ea05-4750-b7ec-dd002e9fcfbd"
+      ],
+      "settings": {
+        "starting_orientation": "left"
+      }
+    },
+    "16395281055b184aa4": {
+      "type": "banner-block",
+      "settings": {
+        "banner-block-image": "shopify://shop_images/Curion_Dental_OUR_MISSION_Dental_Supplies.jpg",
+        "subtitle": "OUR MISSION",
+        "subtitle_color": "blue",
+        "banner-block-title": "To empower individuals to unleash their passion for dentistry",
+        "banner-block-text": "",
+        "banner-block-button-text": "",
+        "banner-block-link": ""
+      }
+    },
+    "16424604325402024f": {
+      "type": "testimonial",
+      "blocks": {
+        "45e6b957-4f5f-4469-bc86-13da2445ecc7": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Paresh_Dental_Supplies.jpg",
+            "quote": "<p><a href=\"https://revivedentalwinnipeg.com/\" target=\"_blank\" title=\"https://revivedentalwinnipeg.com/\"><strong>Revive Dental</strong></a></p><p>I’ve been using products distributed by Curion (formerly, Bisco Canada) for over 20 years and appreciate their products and customer service. Always bringing solid products and new innovations to help our practice stay current. Their leadership team is outstanding.  Love to see this Canadian company flourish!</p>",
+            "author": "- Dr. Paresh Shah, DMD"
+          }
+        },
+        "77a63b38-6c32-4fc2-9cac-93f15ca0d9df": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Miles_Dental_Supplies.jpg",
+            "quote": "<p><a href=\"https://www.nuancedental.com/\" target=\"_blank\" title=\"https://www.nuancedental.com/\"><strong>Nuance Dental Specialists</strong></a></p><p>Curion (formerly Bisco Canada) has been a phenomenal partner with our specialty clinic in providing highly predictable instruments and materials for my dual role at the chair and the bench. The long-standing friendship built through our affiliation stands as a true testament of their commitment to excellence within the dental profession at large and to the individual clinicians who depend on their services.</p>",
+            "author": "- Miles R. Cone, DMD, MS, CDT, FACP"
+          }
+        },
+        "09005acd-4654-449e-8263-8ee63233e487": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Sunny_Dental_Supplies.jpg",
+            "quote": "<p><a href=\"https://cityplacedentalgroup.ca/\" target=\"_blank\" title=\"https://cityplacedentalgroup.ca/\"><strong>Cityplace Dental Group</strong></a></p><p>Curion (formerly, Bisco Canada) is a leader for Dentists. They provide world-class class education with exclusive materials and instruments that help deliver consistently better results for our patients. Working with Curion has given us the opportunity to increase the level of care we offer on a daily basis.<br/></p>",
+            "author": "- Dr. Sunny Virdi, DMD"
+          }
+        },
+        "845c0710-f95e-414f-8081-5af364c4be84": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Carla_Cohn_Dental_Supplies.jpg",
+            "quote": "<p><a href=\"http://www.cholakisdental.com/\" target=\"_blank\" title=\"http://www.cholakisdental.com/\"><strong>Cholakis Dental Group</strong></a></p><p><a href=\"https://www.kidsdental.ca/\" target=\"_blank\" title=\"https://www.kidsdental.ca/\"><strong>Kids Dental</strong></a></p><p>Count on BISCO Inc. to develop<br/>quality materials to help patients and dentists love dentistry more.</p>",
+            "author": "- Dr. Carla Cohn, DMD"
+          }
+        },
+        "443bd7b9-6a3e-4fc1-8ead-9cc16b12d825": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Czervionke_Tom_J_Dental_Supplies.jpg",
+            "quote": "<p><a href=\"https://www.bisco.com/\" target=\"_blank\" title=\"https://www.bisco.com/\"><strong>BISCO Inc.</strong></a></p><p>Curion (formerly Bisco Canada) continually ranks as one of our top international distributors, and with good reason: their well-trained, knowledgeable team are highly dedicated to customers. They provide excellent products supported by professionals, competitively priced, and elevate Continuing Education, through their relationships with key industry thought leaders.</p>",
+            "author": "- Tom Czervionke, Director of Global Sales"
+          }
+        },
+        "9319f125-afc3-444c-a2eb-3d7d3dc5c4bb": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Chris_Bradley_Dental_Supplies.jpg",
+            "quote": "<p><a href=\"https://smilelineusa.com/\" target=\"_blank\" title=\"https://smilelineusa.com/\"><strong>Smile Line USA</strong></a></p><p>A strong relationship with our business partners is important to Smile Line.  The collaboration between us and Curion (formerly, Bisco Canada) is excellent and Curion has the ability to represent a vast amount of dental products in the market with the utmost professionalism and knowledge.  They truly consider the customer first in decisions they make. Thanks for being such a great partner!</p>",
+            "author": "- Chris Bradley, General Manager/Owner"
+          }
+        },
+        "3149c3ef-4407-4d38-bf3d-8357aebd560e": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Rich_Markules_Dental_Supplies.jpg",
+            "quote": "<p><a href=\"https://www.garrisondental.com/\" target=\"_blank\" title=\"https://www.garrisondental.com/\"><strong>Garrison Dental Solutions</strong></a></p><p>Over the past 18 years, Curion (formerly Bisco Canada) has been a great partner providing exceptional service to dental professionals. Aside from great customer service, I am very impressed with their knowledge of the industry and the professionalism by the entire Team. Garrison could not ask for a better partner and friends.</p>",
+            "author": "- Rich Markules, Director of Sales"
+          }
+        },
+        "4181bc9c-4eb2-4032-a846-a0b5ca8b28f9": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Curion_Dental_TESTIMONIALS_Screen_Dental_Supplies.png",
+            "quote": "<p><a href=\"https://www.diashinepolish.com/\" target=\"_blank\" title=\"https://www.diashinepolish.com/\"><strong>DiaShine</strong></a></p><p>Curion (formerly Bisco Canada) was among the first to partner with our company, DiaShine, in carrying the Lucida Composite Gloss System. From day one, their team has been incredibly easy to work with, sharing similar values in quality products, customer support, and most importantly, relationships. Curion and DiaShine have become family ever since.</p>",
+            "author": "- Roland Bonser, Managing Director"
+          }
+        }
+      },
+      "block_order": [
+        "45e6b957-4f5f-4469-bc86-13da2445ecc7",
+        "77a63b38-6c32-4fc2-9cac-93f15ca0d9df",
+        "09005acd-4654-449e-8263-8ee63233e487",
+        "845c0710-f95e-414f-8081-5af364c4be84",
+        "443bd7b9-6a3e-4fc1-8ead-9cc16b12d825",
+        "9319f125-afc3-444c-a2eb-3d7d3dc5c4bb",
+        "3149c3ef-4407-4d38-bf3d-8357aebd560e",
+        "4181bc9c-4eb2-4032-a846-a0b5ca8b28f9"
+      ],
+      "settings": {
+        "subtitle": "TESTIMONIALS",
+        "subtitle_color": "blue",
+        "title": "Celebrating the joy of dentistry"
+      }
+    },
+    "1642457957bc6d9c48": {
+      "type": "content-panel--list",
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_Helpful_humans_Dental_Supplies.jpg",
+        "copy_block_subtitle": "HUMANS",
+        "content_panel_subtitle_color": "blue",
+        "copy_block_title": "Helpful humans",
+        "copy_block_text": "<p>We care about people and the relationships we build. It’s at the core of who we are. Working together, we grow and innovate, supporting each other along the way.</p>",
+        "copy_block_button_text": "Meet the team",
+        "copy_block_button_link": "shopify://pages/about-us"
+      }
+    },
+    "164360720482770476": {
+      "type": "banner-block",
+      "settings": {
+        "banner-block-image": "shopify://shop_images/Curion_Dental_We_care_about_people_Dental_Supplies.png",
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "banner-block-title": "We care about people.",
+        "banner-block-text": "",
+        "banner-block-button-text": "",
+        "banner-block-link": ""
+      }
+    },
+    "1643386320bbf2b5fa": {
+      "type": "icon-block",
+      "blocks": {
+        "04991060-ab96-4901-8f98-cd770ecc71a1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_6631_copy_865a84f4-4ece-4c46-a15a-2ea57525c5f9.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "44d721cb-12f0-47b1-8921-411aa6675413": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_0438_2.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "3552fd1d-a551-407f-b995-3d91e842893b": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/jenandchrisplaceholder_2.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "1ccb6002-9bd2-40bc-a925-26e30b114568": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_9332_324fc6c5-5ace-41d7-bade-872c003e159c.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "37afa311-1f62-487d-b9b6-bb00bb0e86d9": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_7325.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "b262279c-a69b-448f-8cf5-10574bbc4460": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_7486.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "66490f58-39b2-412c-9a7e-27cd549abe99": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Andrew_Fishing-2_2.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "16424efb-f3b4-416a-b745-e884d3e08dc7": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Andrew_Fishing_2.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "f206b33b-cec1-4043-8117-d685d09b0a0d": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_5038_2.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "f1bbd84d-3bd5-489f-9a38-1c9bb2f88923": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_3532_664b5636-adbd-4b2c-b9e6-375d03d8d397.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "f6d2964c-c4b0-4723-b2e9-4c63229c8a14": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/IMG_6780_2.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "04991060-ab96-4901-8f98-cd770ecc71a1",
+        "44d721cb-12f0-47b1-8921-411aa6675413",
+        "3552fd1d-a551-407f-b995-3d91e842893b",
+        "1ccb6002-9bd2-40bc-a925-26e30b114568",
+        "37afa311-1f62-487d-b9b6-bb00bb0e86d9",
+        "b262279c-a69b-448f-8cf5-10574bbc4460",
+        "66490f58-39b2-412c-9a7e-27cd549abe99",
+        "16424efb-f3b4-416a-b745-e884d3e08dc7",
+        "f206b33b-cec1-4043-8117-d685d09b0a0d",
+        "f1bbd84d-3bd5-489f-9a38-1c9bb2f88923",
+        "f6d2964c-c4b0-4723-b2e9-4c63229c8a14"
+      ],
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Our people. Our passion.",
+        "icon-block-description": ""
+      }
+    },
+    "1642460435e03083bc": {
+      "type": "content-panel",
+      "blocks": {
+        "469d8fc7-a2c5-4c6b-b782-03246f185c1c": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Work_that_matters_Dental_Supplies.jpg",
+            "copy_block_subtitle": "CAREERS",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Work that matters",
+            "copy_block_text": "<p>We inspire people to see new possibilities.</p><p>Want to help us dynamize dentistry? </p>",
+            "copy_block_button_text": "Learn more",
+            "copy_block_button_link": "shopify://pages/careers",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "469d8fc7-a2c5-4c6b-b782-03246f185c1c"
+      ],
+      "settings": {
+        "starting_orientation": "left"
+      }
+    },
+    "1639524087320b8526": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We empower caring dental professionals across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "Live the experience",
+        "intro-block-link": "shopify://pages/experience"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642459773285ba074",
+    "164245718509548f89",
+    "16424577896d53ca3b",
+    "16395281055b184aa4",
+    "16424604325402024f",
+    "1642457957bc6d9c48",
+    "164360720482770476",
+    "1643386320bbf2b5fa",
+    "1642460435e03083bc",
+    "1639524087320b8526"
+  ]
+}

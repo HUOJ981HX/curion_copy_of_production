@@ -1,0 +1,161 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163961018441a7a2df": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_HOW_TO_ORDER_Dental_Supplies.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Curion_Dental_HOW_TO_ORDER_Mobile_Dental_Supplies.jpg",
+        "subtitle": "how to order",
+        "subtitle_color": "blue",
+        "page-header-title": "We're here.",
+        "title_styling": "no-outline",
+        "page-header-text": "We know running your practice often involves navigating exceptions. This is why we have options to meet your needs.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642733800be69ad65": {
+      "type": "icon-block",
+      "blocks": {
+        "b43805c4-5997-4502-a2d5-7b2198169559": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Online-Order_Dental_Supplies.png",
+            "icon-title": "Free Delivery for Orders Over $250",
+            "icon-content": "<p>Benefit from free delivery for all orders over $250, to all commercial (non-residential) addresses, wherever you are in Canada.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "862c03c9-e18d-4457-93cd-3719e7531c27": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Fas-Easy-Shipping_Dental_Supplies.png",
+            "icon-title": "Fast, Easy Shipping",
+            "icon-content": "<p>Enjoy the convenience of expedited shipping to most places in Canada.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "47f3d154-5b63-4c86-831d-20b837caae4e": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Dedicated-support-guidance_Dental_Supplies.png",
+            "icon-title": "Personal Support & Guidance",
+            "icon-content": "<p>We listen to your needs and provide you with custom advice, meeting you at your knowledge level and helping you buy with confidence.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b43805c4-5997-4502-a2d5-7b2198169559",
+        "862c03c9-e18d-4457-93cd-3719e7531c27",
+        "47f3d154-5b63-4c86-831d-20b837caae4e"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Easy order & delivery",
+        "icon-block-description": ""
+      }
+    },
+    "16396106540ffde12c": {
+      "type": "content-panel--list",
+      "blocks": {
+        "3c5fe767-c293-411e-ba5a-2f5a255eeeab": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "24/7 web order history access"
+          }
+        },
+        "30ceb0d9-2f3b-4f98-9fcf-dcf630128e9a": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Track your package"
+          }
+        },
+        "5f8a0fbb-4120-4257-86d9-d3c4d096a57e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Request email updates"
+          }
+        },
+        "2ecdc1d3-fc28-446e-8ebf-4333bfbb097a": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Reorder, create and maintain your own address book"
+          }
+        }
+      },
+      "block_order": [
+        "3c5fe767-c293-411e-ba5a-2f5a255eeeab",
+        "30ceb0d9-2f3b-4f98-9fcf-dcf630128e9a",
+        "5f8a0fbb-4120-4257-86d9-d3c4d096a57e",
+        "2ecdc1d3-fc28-446e-8ebf-4333bfbb097a"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_ONLINE_ORDERS_Dental_Supplies.png",
+        "content_panel_icon_image": "shopify://shop_images/Curion_Dental_Icon_Online-Order_Dental_Supplies.png",
+        "copy_block_subtitle": "online orders",
+        "content_panel_subtitle_color": "blue",
+        "copy_block_title": "It's fast. It's easy.",
+        "copy_block_text": "<p>It only takes a minute to become a registered customer, and to enjoy all of these perks:</p><p></p>",
+        "copy_block_button_text": "Create an account today",
+        "copy_block_button_link": "/account/register"
+      }
+    },
+    "16396103197f505e01": {
+      "type": "content-panel",
+      "blocks": {
+        "48d1b31c-55bd-48b2-87ab-b03081de090e": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_PHONE_ORDERS_Dental_Supplies.jpg",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_icon_Phone-Order_Dental_Supplies.png",
+            "copy_block_subtitle": "phone orders",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Need more info?",
+            "copy_block_text": "<p>We have your best interest at heart. Life is complicated but finding the best products for your practice shouldn’t be. </p><p>Reach out to us for more info or to request a consultation.</p><p></p><p>Monday to Friday 7:30 a.m.—4 p.m. (PST)<br/><br/>English: <a href=\"tel:1-800-667-8811\" title=\"tel:1-800-667-8811\"><strong>1.800.667.8811</strong></a><br/>French: <a href=\"tel:1.800.211.1200\" target=\"_blank\" title=\"tel:1.800.211.1200\"><strong>1.800.211.1200</strong></a></p><p>Email: <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\"><strong>wecare@curion.ca</strong></a><br/><br/>2571 Smith Street<br/>Richmond, BC., V6X 2J1 Canada</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": true,
+            "contact_cta_btn_label": "Contact Form"
+          }
+        }
+      },
+      "block_order": [
+        "48d1b31c-55bd-48b2-87ab-b03081de090e"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "16427383724a57b4be": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "163961018441a7a2df",
+    "1642733800be69ad65",
+    "16396106540ffde12c",
+    "16396103197f505e01",
+    "16427383724a57b4be"
+  ]
+}

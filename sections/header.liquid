@@ -1,0 +1,211 @@
+{%- comment -%}
+    This is a required section for the Shopify Theme Store.
+    It is available in the "Header" section in the theme editor.
+
+    Theme Store required settings
+    - Show announcement
+    - Text: message to announce
+    - Link: link of the announcement bar
+
+    Theme Store optional settings
+    - Home page only: only shows on the home page
+{%- endcomment -%}
+
+<section data-section-id="{{ section.id }}" data-section-type="header">
+    {%- if section.settings.announcement_bar_enabled -%}
+        {%- if section.settings.announcement_bar_home_page_only == false or template.name == 'index' -%}
+            <div class="announcement-bar">
+                <div class="container">
+                {%- if section.settings.announcement_bar_link != blank -%}
+                    <a href="{{ section.settings.announcement_bar_link }}" class="announcement-bar__link">
+                        {{ section.settings.announcement_bar_text | escape }}
+                    </a>
+                {%- else -%}
+                    <p class="announcement-bar__text">
+                        {{ section.settings.announcement_bar_text | escape }}
+                    </p>
+                {%- endif -%}
+                    <button type="button" class="announcement-bar__close">
+                        <span class="sr-only">Close</span>
+                        {% render 'icon', name: 'close', class: 'menu__icon' %}
+                    </button>
+                </div>
+            </div>
+        {%- endif -%}
+    {%- endif -%}
+
+    <header role="banner" class="header header--default">
+        <div class="header__container">
+            <a href="{{ routes.root_url }}" class="header__link header__link--logo">
+                {% if section.settings.logo != blank %}
+                    {% capture image_size %}{{ section.settings.logo_max_width }}{% endcapture %}
+                    <img src="{{ section.settings.logo | img_url: image_size }}"
+                         srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+                         alt="{{ section.settings.logo.alt | default: shop.name }}"
+                         class="header__logo">
+                    <span class="sr-only">{{ section.settings.logo.alt | default: shop.name }}</span>
+                {% else %}
+                    {{ shop.name }}
+                {% endif %}
+            </a>
+
+            <div class='menu menu--search menu--search--desktop'>
+                {% render 'search-form' %}
+            </div>
+
+            <div class="header__mobile-links">
+                {% if shop.customer_accounts_enabled %}
+                    <a href="{{ routes.account_url }}" class="header__link header__link--login">
+                        <span class="menu__title">
+                            {% render 'icon', name: 'login' %}
+                        </span>
+                    </a>
+                {% endif %}
+
+                <a href="{{ routes.cart_url }}" class="header__link header__link--cart">
+                    <span class="menu__title">
+                        {% render 'icon', name: 'cart' %}
+                    </span>
+                </a>
+
+
+                <button type="button" class="header__link header__link--menu">
+                    <span class="header__icon"></span>
+                    <span class="sr-only">Open Main Menu</span>
+                </button>
+            </div>
+            <div class="header__nav-wrapper">
+                <div class='menu--mobile'>
+                    <div id='mobileNav'>
+                        <!-- placeholder for Globo Mega menu -->
+                    </div>
+                </div>
+
+
+                <div class="menu menu--secondary">
+                    <ul class="menu__list">
+                        <li class='menu__item'>
+                            <a href="tel:18006678811" class="menu__link">
+                                {% render 'icon', name: 'contact' %} 1-800-667-8811
+                            </a>
+                        </li>
+
+                        {% if shop.customer_accounts_enabled %}
+                            {% if customer %}
+                                <li class="menu__item">
+                                    <a href="{{ routes.account_url }}" class="menu__link menu__link--account">My Account</a>
+                                </li>
+                            {% else %}
+                                <li class="menu__item">
+                                   <a href="{{ routes.account_url }}" class="menu__link menu__link--account">Sign Up / Log in</a>
+                                </li>
+                            {% endif %}
+                        {% endif %}
+
+                        <li class="menu__item menu__item--cart">
+                            {% comment %}
+                                Default   : 'cart-icon'
+                                Mini cart : 'cart-icon--mini'
+                            {% endcomment %}
+                            {% render 'mini-cart' %}
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='menu menu--search menu--search--mobile'>
+                    {% render 'search-form' %}
+                </div>
+            </div>
+        </div>
+        <div class='menu--desktop header__container'>
+            <div class='' id='desktopNav'>
+                
+            </div>
+        </div>
+    </header>
+</section>
+
+{% schema %}
+{
+    "name": "Header",
+    "class": "shopify-section--header",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Announcement bar"
+        },
+        {
+            "type": "checkbox",
+            "id": "announcement_bar_enabled",
+            "label": "Show announcement",
+            "default": false
+        },
+        {
+            "type": "checkbox",
+            "id": "announcement_bar_home_page_only",
+            "label": "Show on home page only",
+            "default": true
+        },
+        {
+            "type": "text",
+            "id": "announcement_bar_text",
+            "label": "Announcement text",
+            "default": "Announce something here"
+        },
+        {
+            "type": "url",
+            "id": "announcement_bar_link",
+            "label": "Announcement link",
+            "info": "Optional"
+        },
+        {
+            "type": "header",
+            "content": "Header"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo image"
+        }
+    ]
+}
+{% endschema %}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "{{ shop.name }}",
+    {% if section.settings.logo %}
+        {% assign image_size = section.settings.logo.width | append:'x' %}
+        "logo": "https:{{ section.settings.logo | img_url: image_size }}",
+    {% endif %}
+    "sameAs": [
+        "{{ settings.social_twitter_link }}",
+        "{{ settings.social_facebook_link }}",
+        "{{ settings.social_pinterest_link }}",
+        "{{ settings.social_instagram_link }}",
+        "{{ settings.social_tumblr_link }}",
+        "{{ settings.social_snapchat_link }}",
+        "{{ settings.social_youtube_link }}",
+        "{{ settings.social_vimeo_link }}"
+    ],
+    "url": "{{ shop.url }}{{ page.url }}"
+}
+</script>
+
+{% if template.name == 'index' %}
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "{{ shop.name }}",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "{{ shop.url }}/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            },
+            "url": "{{ shop.url }}{{ page.url }}"
+        }
+    </script>
+{% endif %}

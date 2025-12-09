@@ -1,0 +1,80 @@
+<article class="css-grid__item card card--default card--event {{ class }}">
+    <div class='card__event-wrapper'>
+        <a class='card__link--overlay' href="{{ article.url }}"></a>
+        
+        <a class='card__link-wrapper' href="{{ article.url }}">
+            {% if article.image %}
+                <div class="card__image-wrapper">
+                    {% render 'responsive-image' with image: article.image, image_class: 'background-image' %}
+                </div>
+            {% endif %}
+        </a>
+
+        <div class="card__content">
+            <a class='card__link-wrapper' href="{{ article.url }}">
+                {%- comment -%}
+                    The Event Type tag.            
+                {%- endcomment -%}
+                {% if article.tags.size > 0 %}
+                    <div class='card__event-type'>
+                        {%- comment -%}
+                            Get the first tag to show on event card. Assuming first tag is always the Event Type
+                        {%- endcomment -%}
+
+                        {% assign event_type = article.tags[0] %}
+
+                        {% if event_type contains "Virtual" %}
+                            {% assign icon_name = 'event--virtual' %}
+                        {% elsif event_type contains "Webinar" or  event_type contains "Webinars" %}
+                            {% assign icon_name = 'webinar' %}
+                        {% elsif event_type contains "Conference" 
+                            or event_type contains "Lectures" 
+                            or event_type contains "In-Person" 
+                            or event_type contains "In Person" 
+                            or event_type contains "Live"%}
+                            {% assign icon_name = 'event--in-person' %}
+                        {% endif %}
+
+                        {% render 'icon', name: icon_name, class: 'event-type__icon' %} {{ article.tags[0] }}
+                    </div>
+                {% endif %}
+
+                <h3 class="card__title">{{ article.title }}</h3>
+
+                {% if article.metafields.iamota.event_date_time %}
+                    <div class='card__event-date'>
+                        {{ article.metafields.iamota.event_date_time }}
+                    </div>
+                {% endif %}
+
+                <div class="card__copy">
+                    {% if article.excerpt.size > 0 %}
+                        {{ article.excerpt }}
+                    {% else %}
+                        {{ article.content | strip_html | truncate: 150 }}
+                    {% endif %}
+                </div>
+
+                {% if article.metafields.iamota.event_credit %}
+                    <p class='card__event-credit'>
+                        {{ article.metafields.iamota.event_credit }}
+                    </p>
+                {% endif %}
+
+                <div class='card__event-footer'>
+                    
+                    {% if article.metafields.iamota.event_price %}
+                        <p class='card__event-price'>
+                            {{ article.metafields.iamota.event_price }}
+                        </p>
+                    {% endif %}
+
+                    {% if article.url %}
+                        <a href='{{ article.url }}' class="card__link button--secondary button">Learn More</a>       
+                    {% endif %}
+                </div>
+            </a>
+        </div>
+        
+    </div>
+</article>

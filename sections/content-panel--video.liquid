@@ -1,0 +1,127 @@
+{% if section.blocks.size > 0 %}
+    {% for block in section.blocks %}
+        {% if section.settings.starting_orientation == 'left' %}
+            {% capture content_align %}{% cycle "left", "right" %}{% endcapture %}
+        {% else %}
+            {% capture content_align %}{% cycle "right", "left" %}{% endcapture %}
+        {% endif %}
+
+        <section class="content-panel content-panel--default content-panel--video content-panel--split align-{{ content_align }}">
+            <div class="content-panel__container">
+                <div tabindex="0" data-modal-target="{{ block.settings.video_url.id }}" class="content-panel__meta content-panel__meta--video {% if block.settings.video_url %}modal__trigger{% endif %} video-block--is-postered video-block--is-paused modal__trigger--content-panel">
+                    {% render 'responsive-image' with image: block.settings.content_panel_image, image_class: "background-image" %}
+                    {% if block.settings.video_url %}
+                        <div class="video-block__controls">
+                            <div class="video-block__controls-poster">
+                                {% render 'icon', name: 'play', class: 'video-block__control video-block__control--play' %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+
+                <div class="content-panel__content">
+                    {% if block.settings.copy_block_title_tag != blank %}
+                        <p class="copy-block__p copy-block__title-tag">{{ block.settings.copy_block_title_tag }}</p>
+                    {% endif %}
+
+                    {% if block.settings.copy_block_title != blank %}
+                        <h2 class="copy-block__title">{{ block.settings.copy_block_title }}</h2>
+                    {% endif %}
+
+                    {% if block.settings.copy_block_text != blank %}
+                        <div class="copy-block__text">{{ block.settings.copy_block_text }}</div>
+                    {% endif %}
+
+
+                    {% if block.settings.use_play_button == true and block.settings.video_url %}
+                        <button type="button" data-modal-target="{{ block.settings.video_url.id }}" class="button button--primary content-panel__button modal__trigger">
+                        {% if block.settings.copy_block_button_text != blank %}{{ block.settings.copy_block_button_text }}{% else %}Play Video{% endif %}
+                        </button>
+                    {% elsif block.settings.copy_block_button_text != blank and block.settings.copy_block_button_link != blank %}
+                        <a href="{{ block.settings.copy_block_button_link }}" 
+                           class="button button--primary content-panel__button"
+                           {% if section.settings.copy_block_button_link contains 'http://' or section.settings.copy_block_button_link contains 'https://' %}target="_blank"{% endif %}
+                        >
+                            {{ block.settings.copy_block_button_text }}
+                        </a>
+                    {% endif %}
+                </div>
+
+                {% render 'video-block--modal', settings: block.settings %}
+            </div>
+        </section>
+    {% endfor %}
+{% endif %}
+
+{% schema %}
+{
+    "name": "Content Panel -- Video",
+    "class": "page-section page-section--content-panel",
+    "settings": [
+        {
+            "type"  : "radio",
+            "id"    : "starting_orientation",
+            "options": [
+                { "value": "right", "label": "Image on the Left. Content on the Right"},
+                { "value": "left", "label": "Image on the Right. Content on the Left"}
+            ],
+            "label": "Starting Orientation",
+            "info" : "Panels in this section will automatically alternate between the content on the left/right side. You may select the orientation of the first panel."
+        }
+    ],
+    "blocks": [
+        {
+        "type": "content-panel",
+        "name": "Content Panel",
+        "limit": 10,
+        "settings": [
+            {
+                "type": "video_url",
+                "id": "video_url",
+                "label": "Video Url",
+                "accept": [
+                    "youtube",
+                    "vimeo"
+                ]
+            },
+            {
+                "type"  : "image_picker",
+                "id"    : "content_panel_image",
+                "label" : "Image"
+            },
+            {
+                "type"  : "text",
+                "id"    : "copy_block_title_tag",
+                "label" : "Title Tag"
+            },
+            {
+                "type"  : "text",
+                "id"    : "copy_block_title",
+                "label" : "Title"
+            },
+            {
+                "type"  : "richtext",
+                "id"    : "copy_block_text",
+                "label" : "Text"
+            },
+            {
+                "type"  : "text",
+                "id"    : "copy_block_button_text",
+                "label" : "Button Label"
+            },
+            {
+                "type"  : "url",
+                "id"    : "copy_block_button_link",
+                "label" : "Button Link"
+            },
+            {
+                "type"  : "checkbox",
+                "id"    : "use_play_button",
+                "label" : "Turn the button into a play video button?",
+                "default" : false
+            }
+        ]
+        }
+    ]
+}
+{% endschema %}

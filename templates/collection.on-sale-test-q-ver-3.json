@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/2025-Q2-Stimmie-Main-Banner_copy_580c1876-3cae-4c98-9e0a-150b2c4c84e6.png",
+        "page-header-image--mobile": "shopify://shop_images/2025-Q2-Stimmie-Main-Banner-Mobile.png",
+        "subtitle": "A TOOTHPICK BUT SMARTER™",
+        "subtitle_color": "coral",
+        "page-header-title": "stimmie™",
+        "title_styling": "no-outline",
+        "page-header-text": "<b>Intelligent Design. Premium Materials.</b><br>Your patients will appreciate that each Stimmie is made from premium-quality materials, is reusable, ergonomic, latex-free, and pocket-sized. Most importantly, they’ll love its user-friendly design and effectiveness.",
+        "background_color": "transparent",
+        "page-header-button-text": "Learn more",
+        "page-header-link": "shopify://products/stimmie-dental-rubber-tip-stimulator-toothpick-gingival-health"
+      }
+    },
+    "1656452246d66f19cf": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-a8798a2c"
+      }
+    },
+    "1656452275e8b3baa8": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-bf0d8ac2"
+      }
+    },
+    "ec922ac5-89e3-40ce-b760-7f21317cf431": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-ea7935f9"
+      }
+    },
+    "c1c78da2-79e9-464b-8a59-aed2e3f5127a": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-e96a97be"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "1656452246d66f19cf",
+    "1656452275e8b3baa8",
+    "ec922ac5-89e3-40ce-b760-7f21317cf431",
+    "c1c78da2-79e9-464b-8a59-aed2e3f5127a",
+    "main"
+  ]
+}

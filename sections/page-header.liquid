@@ -1,0 +1,128 @@
+{% if section.settings.page-header-image != blank %}
+    {%- assign page-header--type = 'page-header--image' -%}
+    {%- assign page-content = 'background-media__content background-media__content--center' -%}
+    {%- assign page-header--mobile-image = section.settings.page-header-image--mobile | default: section.settings.page-header-image -%}
+{% else %}
+    {%- assign page-content = 'page-header__content' -%}
+    {%- assign page-header--type = 'page-header--text' -%}
+{% endif %}
+
+<div class="page-header {{ page-header--type }} page-header--{{ section.settings.background_color }}">
+
+
+    {% if section.settings.page-header-image != blank %}
+
+        {% comment %} Separate page hero image on mobile {% endcomment %}
+        <div class="page-header__mobile-image">
+            {% render 'responsive-image' with image: page-header--mobile-image, image_class: "background-image--mobile" %}
+        </div>
+
+        <div class="background-media background-media--image">
+            <div class="background-media__background">
+                {% render 'responsive-image' with image: section.settings.page-header-image, image_class: "background-image" %}
+            </div>
+            
+    {% endif %}
+
+        <div class="{{ page-content }}">
+            {%- if section.settings.subtitle != blank -%}
+                <span class="subtitle subtitle--{{ section.settings.subtitle_color | default: "blue" }}">{{ section.settings.subtitle | escape }}</span>
+            {%- endif -%}
+
+            {% if section.settings.page-header-title != blank %}
+                <h1 class="page-header__title page-header__title--{{ section.settings.title_styling }}">{{ section.settings.page-header-title }}</h1>
+            {% endif %}
+
+            {% if section.settings.page-header-text != blank %}
+                <div class="page-header__text">{{ section.settings.page-header-text }}</div>
+            {% endif %}
+
+            {% if section.settings.page-header-button-text != blank and section.settings.page-header-link != blank %}
+                <a href="{{ section.settings.page-header-link }}" class="button button--secondary button--page-header">{{ section.settings.page-header-button-text }}
+                </a>
+            {% endif %}
+        </div>
+
+    {% if section.settings.page-header-image != blank %}
+        </div>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Page Hero",
+    "class": "page-section page-section--full-bleed page-section--no-gap",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "page-header-image",
+            "label": "Desktop Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "page-header-image--mobile",
+            "label": "Mobile Image"
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "radio",
+            "id": "subtitle_color",
+            "label": "Choose the colour for the subtitle.",
+            "info" : "Default colour will be blue.",
+            "options": [
+                { "value": "blue", "label": "Blue" },
+                { "value": "coral", "label": "Coral" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "page-header-title",
+            "label": "Heading"
+        },
+        {
+            "type": "radio",
+            "id": "title_styling",
+            "label": "Enable title outline styling?",
+            "options": [
+                { "value": "no-outline", "label": "No" },
+                { "value": "outline", "label": "Yes" }
+            ]
+        },
+        {
+            "type": "textarea",
+            "id": "page-header-text",
+            "label": "Subheading"
+        },
+        {
+            "type": "radio",
+            "id": "background_color",
+            "label": "Choose the colour for the content container",
+            "info" : "Default colour will be white",
+            "options": [
+                { "value": "white", "label": "White" },
+                { "value": "transparent", "label": "Transparent" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "page-header-button-text",
+            "label": "Button Label"
+        },
+        {
+           "type": "url",
+            "id": "page-header-link",
+            "label": "Button Link"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Page Hero",
+            "category": "Page Heros"
+        }
+    ]
+}
+{% endschema %}

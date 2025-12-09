@@ -1,0 +1,35 @@
+{% if shop.locale == 'fr' and shop.url contains "iamota-showcase-light.myshopify.com" %}
+    {% assign country_url = canonical_url | remove: "https://iamota-showcase-light.myshopify.com/fr" %}
+    {% assign current_language = 'Canada (en)' %}
+{% elsif shop.locale != 'fr' and shop.url contains "iamota-showcase-light.myshopify.com" %}
+    {% assign country_url = canonical_url | remove: "https://iamota-showcase-light.myshopify.com" %}
+    {% assign current_language = 'Canada (fr)' %}
+{% else %}
+    {% assign country_url = '' %}
+    {% assign current_language = 'United States' %}
+{% endif %}
+
+<li class="menu__item menu__item--country-switcher country-switcher">
+    <a class="menu__link country-switcher__toggle" href="{{ shop.url }}">
+        <h4 class="menu__title">{{ current_language }}</h4> <!-- Sets as Current Country -->
+        {% render 'icon', name: 'arrow--down', class: 'country-toggle__icon svg--baseline' %}
+    </a>
+
+    <ul class="country-switcher__list">
+        <li class="country-switcher__item lang--en-us {% if shop.url contains 'iamota-showcase.myshopify.com' %}is-current{% endif %}">
+            <a href="https://iamota-showcase.myshopify.com" class="menu__link country-switcher__link country-toggle__icon-usa en-us">
+                <span class="country-switcher__country">United States</span>
+            </a>
+        </li>
+        <li class="country-switcher__item lang--en-ca {% if shop.locale != 'fr' and shop.url contains 'iamota-showcase-light.myshopify.com' %}is-current{% endif %}">
+            <a href="https://iamota-showcase-light.myshopify.com{{ country_url }}" class="country-toggle__icon-ca country-switcher__link">
+               <span class="country-switcher__country">Canada (en)</span>
+            </a>
+        </li>
+        <li class="country-switcher__item lang--fr-ca {% if shop.locale  == 'fr' %}is-current{% endif %}">
+            <a href="https://iamota-showcase-light.myshopify.com/fr{{ country_url }}" class="country-toggle__icon-ca country-switcher__link">
+                <span class="country-switcher__country">Canada (fr)</span>
+            </a>
+        </li>
+    </ul>
+</li>

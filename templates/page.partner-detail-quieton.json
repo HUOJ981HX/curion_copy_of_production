@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/NiTin_copy_8ef331bb-fe47-4fd4-b81a-bc6e5be4d9f8.png",
+        "page-header-image--mobile": "shopify://shop_images/QuietOn-Dental-technology_c866a731-fa5d-4fed-b710-6f0d60a7ba4c.jpg",
+        "subtitle": "QuietOn",
+        "subtitle_color": "coral",
+        "page-header-title": "Joy begins with well-being",
+        "title_styling": "outline",
+        "page-header-text": "Improve the clinician's and patient's dental experience by preventing hearing damage and decreasing noise-related stress.  QuietOn is the optimal operatory companion for well-being.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642552164f216efe6": {
+      "type": "icon-block",
+      "blocks": {
+        "eb765154-f7b6-4cdc-a26f-73fa6b801568": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/QuietOn_0bca51b4-f534-4bdd-a9bf-cc681ff7d432.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "eb765154-f7b6-4cdc-a26f-73fa6b801568"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/M80nkTLmk3M",
+        "cover_image": "shopify://shop_images/My_project_2.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Active Noise Cancelling Earplugs"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dentistry, Dental Hygiene, Dental Patients"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Dentist-using-quieton-dental-earbuds.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "QuietOn",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Oulu, Finland<br/><br/><strong>History</strong></p><p>Established in April 2015 with strong technology heritage from Nokia, QuietOn is a young dynamic Finnish tech-company.</p><p>The original QuietOn earplugs first became popular among frequent travellers and were sold around the world through major airlines. </p><p>QuietOn then founds its way to the dental sector, thanks to Mr. Pekka Sarlund (QuietOn’s former CEO, current chairman of the board) who suffered from dental noises as a patient. During one of his treatments, his dentist noticed the earplugs and “stole” them from Pekka for her own use – and simply loved them. Today, QuietOn earplugs help dental professionals globally to protect their health and prevent hearing damage.</p><p></p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about QuietOn",
+        "copy_block_button_link": "https://www.quietondental.com/"
+      }
+    },
+    "1642488034d7038f27": {
+      "type": "content-panel--list",
+      "blocks": {
+        "f9d4765a-02ab-43f1-9193-b9522ad607ab": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Focus on the wellbeing of dental professionals"
+          }
+        },
+        "04006722-6634-4520-aa8c-72628a651a9c": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "User- and patient-centric approach"
+          }
+        },
+        "501bd463-a5b1-47d2-898e-97c2ec3ef478": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Innovative use for technology"
+          }
+        }
+      },
+      "block_order": [
+        "f9d4765a-02ab-43f1-9193-b9522ad607ab",
+        "04006722-6634-4520-aa8c-72628a651a9c",
+        "501bd463-a5b1-47d2-898e-97c2ec3ef478"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/My_project_2_ba858d43-dd9f-4d34-bb31-20c408a3d6f9.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "QueitOn (Dental)",
+            "icon-content": "<p>Active noise cancelling earplugs for dental professionals and dental patients.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "QuietOn 2",
+            "icon-content": "<p>QuietOn 2 Active Noise Cancelling wireless earbuds provide you with the needed quietude to make the most of your journey – be it for a restful sleep or full concentration.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "QuietOn 3",
+            "icon-content": "<p>Don't suffer from sleep deprivation caused by high noise levels. By drowning out snoring, traffic or neighborhood noise, QuietOn is a help for insomnia. Sleep in quietude and wake up refreshed.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "quieton"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642798786fb64e41b": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642552164f216efe6",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642488034d7038f27",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642798786fb64e41b"
+  ]
+}

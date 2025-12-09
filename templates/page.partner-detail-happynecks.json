@@ -1,0 +1,224 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/NiTin_copy_2.png",
+        "page-header-image--mobile": "shopify://shop_images/Aqua_Lemonade_Pink_1d0a4c5a-f02e-4526-b948-05798aac24dc_1080x_copy.jpg",
+        "subtitle": "Happynecks",
+        "subtitle_color": "coral",
+        "page-header-title": "Beyond the Drawing Board",
+        "title_styling": "outline",
+        "page-header-text": "The Happynecks cushion is a thoughtfully designed, beautiful, high-quality product that improves the clinician’s ergonomic position and offers patients optimal support and comfort during treatment.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642551317691f7236": {
+      "type": "icon-block",
+      "blocks": {
+        "c1dbd10a-0bcc-4fe4-829c-587d5f3d72fb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Woordlogo-happyneck-rgb.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c1dbd10a-0bcc-4fe4-829c-587d5f3d72fb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/NLWE5jvvuyQ",
+        "cover_image": "shopify://shop_images/balancer_copy_2.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Patient ergonomics"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Cervical Support Pillow"
+          }
+        },
+        "b6a6a5fd-7cfc-4633-a842-71bb6727910d": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Lumbar Support Pillow"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "b6a6a5fd-7cfc-4633-a842-71bb6727910d"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/97eec77c-7e85-4d3b-8c3f-1c606849015c_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "Exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "Happynecks",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Assendelft, Netherlands </p><p><strong>History</strong></p><p>Jerry (physiotherapist) came across many dental care professionals in his private practice with different neck and shoulder complaints. In addition, many patients complained of neck pain during standard and prolonged dental treatments.  His business partner Peter challenged him to go to the drawing board and make a sketch of the ideal neck support for a dental treatment chair. “Challenge accepted”, the Happynecks® cushion became a reality.  </p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about Happynecks",
+        "copy_block_button_link": "https://www.happynecks.com/"
+      }
+    },
+    "1642109563ed7b1346": {
+      "type": "content-panel--list",
+      "blocks": {
+        "b9212249-e51c-4033-822b-34330ab6a8f3": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Carefully sourced, high-quality materials"
+          }
+        },
+        "715d533a-3d1f-492b-bbc7-0f23c4b3ae19": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "User- and patient-centric approach"
+          }
+        },
+        "b4dbace9-209a-45e4-b016-86b2bca09c59": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Owners are caring, supportive, helpful humans"
+          }
+        }
+      },
+      "block_order": [
+        "b9212249-e51c-4033-822b-34330ab6a8f3",
+        "715d533a-3d1f-492b-bbc7-0f23c4b3ae19",
+        "b4dbace9-209a-45e4-b016-86b2bca09c59"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/My_project_2_ba858d43-dd9f-4d34-bb31-20c408a3d6f9.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting-edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We Love Them Because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Happynecks Cervical Pillow",
+            "icon-content": "<p>Ergonomic neck pillow used in dental care, constructed of premium materials. Suitable for adults and for kids.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Happynecks Lumbar Pillow",
+            "icon-content": "<p>Ergonomic lumbar pillow used in dental care, constructed of premium materials.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "happynecks-dental-chair-headrest-cervical-neck-support-pillow"
+          }
+        },
+        "24519244-90aa-492c-92c7-09bc9329a1d9": {
+          "type": "product",
+          "settings": {
+            "product": "happynecks-kids-dental-chair-headrest-cervical-neck-support-pillow"
+          }
+        },
+        "7a5d14d8-439b-4575-a814-fd8f11eda64f": {
+          "type": "product",
+          "settings": {
+            "product": "happynecks-lumbar-support-pillow-dental-chair"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "24519244-90aa-492c-92c7-09bc9329a1d9",
+        "7a5d14d8-439b-4575-a814-fd8f11eda64f"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799476daa6a9fb": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642551317691f7236",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642109563ed7b1346",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799476daa6a9fb"
+  ]
+}

@@ -1,0 +1,348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/My_project_copy_3_c15a1cea-72e9-4d7d-b589-93060c247884.png",
+        "page-header-image--mobile": "shopify://shop_images/iStock-133556837_copy_2.jpg",
+        "subtitle": "BISCO inc.",
+        "subtitle_color": "coral",
+        "page-header-title": "Science and dentistry  bonded",
+        "title_styling": "outline",
+        "page-header-text": "Backed by four decades of scientific research and innovation, BISCO products continue to change the game of adhesive dentistry and beyond.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16425516040605c23a": {
+      "type": "icon-block",
+      "blocks": {
+        "4d77876f-f07d-4cca-84fd-481c0ba64c9d": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/BISCO_Logo_3d659586-4ff7-4799-bfdb-26008f200c4f.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "4d77876f-f07d-4cca-84fd-481c0ba64c9d"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/UlnQzjoW5jM",
+        "cover_image": "shopify://shop_images/balancer_copy_6.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dental Adhesives"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Etchants"
+          }
+        },
+        "05f189e8-0b9a-409b-a900-809d57558c96": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Surface Primers"
+          }
+        },
+        "90b9a855-e071-4c30-ae58-ec211112c0da": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Pulpal Protectants"
+          }
+        },
+        "6160e343-c316-42e0-9e01-0655effc1889": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Cements"
+          }
+        },
+        "f8ec5f29-521b-47e2-8b10-3209ad508eb8": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Composites & Core Build-Up"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "05f189e8-0b9a-409b-a900-809d57558c96",
+        "90b9a855-e071-4c30-ae58-ec211112c0da",
+        "6160e343-c316-42e0-9e01-0655effc1889",
+        "f8ec5f29-521b-47e2-8b10-3209ad508eb8"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/My_project_1_1de84921-2aa3-4385-ab64-9ba13ea3e08b.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "EXCLUSIVE PARTNER",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "BISCO Inc.",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Schaumburg, IL (USA) </p><p><strong>History</strong></p><p>Dr. Byoung Suh, chemist, founded BISCO in 1981, seeking to find a solution to bond tooth structure and metals. Now present in over 70 countries worldwide, BISCO’s commitment to research has led them to pioneer many industry-firsts.</p><p><strong>Specialty Areas</strong></p>",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16420276482b1aebc7": {
+      "type": "content-panel--list",
+      "blocks": {
+        "82e9f075-c069-4852-bdec-3534b9aeb32b": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Industry Pioneer"
+          }
+        },
+        "74ac5afd-0f80-44c3-8f85-bb4fc8f5c5ff": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Strong Core Values"
+          }
+        },
+        "ce3651e1-52d2-4c22-948a-12a70affa6f1": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Commitment to Research"
+          }
+        },
+        "e1a26d1b-486a-4541-b3b7-e39d2235dd76": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Track record of significant scientific contributions"
+          }
+        }
+      },
+      "block_order": [
+        "82e9f075-c069-4852-bdec-3534b9aeb32b",
+        "74ac5afd-0f80-44c3-8f85-bb4fc8f5c5ff",
+        "ce3651e1-52d2-4c22-948a-12a70affa6f1",
+        "e1a26d1b-486a-4541-b3b7-e39d2235dd76"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/My_project_2_ba858d43-dd9f-4d34-bb31-20c408a3d6f9.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "Learn more about BISCO",
+        "copy_block_button_link": "https://www.bisco.com/"
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Calcium Silicate Technology",
+            "icon-content": "<p>Unique resin modified calcium silicate technology (featured in Thera- products)</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Universal Dental Adhesive",
+            "icon-content": "<p>First truly universal dental adhesive system that bonds to all materials and substrates without the use of an activator (All-Bond Universal)</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "948c8693-78b4-4203-b384-3291cb19c0fd": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "The Gold Standard",
+            "icon-content": "<p>All Bond 2, considered to be the GOLD Standard in dentistry with its unsurpassed ability to bond to a multitude of substrates</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Intraoral Dental Resin",
+            "icon-content": "<p>First intraoral dental resin that<br/>cures without an oxygen-inhibited layer (BisCover)</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "9da4ae58-64bc-4353-8323-23370c6412fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "First Reinforced Nanofil Composite",
+            "icon-content": "<p>Industry-first reinforced nanofil<br/>composite (BisFil-M), which became a foundation for all future composites</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "948c8693-78b4-4203-b384-3291cb19c0fd",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1",
+        "9da4ae58-64bc-4353-8323-23370c6412fc"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-all-bond-universal-dental-adhesive"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-theracal-lc-calcium-silicate-liner"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-therabase-calcium-fluoride-base-liner"
+          }
+        },
+        "d081c0e5-32b9-4d01-978b-c322dc58bfa4": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-theracal-pt-calcium-silicate-pulpotomy-treatment"
+          }
+        },
+        "fb2d450e-2841-4b61-8840-6a5495f3541b": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-z-prime-plus-zirconia-metal-primer"
+          }
+        },
+        "ef57476b-6b1c-4b17-b8b7-75b28144f983": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-bis-silane-porcelain-primer"
+          }
+        },
+        "163951144998bcda93-3": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-theracem-self-adhesive-resin-cement-mdp"
+          }
+        },
+        "5b72ead4-467b-44e7-af2f-8af088a74300": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-duo-link-universal-dual-cure-resin-cement"
+          }
+        },
+        "b666a2f1-bfc4-473e-ad8e-cf388988d413": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-choice-2-light-cure-resin-veneer-cement"
+          }
+        },
+        "b873ad74-c97a-44ad-8b79-5800780612cc": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-core-flo-dc-lite-core-build-up-cement"
+          }
+        },
+        "0066cedd-ee88-4937-afe6-2966cf352269": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-etch-37-percent-with-bac-phosphoric-acid"
+          }
+        },
+        "b9f75e7f-f5d5-4f7a-993e-681c7d8da9d9": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-select-hv-etch-35-percent-phosphoric-acid"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "163951144998bcda93-1",
+        "163951144998bcda93-2",
+        "d081c0e5-32b9-4d01-978b-c322dc58bfa4",
+        "fb2d450e-2841-4b61-8840-6a5495f3541b",
+        "ef57476b-6b1c-4b17-b8b7-75b28144f983",
+        "163951144998bcda93-3",
+        "5b72ead4-467b-44e7-af2f-8af088a74300",
+        "b666a2f1-bfc4-473e-ad8e-cf388988d413",
+        "b873ad74-c97a-44ad-8b79-5800780612cc",
+        "0066cedd-ee88-4937-afe6-2966cf352269",
+        "b9f75e7f-f5d5-4f7a-993e-681c7d8da9d9"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642800185f86d6b2c": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16425516040605c23a",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "16420276482b1aebc7",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642800185f86d6b2c"
+  ]
+}

@@ -1,0 +1,37 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_UPCOMING_CONFERENCES_Dental_Supplies.jpg",
+        "subtitle": "Upcoming Conferences",
+        "subtitle_color": "blue",
+        "page-header-title": "Meet us here",
+        "title_styling": "no-outline",
+        "page-header-text": "Pick our brains, participate in hands-on programs, and meet our experts at these live events.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "main-blog": {
+      "type": "main-blog--events",
+      "settings": {
+        "limit": 9
+      }
+    }
+  },
+  "order": [
+    "page-header",
+    "main-blog"
+  ]
+}

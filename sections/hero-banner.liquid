@@ -1,0 +1,126 @@
+<div class="hero-banner  hero-banner--image hero-banner--media hero-banner--{{ section.settings.background_color }}">
+    {% if section.settings.hero-banner-video != blank %}
+        <div class="background-media background-media--image background-media--video">
+                <div class='background-media__background' >
+                    <div class='background-media--image-wrapper' style="background-image: url({{ section.settings.hero-banner-image | img_url: "master" }})">
+                        
+                    </div>
+                    <div class="video-block video-block--youtube video-block--is-not-interactive video-block--is-muted video-block--video" data-video-id="{{ section.settings.hero-banner-video.id }}">
+                        <div class='video-block__video' 
+                             data-video-settings='{"video_type":"youtube", "video_id":"{{ section.settings.hero-banner-video.id }}", "playlist_id":null, "is_controls":false, "is_autoplay":true, "is_muted":true, "is_looped":true}'
+                        >
+                            
+                        </div>
+                    </div>
+                </div>
+    {% elsif section.settings.hero-banner-image != blank%}
+        <div class="background-media background-media--image">
+            <div class="background-media__background">
+                {% render 'responsive-image' with image: section.settings.hero-banner-image, image_class: "background-image" %}
+            </div>
+    {% endif %}
+
+        <div class="background-media__content background-media__content--center">
+            <div class="">
+                {%- if section.settings.subtitle != blank -%}
+                    <span class="subtitle subtitle--{{ section.settings.subtitle_color | default: "blue" }}">{{ section.settings.subtitle | escape }}</span>
+                {%- endif -%}
+
+                {% if section.settings.hero-banner-title != blank %}
+                    <h1 class="hero-banner__title hero-banner__title--{{ section.settings.title_styling }}">{{ section.settings.hero-banner-title }}</h1>
+                {% endif %}
+
+                {% if section.settings.hero-banner-text != blank %}
+                    <div class="hero-banner__text">{{ section.settings.hero-banner-text }}</div>
+                {% endif %}
+
+                {% if section.settings.hero-banner-button-text != blank and section.settings.hero-banner-link != blank %}
+                    <a href="{{ section.settings.hero-banner-link }}" class="button button--secondary button--hero-banner">{{ section.settings.hero-banner-button-text }}
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Homepage Hero",
+    "class": "page-section page-section--full-bleed page-section--no-gap page-section--hero-banner",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "hero-banner-image",
+            "label": "Image"
+        },
+        {
+            "type": "video_url",
+            "id": "hero-banner-video",
+            "label": "Video",
+            "accept": [
+                "youtube"
+            ]
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "radio",
+            "id": "subtitle_color",
+            "label": "Choose the colour for the subtitle.",
+            "info" : "Default colour will be blue.",
+            "options": [
+                { "value": "blue", "label": "Blue" },
+                { "value": "coral", "label": "Coral" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "hero-banner-title",
+            "label": "Heading"
+        },
+        {
+            "type": "radio",
+            "id": "title_styling",
+            "label": "Enable title outline styling?",
+            "options": [
+                { "value": "no-outline", "label": "No" },
+                { "value": "outline", "label": "Yes" }
+            ]
+        },
+        {
+            "type": "richtext",
+            "id": "hero-banner-text",
+            "label": "Subheading"
+        },
+        {
+            "type": "radio",
+            "id": "background_color",
+            "label": "Choose the colour for the hero content container",
+            "info" : "Default colour will be white",
+            "options": [
+                { "value": "white", "label": "White" },
+                { "value": "transparent", "label": "Transparent" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "hero-banner-button-text",
+            "label": "Button Label"
+        },
+        {
+           "type": "url",
+            "id": "hero-banner-link",
+            "label": "Button Link"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Homepage Hero",
+            "category": "Page Heros"
+        }
+    ]
+}
+{% endschema %}

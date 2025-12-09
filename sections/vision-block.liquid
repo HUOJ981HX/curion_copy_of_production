@@ -1,0 +1,58 @@
+<section class="container">
+    {%- if section.settings.subtitle != blank -%}
+        <span class="subtitle subtitle--{{ section.settings.subtitle_color | default: 'blue' }}">{{ section.settings.subtitle | escape }}</span>
+    {%- endif -%}
+
+    {%- if section.settings.title != blank -%}
+        <h2 class="page-section__title">{{ section.settings.title | escape }}</h2>
+    {%- endif -%}
+
+    {%- if section.settings.text != blank -%}
+        <div class="page-section__content rte">
+            <p>{{ section.settings.text }}</p>
+        </div>
+    {%- endif -%}
+</section>
+
+{% schema %}
+{
+    "name": "Vision Block",
+    "class": "page-section page-section--vision-block",
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "Our Vision"
+        },
+        {
+            "type": "radio",
+            "id": "subtitle_color",
+            "label": "Choose the colour for the subtitle.",
+            "info" : "Default colour will be blue.",
+            "options": [
+                { "value": "blue", "label": "Blue" },
+                { "value": "coral", "label": "Coral" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Talk about your brand"
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store."
+        }
+    ],
+    "presets": [
+        {
+            "name": "Vision Block",
+            "category": "Components"
+        }
+    ]
+}
+{% endschema %}

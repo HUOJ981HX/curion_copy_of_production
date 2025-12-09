@@ -1,0 +1,24 @@
+<div class="mini-cart__item--dropdown">
+    <a href="{{ routes.cart_url }}" class="mini-cart__header-link">
+        {% render 'icon', name: 'cart' %} <span class='mini-cart__icon-label'>Cart (<span class='cart__item-count'>{{ cart.item_count }}</span>)</span>
+    </a>
+    <div class="dropdown--mini-cart">
+        <div class="mini-cart__items-container">
+            <ul class="mini-cart__items-list">
+                <li>
+                    <p>There are no items in your cart.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="mini-cart__footer">
+            <div class="cart-subtotal__container cart-summary__item">
+                <span class="cart-info__item-count">{{ 'cart.general.subtotal' | t }} (0 item)</span>
+                <span class="cart-info__subtotal">$0</span>
+            </div>
+
+            <div class="button-collection">
+                <a class="button button--primary button__edit-cart" href="/cart">Edit Cart</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+{% if collection %}
+    <article class="css-grid__item card card--default card--collection">
+        <a href="{{ collection.url }}">
+             <div class="card__image-wrapper">
+                {% if collection.image != blank %}
+                    {% render 'responsive-image' with image: collection.image, image_class: 'card__collection-image background-image' %}
+                {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                <span class="card__button">View {% render 'icon', name: 'arrow--cta-short', class: 'button__icon' %}</span>
+            </div>
+
+            <div class="card__content">
+                {% if collection.title != blank  %}
+                    <h3 class="card__title">{{ collection.title }}</h3>
+                {% endif %}
+            </div>
+        </a>
+    </article>
+{% endif %}

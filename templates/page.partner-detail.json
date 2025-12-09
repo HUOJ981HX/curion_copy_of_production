@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/mountain-magic-hour.jpg",
+        "subtitle": "Exlusive Partner",
+        "subtitle_color": "coral",
+        "page-header-title": "DiaShine",
+        "title_styling": "no-outline",
+        "page-header-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque tristique est suspendisse ac nunc. Lectus diam at aliquam massa molestie quis in proin.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+        "cover_image": "shopify://shop_images/mountain-magic-hour.jpg"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Restorative"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Hygiene"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/mountain-magic-hour.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CurionExperience_46x_0f96d5b7-e26f-40e3-bfd4-bb1a1cde4b62.png",
+        "copy_block_subtitle": "",
+        "content_panel_subtitle_color": "blue",
+        "copy_block_title": "DiaShine",
+        "copy_block_text": "<p>Seattle, USA<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum sit donec vitae mattis convallis platea dui. A a, sit urna, vel lobortis facilisis. Vivamus sem sapien, facilisis purus mauris tellus sagittis, adipiscing tellus. Specialized in:</p>",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395111870e268576": {
+      "type": "rich-text",
+      "settings": {
+        "title": "We Love Them Because",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo nam tempus, volutpat sit a tincidunt nisi. Odio id gravida egestas ut. Lectus tortor, amet massa ullamcorper in. Quam sagittis, ultrices sed rutrum est bibendum nec. Nullam condimentum nunc pharetra tincidunt sed. Donec diam purus elit, vulputate enim, fermentum ultrices. Volutpat vitae arcu vitae ullamcorper arcu quam quam nisl massa. Consectetur amet vitae feugiat tortor vulputate. Gravida natoque sagittis, turpis suspendisse accumsan amet, amet. Elit sed amet tristique id donec sem. Duis ut faucibus est diam mauris. Dolor lectus purus ipsum non faucibus auctor venenatis proin a. Libero ullamcorper ipsum pellentesque tortor mi. Tincidunt diam ultricies consectetur egestas et mattis eu enim sollicitudin.</p>"
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Shop_110x_3eb48b9f-c785-4fe9-8755-9365b52b66ed.png",
+            "icon-title": "Designed For Durability",
+            "icon-content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Shop_110x_3eb48b9f-c785-4fe9-8755-9365b52b66ed.png",
+            "icon-title": "Designed For Durability",
+            "icon-content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Shop_110x_3eb48b9f-c785-4fe9-8755-9365b52b66ed.png",
+            "icon-title": "Designed For Durability",
+            "icon-content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "948c8693-78b4-4203-b384-3291cb19c0fd": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Shop_110x_3eb48b9f-c785-4fe9-8755-9365b52b66ed.png",
+            "icon-title": "Designed For Durability",
+            "icon-content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "9da4ae58-64bc-4353-8323-23370c6412fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Shop_110x_3eb48b9f-c785-4fe9-8755-9365b52b66ed.png",
+            "icon-title": "Designed For Durability",
+            "icon-content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1",
+        "948c8693-78b4-4203-b384-3291cb19c0fd",
+        "9da4ae58-64bc-4353-8323-23370c6412fc"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "vista-apex-half-inch-bendable-tips"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "sickle-lm204s"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "uni-etch-with-bac-2"
+          }
+        },
+        "163951144998bcda93-3": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-aelite-aesthetic-enamel-nanofil-composite"
+          }
+        },
+        "fb2d450e-2841-4b61-8840-6a5495f3541b": {
+          "type": "product",
+          "settings": {
+            "product": "aelite-ls-posterior"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "163951144998bcda93-1",
+        "163951144998bcda93-2",
+        "163951144998bcda93-3",
+        "fb2d450e-2841-4b61-8840-6a5495f3541b"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products We Love"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "16395111870e268576",
+    "16395112109db0cf18",
+    "163951144998eeffbe"
+  ]
+}

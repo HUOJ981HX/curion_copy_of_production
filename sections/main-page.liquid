@@ -1,0 +1,17 @@
+<section class="page-section page-section--page page-section--gap-bottom">
+    <div class="page-header">
+        <div class="page-header__content">
+            <h1 class="page-header__title">{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="container">
+        {{ page.content }}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Main Page",
+  "tag": "section"
+}
+{% endschema %} 

@@ -1,0 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163961018441a7a2df": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Cookie_Policy.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Cookie_Policy-Mobile.jpg",
+        "subtitle": "Cookie policy",
+        "subtitle_color": "blue",
+        "page-header-title": "At Curion, we care",
+        "title_styling": "no-outline",
+        "page-header-text": "",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "pagefly_section_NcP9R6": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-68f801cd"
+      }
+    },
+    "16427383724a57b4be": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Shop_1.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "163961018441a7a2df",
+    "pagefly_section_NcP9R6",
+    "16427383724a57b4be"
+  ]
+}

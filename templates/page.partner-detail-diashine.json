@@ -1,0 +1,217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/My_project_copy_4_547f4b8a-9fed-499e-9b9f-1cb234051cb0.png",
+        "page-header-image--mobile": "shopify://shop_images/Lucida-Paste_e3a08b1a-5351-4883-a367-8a86f29eedf0.jpg",
+        "subtitle": "DiaShine® Lucida",
+        "subtitle_color": "coral",
+        "page-header-title": "The benchmark polish",
+        "title_styling": "outline",
+        "page-header-text": "For over fifteen years DiaShine has been considered the benchmark polish by top dental professionals worldwide. The Lucida Composite Gloss System is the latest development for new and seasoned dentists created and powered by Style Italiano and DiaShine.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642551738e6f9e29e": {
+      "type": "icon-block",
+      "blocks": {
+        "868b66bb-d526-4d7f-b482-28896ae1f157": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Diashine_Logo.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "868b66bb-d526-4d7f-b482-28896ae1f157"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/fSwDBpFvBXs",
+        "cover_image": "shopify://shop_images/balancer_copy_7.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Polishing Pastes for Dental Restorations"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Composite Polishing Pastes"
+          }
+        },
+        "11725ef5-404b-4390-998a-4ac982296abf": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Polishing Burs & Wheels"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "11725ef5-404b-4390-998a-4ac982296abf"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Screen_Shot_2019-08-01_at_4.27.34_PM.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "DiaShine® Lucida",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Seattle, USA</p><p><strong>History</strong></p><p>VH Technologies Ltd (DiaShine®), based in the Seattle area, has been a family owned and operated business since its incorporation in 1997.  </p><p>Product endorsements from well-known and respected clinicians and educators, as well as dental publications and buyer's guides, have contributed to their success. Equally important have been the peer-to-peer recommendations between practitioners and technicians.</p><p>Complete client satisfaction is their goal and they stand behind every product 100%.</p><p></p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about DiaShine",
+        "copy_block_button_link": "https://www.diashinepolish.com/"
+      }
+    },
+    "16421257349a5f9fa8": {
+      "type": "content-panel--list",
+      "blocks": {
+        "a864a8b9-19fa-4eee-99f5-29dac52ec263": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Practical, unique, cutting-edge products developed in collaboration with clinicians"
+          }
+        },
+        "09fa27e3-9b92-403c-b830-900e4a5eb0ce": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "User-centric approach, helping clinicians do dentistry better, and faster"
+          }
+        },
+        "3e0cfc2a-7f1a-43e0-b631-938419306e4f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Partnership with Style Italiano, a group of skilled dentists that share a passion of improving dentistry"
+          }
+        },
+        "3f33ce58-d941-456d-b113-44cb7d8a9f03": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Family owned and operated business"
+          }
+        }
+      },
+      "block_order": [
+        "a864a8b9-19fa-4eee-99f5-29dac52ec263",
+        "09fa27e3-9b92-403c-b830-900e4a5eb0ce",
+        "3e0cfc2a-7f1a-43e0-b631-938419306e4f",
+        "3f33ce58-d941-456d-b113-44cb7d8a9f03"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1159086107_copy_4.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "Unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Lucida Composite Gloss System",
+            "icon-content": "<p>Powered by Style Italiano and DiaShine, a unique polishing compound designed for chairside use.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/diashine-lucida-composite-polishing-system-styleitaliano"
+          }
+        },
+        "f151b8da-087d-4d6e-b920-7c8f2912700a": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "DiaShine® Diamond Paste",
+            "icon-content": "<p>Touted by professionals across the globe, DiaShine’s proprietary formula ensures less waste and superior results in minimal time.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "f151b8da-087d-4d6e-b920-7c8f2912700a"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "diashine-lucida-composite-polishing-system-styleitaliano"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642800504a00d9c86": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642551738e6f9e29e",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "16421257349a5f9fa8",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642800504a00d9c86"
+  ]
+}

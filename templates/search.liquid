@@ -1,0 +1,121 @@
+{% section 'page-header--search' %}
+
+<section class="page-section page-section--search-results page-section--gap-bottom">
+  <div class="container">
+    {% paginate search.results by 10 %}
+      {% if search.performed %}
+        {% if search.results_count == 0 %}
+          <p>{{ 'general.search.no_results_html' | t: terms: search.terms }}</p>
+        {% else %}
+          <ul class="search-results__list">
+            {% for item in search.results %}
+              {%- if item.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
+
+              <li class="search-results__item">
+                {% assign featured_image = item.image | default: item.featured_image %}
+                {% if featured_image != blank %}
+                  <div class="search-results__image">
+                    {{ featured_image | img_url: 'x150' | img_tag }}
+                  </div>
+                {% endif %}
+                <div class="search-results__content">
+                  <h5 class="search-results__title">
+                    {% if item.title contains '™' %}
+                      {{ item.title | replace: '™', '<sup>TM</sup>' }}
+                    {% else %}
+                      {{ item.title }}
+                    {% endif %}
+                  </h5>
+
+                  {% if item.object_type == 'product' %}
+                    {%- comment -%}
+                      Pick the lowest-priced AVAILABLE variant (fallback to absolute lowest if none available)
+                    {%- endcomment -%}
+                    {%- assign min_variant = null -%}
+                    {%- for v in item.variants -%}
+                      {%- if v.available -%}
+                        {%- if min_variant == null or v.price < min_variant.price -%}
+                          {%- assign min_variant = v -%}
+                        {%- endif -%}
+                      {%- endif -%}
+                    {%- endfor -%}
+                    {%- if min_variant == null -%}
+                      {%- comment %} no available variants; pick absolute lowest for display {%- endcomment %}
+                      {%- assign min_variant = item.variants.first -%}
+                      {%- for v in item.variants -%}
+                        {%- if v.price < min_variant.price -%}
+                          {%- assign min_variant = v -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+                    {%- endif -%}
+
+                    {%- assign min_price_money = min_variant.price | money -%}
+                    {%- assign min_compare_money = min_variant.compare_at_price | money -%}
+
+                    <p>
+                      {%- if min_variant.compare_at_price > min_variant.price -%}
+                        {%- comment -%} The lowest-priced variant is on sale {%- endcomment -%}
+                        {{ 'products.product.on_sale_from_html' | t: price: min_price_money }}
+                        <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+                        <s>{{ min_compare_money }}</s>
+                      {%- else -%}
+                        {%- if item.variants.size > 1 -%}
+                          <span>{{ 'products.product.from_text_html' | t: price: min_price_money }}</span>
+                        {%- else -%}
+                          <span>{{ min_price_money }}</span>
+                        {%- endif -%}
+                      {%- endif -%}
+
+                      {%- unless item.available -%}
+                        {{ 'products.product.sold_out' | t }}
+                      {%- endunless -%}
+                    </p>
+
+                    <a
+                      href="{{ item.url | within: collection }}"
+                      class="icon-block__button button button--primary button--text"
+                    >
+                      View Product
+                      <span class="button__icon-wrapper">
+                        {%- render 'icon', name: 'arrow--cta-short', class: 'button__icon' -%}
+                      </span>
+                    </a>
+
+                  {% elsif item.object_type == 'article' %}
+                    <p>{{ item.content | strip_html | truncatewords: 25 }}</p>
+
+                    <a
+                      href="{{ item.url | within: collection }}"
+                      class="icon-block__button button button--primary button--text"
+                    >
+                      Read Post
+                      <span class="button__icon-wrapper">
+                        {%- render 'icon', name: 'arrow--cta-short', class: 'button__icon' -%}
+                      </span>
+                    </a>
+                  {% else %}
+                    <p>{{ item.content | strip_html | truncatewords: 25 }}</p>
+
+                    <a
+                      href="{{ item.url | within: collection }}"
+                      class="icon-block__button button button--primary button--text"
+                    >
+                      View Page
+                      <span class="button__icon-wrapper">
+                        {%- render 'icon', name: 'arrow--cta-short', class: 'button__icon' -%}
+                      </span>
+                    </a>
+                  {% endif %}
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+
+          {% if paginate.pages > 1 %}
+            {% render 'pagination', paginate: paginate %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endpaginate %}
+  </div>
+</section>

@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_NEWS_Dental_Supplies.jpg",
+        "subtitle": "News",
+        "subtitle_color": "blue",
+        "page-header-title": "Stay in the know",
+        "title_styling": "no-outline",
+        "page-header-text": "We know just how busy you are. That’s why we send you everything you need to know—expert-written clinical articles and updates on innovative techniques and products—straight to your inbox.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "main-blog": {
+      "type": "main-blog--news",
+      "settings": {
+        "limit": 12
+      }
+    },
+    "16428713550883e5fe": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/In-person-Education-events_b9d7c844-86fe-4d32-985d-8f365e6a5273.png",
+        "intro-block-title": "We empower caring  dental professionals  across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "See all education events",
+        "intro-block-link": "shopify://pages/education"
+      }
+    }
+  },
+  "order": [
+    "page-header",
+    "main-blog",
+    "16428713550883e5fe"
+  ]
+}

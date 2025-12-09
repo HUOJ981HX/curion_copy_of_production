@@ -1,0 +1,54 @@
+<div class="intro-block intro-block--default">
+    <div class="intro-block__content">
+        {% if section.settings.icon-image != blank %}
+                {% render 'responsive-image' with image: section.settings.icon-image, image_class: "intro-block__icon icon" %}
+        {% endif %}
+
+        {% if section.settings.intro-block-title != blank %}
+            <h3 class="copy-block__h3">{{ section.settings.intro-block-title }}</h3>
+        {% endif %}
+
+        {% if section.settings.intro-block-button-text != blank and section.settings.intro-block-link != blank %}
+            <div class="intro-block__button">
+                <a href="{{ section.settings.intro-block-link }}" 
+                   class="button button--white button--transparent"
+                   {% if section.settings.intro-block-link contains 'http://' or section.settings.intro-block-link contains 'https://' %}target="_blank"{% endif %}
+                >
+                    {{ section.settings.intro-block-button-text }}
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "Intro Block",
+    "class": "page-section page-section--intro-block page-section--full-bleed",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "icon-image",
+            "label": "Icon"
+        },
+        {
+            "type": "text",
+            "id": "intro-block-title",
+            "label": "Title",
+            "default": "The title for this Intro Block"
+        },
+        {
+            "type": "text",
+            "id": "intro-block-button-text",
+            "label": "Button Label",
+            "default": "Button Label"
+        },
+        {
+           "type": "url",
+            "id": "intro-block-link",
+            "label": "Button Link"
+        }
+    ]
+}
+{% endschema %}

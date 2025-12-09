@@ -1,0 +1,172 @@
+<div class="page-section--login">
+    <div class="form__wrapper">
+        {% form 'customer_login', class:'form form--login' %}
+            <div class="form__wrapper--default">
+                {% if section.settings.login_title != blank %}
+                    <h3 class="section__title h4 form--login__title">{{ section.settings.login_title }}</h3>
+                {% endif %}
+
+                <div class="section__content form--login__content">
+                    {% if section.settings.login_subtitle != blank %}
+                        <p class="section__subtitle">{{ section.settings.login_subtitle }}</p>
+                    {% endif %}
+
+                    <div class="form-success hide" id="ResetSuccess">
+                        {{ 'customer.recover_password.success' | t }}
+                    </div>
+                    {% if form.errors != blank %}
+                        <div class="form__error-message">
+                            {% for field in form.errors %}
+                                <div class="form__error">
+                                    {{ form.errors.messages[field] }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    <div class="form__field form__field--input">
+                        <label for="CustomerEmail" class="form__label">
+                            {{ 'customer.login.email' | t }}
+                        </label>
+                        <input type="email"
+                            name="customer[email]"
+                            id="CustomerEmail"
+                            class="form__control form__input"
+                            placeholder="{{ 'customer.login.email' | t }}"
+                            spellcheck="false"
+                            autocomplete="off"
+                            autocapitalize="off"
+                            autofocus required>
+                    </div>
+                    {% if form.password_needed %}
+                        <div class="form__field form__field--input">
+                            <label for="CustomerPassword" class="form__label">
+                                    {{ 'customer.login.password' | t }}
+                            </label>
+                            <input type="password"
+                                name="customer[password]"
+                                class="form__control form__input"
+                                id="CustomerPassword"
+                                class="{% if form.errors contains 'password' %}input-error{% endif %}"
+                                placeholder="{{ 'customer.login.password' | t }}" required>
+                        </div>
+                    {% endif %}
+                    
+                </div>
+                <div class="form__field">
+                    <button type="submit" class="button button--primary form__button form__button--full button--login">
+                            {{ 'customer.login.sign_in' | t }}
+                        </button>
+        
+                    <div class="form__links form__footer form__footer--default">
+                        {% if form.password_needed %}
+                            <a href="{{ routes.account_recover_url }}" id="RecoverPassword">{{ 'customer.login.forgot_password' | t }}</a>
+                        {% endif %}
+                    </div>  
+                </div>
+               
+            </div>
+        {% endform %}
+        
+    
+        {% if section.settings.login_content != blank %}
+            <div class="section__content">{{ section.settings.login_content }}</div>
+        {% endif %}
+    </div>
+</div>
+
+{% if section.settings.create_account_title != blank or 
+    section.settings.create_account_content != blank or
+    section.settings.create_account_button_text != blank and 
+    section.settings.create_account_button_url != blank
+    %}
+    <div class="page-section--create-acount">
+        <div class="form__wrapper">
+            {% if section.settings.create_account_title != blank %}
+                <h3 class="section__title h4">{{ section.settings.create_account_title }}</h3>
+            {% endif %}
+    
+            {% if section.settings.create_account_content != blank %}
+                <div class="section__content">{{ section.settings.create_account_content }}</div>
+            {% endif %}
+    
+            {% if section.settings.create_account_button_text != blank and section.settings.create_account_button_url != blank %}
+                <a href="{{ section.settings.create_account_button_url }}" class="button button--primary form__button form__button--full">{{ section.settings.create_account_button_text }}
+                </a>
+            {% endif %}
+        </div>
+    </div>
+{% endif %}
+
+{% schema %}
+{
+    "name": "Page Content - Login",
+    "class": "page-section page-section--gap page-content--login",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Existing Customers Login Form Section"
+        },
+        {
+            "type": "text",
+            "id": "login_title",
+            "label": "Login Form Title"
+        },
+        {
+            "type": "text",
+            "id": "login_subtitle",
+            "label": "Login Form Subtitle"
+        },
+        {
+            "type": "richtext",
+            "id": "login_content",
+            "label": "Login Form Content"
+        },
+        {
+            "type": "header",
+            "content": "New Customers Create Account Section"
+        },
+        {
+            "type": "text",
+            "id": "create_account_title",
+            "label": "Section Title"
+        },
+        {
+            "type": "richtext",
+            "id": "create_account_content",
+            "label": "Section Content"
+        },
+        {
+            "type": "text",
+            "id": "create_account_button_text",
+            "label": "Button Label"
+        },
+        {
+            "type": "url",
+            "id": "create_account_button_url",
+            "label": "Button Link"
+        }
+    ],
+    "tag": "section"
+}
+{% endschema %} 
+
+<script>
+    const target = document.querySelector('.page-content--login .page-section--create-acount .form__wrapper');
+    if (typeof(target) != 'undefined' && target != null) {
+        if( window.innerWidth > 1024 ) {
+            var login_form_content = document.querySelector('.form--login__content');
+            var content_height = login_form_content.offsetHeight;
+
+            target.style.setProperty("grid-template-rows", "auto minmax("+content_height+"px,1fr) auto");
+        }
+
+        window.addEventListener('resize', function(event) {
+            if( window.innerWidth > 1024 ) {
+                var login_form_content = document.querySelector('.form--login__content');
+                var content_height = login_form_content.offsetHeight;
+
+                target.style.setProperty("grid-template-rows", "auto minmax("+content_height+"px,1fr) auto");
+            }
+        }, true);
+    }    
+</script>

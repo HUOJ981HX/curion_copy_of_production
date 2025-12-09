@@ -1,0 +1,84 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/2023-Black_Friday-Banner.png",
+        "page-header-image--mobile": "shopify://shop_images/2023-Black_Friday-Banner-Mobile_1326148f-9113-426b-8e4a-128c95323a60.png",
+        "subtitle": "GET A CURION STORE CREDIT WHEN YOU BUY ON",
+        "subtitle_color": "coral",
+        "page-header-title": "BLACK FRIDAY",
+        "title_styling": "no-outline",
+        "page-header-text": "<b>Get a $25 store credit for every $250 spent (before tax). <br> BONUS: For every $1000 you spend, get 10x TALON 12 burs for FREE!</b>\n\n<br><br>Use your store credit towards future purchases!",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "8e5f105b-b753-41b3-b7fd-d46e49cd1813": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-45f0eb65"
+      }
+    },
+    "1656624405711efc14": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-d4e9a3b1"
+      }
+    },
+    "16566244604511776c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-270ed528"
+      }
+    },
+    "f5e0b8f5-59d7-4640-9cf9-ae7148795525": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-1eea2849"
+      }
+    },
+    "9c0e8eb7-07da-4cf0-931a-77912d10240b": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-190cbf7a"
+      }
+    },
+    "f7fbce58-6a4c-4776-a683-a97545839810": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-4a518129"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "8e5f105b-b753-41b3-b7fd-d46e49cd1813",
+    "1656624405711efc14",
+    "16566244604511776c",
+    "f5e0b8f5-59d7-4640-9cf9-ae7148795525",
+    "9c0e8eb7-07da-4cf0-931a-77912d10240b",
+    "f7fbce58-6a4c-4776-a683-a97545839810",
+    "main"
+  ]
+}

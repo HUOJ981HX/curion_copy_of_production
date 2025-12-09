@@ -1,0 +1,270 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/My_project_copy_2_1_d646a547-f68d-4138-8794-05d07035f7b9.png",
+        "page-header-image--mobile": "shopify://shop_images/iStock-647513808_copy_2.jpg",
+        "subtitle": "Sanctuary Health",
+        "subtitle_color": "coral",
+        "page-header-title": "Embracing the \"kaizen\" approach",
+        "title_styling": "outline",
+        "page-header-text": "Sanctuary Health combines their eco-conscious philosophy, their world-class production capabilities, and commitment to people knowing that the overall impact can be great.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "164255124043dcb5eb": {
+      "type": "icon-block",
+      "blocks": {
+        "ad9f872b-a3e3-4c2f-8d00-e8e5cc83ca27": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Sanctuary-R_0cdd014f-acad-482e-9b80-8120b590ace7.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ad9f872b-a3e3-4c2f-8d00-e8e5cc83ca27"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/N9H30yPbPyQ",
+        "cover_image": "shopify://shop_images/balancer_copy.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Latex Dental Dam"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Non-Latex Dental Dam"
+          }
+        },
+        "4d9ca648-5692-4a69-a2a3-b2e4fb0c7dd1": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dental Dam Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "4d9ca648-5692-4a69-a2a3-b2e4fb0c7dd1"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/AdobeStock_246287261_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "Sanctuary Health",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Perak, Malaysia </p><p><strong>History</strong></p><p>Sanctuary Dental is a Malaysian-incorporated company founded in 2002. Located in the heart of natural rubber supply, Sanctuary is strategically positioned with direct access to natural rubber, giving them a competitive edge to produce cost effective and superior products. </p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about Sanctuary Health",
+        "copy_block_button_link": "https://sanctuaryhealth.com.my/"
+      }
+    },
+    "1642131363cbda4d68": {
+      "type": "content-panel--list",
+      "blocks": {
+        "3e610009-8281-42d8-8505-8c36b3d4e1f9": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Eco-conscious philosophy, almost zero carbon emissions from manufacturing"
+          }
+        },
+        "9447028d-ad72-4a72-b578-c1b1b855a132": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "High standard of production and material quality"
+          }
+        },
+        "3e265d60-861c-4032-ba45-49a482dde876": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "High quality, powder-free, low protein, longer lasting dental dams"
+          }
+        },
+        "f973cd89-87b8-4c20-a55d-66bef5ad8b87": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Strong core values, honesty and integrity, people first approach"
+          }
+        }
+      },
+      "block_order": [
+        "3e610009-8281-42d8-8505-8c36b3d4e1f9",
+        "9447028d-ad72-4a72-b578-c1b1b855a132",
+        "3e265d60-861c-4032-ba45-49a482dde876",
+        "f973cd89-87b8-4c20-a55d-66bef5ad8b87"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/My_project_copy_8_copy_11b29013-bfb5-4bd3-8a9d-022e1f47c6eb.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "Unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Latex Dental Dam",
+            "icon-content": "<p>Powder-free, low protein<br/>latex dental dam.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/sanctuary-powder-free-latex-silk-blue-dental-dam"
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Non-Latex Dental Dam",
+            "icon-content": "<p>High tear tolerance,<br/>powder-free and low protein non-latex dental dam.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/sanctuary-powder-free-non-latex-dental-dam"
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Dental Dam Punch",
+            "icon-content": "<p>High quality, work-hardened 304 stainless steel dental dam punch that stays sharp longer.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/sanctuary-dental-dam-punch"
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "sanctuary-powder-free-latex-dental-dam"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "sanctuary-powder-free-yin-yang-non-latex-dental-dam"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "sanctuary-powder-free-non-latex-dental-dam"
+          }
+        },
+        "163951144998bcda93-3": {
+          "type": "product",
+          "settings": {
+            "product": "sanctuary-powder-free-latex-silk-blue-dental-dam"
+          }
+        },
+        "fb2d450e-2841-4b61-8840-6a5495f3541b": {
+          "type": "product",
+          "settings": {
+            "product": "sanctuary-dental-dam-clamp-forceps-clearance"
+          }
+        },
+        "2fac753e-2ef8-4d04-905f-d107ece10991": {
+          "type": "product",
+          "settings": {
+            "product": "sanctuary-dental-dam-clamps-clearance"
+          }
+        },
+        "8f16a43d-306f-4c3c-a739-a71309960e7b": {
+          "type": "product",
+          "settings": {
+            "product": "sanctuary-dental-frames"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "163951144998bcda93-1",
+        "163951144998bcda93-2",
+        "163951144998bcda93-3",
+        "fb2d450e-2841-4b61-8840-6a5495f3541b",
+        "2fac753e-2ef8-4d04-905f-d107ece10991",
+        "8f16a43d-306f-4c3c-a739-a71309960e7b"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799393c3d42439": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "164255124043dcb5eb",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642131363cbda4d68",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799393c3d42439"
+  ]
+}

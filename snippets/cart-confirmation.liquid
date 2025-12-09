@@ -1,0 +1,48 @@
+{% assign modal_id = modal_id | default: "cart_confirmation" %}
+
+{% if modal_id %}
+
+    {% capture modalAttributes %}
+        class -*-
+            modal -#-
+                {{ variant | default: "default" }} -&-
+        id -*-
+            modal_{{ modal_id }}
+    {% endcapture %}
+
+    {% comment %}Modal HTML{% endcomment %}
+    <div {% render 'attribute', attribute: modalAttributes %}>
+
+        {% comment %}Modal Overlay {% endcomment %}
+        <div class="modal__overlay"></div>
+
+        {% comment %}Modal Popup {% endcomment %}
+        <div class="modal__popup">
+
+           {% comment %} Modal Content {% endcomment %}
+            <div class="modal__content">
+                {% render "icon", name: "close", class: "button__icon modal__close-button" %}
+
+                <span class="cart-confirmation__message">
+                    <!-- This span is intentially left empty for populating confirmation message when a product is added to cart -->
+                </span>
+
+                <div class="cart-confirmation__item">
+                    {% comment %} Placeholder for added item {% endcomment %}
+                </div>
+
+                <div class="cart-confirmation__content">
+                    <div class="cart-subtotal__container cart-summary__item">
+                        <span class="cart-info__item-count">{{ 'cart.general.subtotal' | t }} (0 item)</span>
+                        <span class="cart-info__subtotal">$0</span>
+                    </div>
+
+                    <div class="button-collection">
+                        <a class="button button--primary button__edit-cart" href="{{ routes.cart_url }}" tabindex="-1">View Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endif %}

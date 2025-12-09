@@ -1,0 +1,299 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163961018441a7a2df": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_FAQ_Dental_Supplies.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Curion_Dental_FAQ_mobile_Dental_Supplies.jpg",
+        "subtitle": "AT CURION, we care",
+        "subtitle_color": "blue",
+        "page-header-title": "Frequently Asked Questions",
+        "title_styling": "no-outline",
+        "page-header-text": "Our customer service team goes the extra-mile to support you and simplify things throughout your journey.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "b8bb0385-be16-4aa0-bed5-18e13c1b9bb2": {
+      "type": "content-panel",
+      "blocks": {
+        "0c5642e9-da26-46d0-8395-9b878ae8dfb2": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion-dental-product-guarantee_Dental_Supplies.png",
+            "copy_block_subtitle": "why shop with curion?",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Product Guarantee",
+            "copy_block_text": "<p>At Curion, we are steadfast in prioritizing patient safety, viewing it as our responsibility to safeguard both patient well-being and the integrity of dental practices. Serving as an authorized dealer for each carefully curated brand in our portfolio, we guarantee our customers that every product sold by Curion is authentic and comes with comprehensive manufacturer warranty support. </p><p><strong>Why purchase from an authorized distributor?</strong></p><p><strong>Quality assurance! </strong>All products sold by Curion are imported directly from the manufacturer, ensuring proper handling and storage, authentic lot numbers and expiry dates. You can practice with unwavering confidence and have piece of mind knowing that your patients are receiving only genuine high-quality materials.</p><p><strong>Exclusive Canadian Distributor</strong><br/>Curion is the only authorized and exclusive distributor of BISCO, LM Dental, Smile Line, Ascentcare, Tri Hawk, Sanctuary, Happynecks, Venta Endo, RTD by Dentsply, Lucida by DiaShine, ReInvent by Garrison and TriCom.</p><p><strong>Authorized Canadian Distributor</strong><br/>Curion is  an authorized distributor for Garrison Dental Solutions, EVE Rotary, DMG America, Pascal Dental, Ambience PPE, Common Sense Dental, Vista Apex, Phoenix Dental, Premium Plus and Force of Nature.</p><p><strong>Grey Market Concerns</strong> </p><p>Manufacturers, distributors and dental professionals are all responsible for preserving the integrity of our industry and protecting patients.</p>",
+            "copy_block_button_text": "Read our blog",
+            "copy_block_button_link": "https://curion.ca/blogs/news-events-ce/rally-with-curion-and-other-authorized-dealers-to-protect-patient-safety-and-dental-practices-against-gray-market-counterfeit-products",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "0c5642e9-da26-46d0-8395-9b878ae8dfb2"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "6d8f5cab-a0eb-4679-a802-ef42ab35c891": {
+      "type": "content-panel--list",
+      "blocks": {
+        "441a5173-9dee-457e-87b3-6a6fb73a9212": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "24/7 web order history access"
+          }
+        },
+        "833bfa49-cb2a-4d8e-a646-cef7ec707ff4": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Track your package"
+          }
+        },
+        "4ea5d3a7-b731-4cd3-80d4-3c21f45761da": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Request email updates"
+          }
+        },
+        "db882666-c9a2-42e2-977b-00cc47d21763": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Reorder, create and maintain your own address book"
+          }
+        }
+      },
+      "block_order": [
+        "441a5173-9dee-457e-87b3-6a6fb73a9212",
+        "833bfa49-cb2a-4d8e-a646-cef7ec707ff4",
+        "4ea5d3a7-b731-4cd3-80d4-3c21f45761da",
+        "db882666-c9a2-42e2-977b-00cc47d21763"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_CAN_I_ORDER_ONLINE_Dental_Supplies.jpg",
+        "copy_block_subtitle": "Can I order online?",
+        "content_panel_subtitle_color": "blue",
+        "copy_block_title": "Yes. It's fast. It's easy.",
+        "copy_block_text": "<p>It only takes a minute to become a registered customer, and to enjoy all of these perks:</p>",
+        "copy_block_button_text": "Create an account today",
+        "copy_block_button_link": "https://curion.ca/account/register"
+      }
+    },
+    "4ed7f305-96d6-464c-9050-48505c9867c6": {
+      "type": "content-panel",
+      "blocks": {
+        "52eba104-efd9-4a05-9394-0700ad0e8f8c": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_CAN_I_ORDER_BY_PHONE_Dental_Supplies.jpg",
+            "copy_block_subtitle": "Can i order by phone?",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Call us to get personal support & guidance",
+            "copy_block_text": "<p>We listen to your needs and provide you with custom advice, meeting you at your knowledge level and helping you buy with confidence.</p><p>Reach out to us for more info or to request a consultation.</p><p></p><p>Monday to Friday 7:30 a.m.—4 p.m. (PST)<br/><br/>English: <a href=\"tel:1-800-667-8811\" title=\"tel:1-800-667-8811\"><strong>1.800.667.8811</strong></a><br/>French: <a href=\"tel:1.800.211.1200\" target=\"_blank\" title=\"tel:1.800.211.1200\"><strong>1.800.211.1200</strong></a></p><p>Email: <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\"><strong>wecare@curion.ca</strong></a><br/><br/>2571 Smith Street<br/>Richmond, BC., V6X 2J1 Canada</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": true,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "52eba104-efd9-4a05-9394-0700ad0e8f8c"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "fbe9c078-2400-44d9-96ee-a60ac02e8bb0": {
+      "type": "content-panel",
+      "blocks": {
+        "9fcede01-f202-479c-8b44-d5642f1ab382": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Simplified_returns_Dental_Supplies.jpg",
+            "content_panel_icon_image": "shopify://shop_images/100x100_Returns.png",
+            "copy_block_subtitle": "How do I return an item?",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Simplified returns",
+            "copy_block_text": "<p>Return an unopened item in its original packaging within 30 calendar days of your purchase for a full refund to the original form of payment.</p><p>If you have a Curion online account, returns can be initiated through your account portal. Simply, log in to your account and begin the returns process.</p><p>If you don't have an online account, please <a href=\"https://cdn.shopify.com/s/files/1/2782/5410/files/RMA_Request_Form_5f617279-9412-42eb-ba00-4b292a1bc251.pdf?v=1662068690\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/2782/5410/files/RMA_Request_Form_5f617279-9412-42eb-ba00-4b292a1bc251.pdf?v=1662068690\">download</a> and complete our returns form. Once complete, please email the form along with a photo of the item being returned to <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\">wecare@curion.ca</a>. Once received, a customer care representative will contact you with further instructions.</p><p>Click <a href=\"https://curion.ca/pages/shipping-returns\" target=\"_blank\" title=\"https://curion.ca/pages/shipping-returns\">here</a> to view full policy details.</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        },
+        "194b5014-d904-4a87-8c61-26ba94a5785d": {
+          "type": "content-panel",
+          "disabled": true,
+          "settings": {
+            "copy_block_subtitle": "",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Content Panel Title",
+            "copy_block_text": "<p>Content Panel Description</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "9fcede01-f202-479c-8b44-d5642f1ab382",
+        "194b5014-d904-4a87-8c61-26ba94a5785d"
+      ],
+      "settings": {
+        "starting_orientation": "left"
+      }
+    },
+    "44cd1945-1d82-455d-a88d-04ba9b7d6ad3": {
+      "type": "icon-block",
+      "blocks": {
+        "56c77f72-497e-4385-ba07-6254ca8a8974": {
+          "type": "icon-item",
+          "settings": {
+            "icon-title": "Luai Mansor",
+            "icon-content": "<p>Regional Consultant, Ontario<br/></p><p>Toll Free <a href=\"tel:1.855.599.2977\" title=\"tel:1.855.599.2977\"><strong>1.855.599.2977</strong></a><br/>Send email <a href=\"mailto:luai@curion.ca\" title=\"mailto:luai@curion.ca\"><strong>luai@curion.ca</strong></a></p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "56c77f72-497e-4385-ba07-6254ca8a8974"
+      ],
+      "disabled": true,
+      "settings": {
+        "subtitle": "Who is my representative?",
+        "subtitle_color": "blue",
+        "icon-block-title": "Meet our relationship builders",
+        "icon-block-description": "<p>For all othe regions, please call our office at 1.800.667.8811</p>"
+      }
+    },
+    "2e13cd3c-7361-4bf8-9527-17f41a4d7b2e": {
+      "type": "faqs",
+      "blocks": {
+        "27193b68-2ec5-4a8d-8efe-34120d36ab22": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "How long will it take to receive my order?",
+            "accordion-content": "<p>All orders placed by 2:00 p.m. (PT) that are currently in stock, will be shipped from our office that same day via FedEx Standard Overnight.*</p><p>*FedEx Standard Overnight shipping may not apply to all orders. Some packages may necessitate delivery by ground and may take 10-12 business days from the time of ordering. </p><p>Orders shipping to residential addresses will be shipped via Canada Post and may take 5-7 business days from the time of ordering.</p>"
+          }
+        },
+        "1f7d25ba-44bf-4d7b-9c4d-2c8db0a76361": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "How much will I pay for shipping?",
+            "accordion-content": "<p>Benefit from free delivery on orders over $250 to commercial (non-residential) addresses, wherever you are in Canada.</p><ul><li>For all orders under $250 a flat rate of $18 will be applied.</li></ul><p>For residential address deliveries, benefit from free delivery on orders over $375 wherever you are in Canada. </p><ul><li>For all orders under $375 a flat rate of $23 will be applied.</li></ul><p>Rush delivery may be available at an additional charge. We will provide you with a quote for the cost of expedited shipping. Any additional fees will be added to your sales order. For complete details, click <a href=\"https://curion.ca/pages/shipping-returns\" target=\"_blank\" title=\"https://curion.ca/pages/shipping-returns\">here</a>.</p>"
+          }
+        },
+        "bdfe1a9b-faf9-47ac-8fdd-c2e94116a7e5": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "What are Curion's payment options?",
+            "accordion-content": "<p><strong>CREDIT CARD:</strong> We accept Visa, Mastercard and American Express. At your request, we will keep your credit card information on file if you wish to have your orders processed automatically on your card.</p><p><strong>NET 30 DAYS:</strong> Existing accounts are payable within 30 days of the invoice date. As monthly statements are not issued except for overdue balances, please calculate the amount due from the invoice enclosed with your parcel.</p>"
+          }
+        },
+        "ffe41137-28ac-4423-8e82-d3e4b8c35c20": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "What do I do if I forgot to add a free product to an online order?",
+            "accordion-content": "<p>We review all online orders and ensure that any missing qualified free goods are automatically added.*</p><p>*Please note that we reserve the right to remove any unqualified/expired promo items - a follow up email will be sent.</p>"
+          }
+        },
+        "91a6cbc2-d360-4999-98d7-936690506c13": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "How do I update or change the email address associated with my online account?",
+            "accordion-content": "<p>Please call us if an existing online account email address needs to be updated - we will do it for you. (Due to security reasons, it is not possible for the user to login and update their email address themselves).</p>"
+          }
+        },
+        "430f990a-09cc-416e-8798-529bcff7a676": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Do you have any special promotions or discounts?",
+            "accordion-content": "<p>Yes, please visit the <a href=\"https://curion.ca/collections/curion-sale\" target=\"_blank\" title=\"https://curion.ca/collections/curion-sale\">ON SALE</a> page to view all current offers.</p>"
+          }
+        },
+        "d301a85b-e13b-47f0-8976-535272d64e31": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Do you offer bulk discounts?",
+            "accordion-content": "<p>Yes, bulk discounts are available for some product lines. Please call our office at 1.800.667.8811 to speak to a representative and find out more.</p>"
+          }
+        },
+        "725868b5-4d70-486f-8b3e-4218e21e8d5a": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "What is Curion's return policy?",
+            "accordion-content": "<p><strong>30 DAY RETURN POLICY:</strong></p><p>Within 30 calendar days of purchase, any items found to be; defective due to manufacturing, damaged during shipping, or have been shipped to you in error, qualify for a full refund to the original form of payment plus free pickup arranged by Curion.</p><p>We ask that you please inspect your order upon receipt and contact us immediately (within 48 hours) if the item is defective, damaged or if you received the wrong item so that we can evaluate the issue and make it right.</p><p>Items ordered in error by the client or items being returned due to a change of mind may be subject to a re-stocking fee, plus the cost of shipping.</p><p>For our customers’ convenience and cost savings, Curion arranges all return pickups with our preferred shipping rate.</p><p>View full policy details <a href=\"https://curion.ca/pages/shipping-returns\" target=\"_blank\" title=\"https://curion.ca/pages/shipping-returns\">here</a>.</p>"
+          }
+        },
+        "f41551a9-1008-40dc-a7b2-8754d779890a": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "How do I subscribe to your newsletter?",
+            "accordion-content": "<p>You can subscribe to our newsletter by entering your email address in the newsletter signup field, located in the footer of any of our webpages.</p>"
+          }
+        },
+        "56baa74f-72da-4eb2-9525-d8a828412ae1": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "What is Curion's privacy policy and what are the terms of service?",
+            "accordion-content": "<p>To view our complete privacy policy, click <a href=\"https://curion.ca/pages/privacy-policy\" target=\"_blank\" title=\"https://curion.ca/pages/privacy-policy\">here</a>. To view our terms of service, click <a href=\"https://curion.ca/pages/terms-of-service\" target=\"_blank\" title=\"https://curion.ca/pages/terms-of-service\">here</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "27193b68-2ec5-4a8d-8efe-34120d36ab22",
+        "1f7d25ba-44bf-4d7b-9c4d-2c8db0a76361",
+        "bdfe1a9b-faf9-47ac-8fdd-c2e94116a7e5",
+        "ffe41137-28ac-4423-8e82-d3e4b8c35c20",
+        "91a6cbc2-d360-4999-98d7-936690506c13",
+        "430f990a-09cc-416e-8798-529bcff7a676",
+        "d301a85b-e13b-47f0-8976-535272d64e31",
+        "725868b5-4d70-486f-8b3e-4218e21e8d5a",
+        "f41551a9-1008-40dc-a7b2-8754d779890a",
+        "56baa74f-72da-4eb2-9525-d8a828412ae1"
+      ],
+      "settings": {
+        "accordion-section-title": "Other Frequently Asked Questions",
+        "accordion-section-content": "",
+        "faq_block_button_text": "",
+        "faq_block_button_link": ""
+      }
+    },
+    "16427383724a57b4be": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We empower caring dental professionals across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "Live the experience",
+        "intro-block-link": "shopify://pages/experience"
+      }
+    }
+  },
+  "order": [
+    "163961018441a7a2df",
+    "b8bb0385-be16-4aa0-bed5-18e13c1b9bb2",
+    "6d8f5cab-a0eb-4679-a802-ef42ab35c891",
+    "4ed7f305-96d6-464c-9050-48505c9867c6",
+    "fbe9c078-2400-44d9-96ee-a60ac02e8bb0",
+    "44cd1945-1d82-455d-a88d-04ba9b7d6ad3",
+    "2e13cd3c-7361-4bf8-9527-17f41a4d7b2e",
+    "16427383724a57b4be"
+  ]
+}

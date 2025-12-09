@@ -1,0 +1,24 @@
+<div class="page-header__content">
+    <h2 class="page-header__subtitle h5">{{ section.settings.subtitle }}</h2>
+    <h1 class="page-header__title">{{ section.settings.title }}</h1>
+</div>
+
+{% schema %}
+{
+    "name": "Page Header - Login",
+    "class": "page-header page-header--account-form",
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Page Subtitle"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Page Title"
+        }
+    ],
+    "tag": "section"
+}
+{% endschema %}

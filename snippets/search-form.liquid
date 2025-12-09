@@ -1,0 +1,32 @@
+<div class="search-box search-box--default search-box--{{ variant }}">
+    <button type="button" class="search-box__toggle">
+        {% render 'icon', name: 'search', class: 'search__icon svg--baseline' %}
+    </button>
+
+    <form action="{{ routes.search_url }}" method="get" role="search" class="form form--search">
+        <label for="Search-{{ section.id }}" class="form__label">
+            {{ 'general.search.submit' | t }}
+        </label>
+
+        <div class="form__field form__field--input form__field--search">
+            <div class="form__element">
+                <input type="search"
+                    name="q"
+                    id="Search-{{ section.id }}"
+                    class="form__control form__input search__input"
+                    value="{{ search.terms | escape }}"
+                    placeholder="{{ 'general.search.placeholder' | t }}"
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off">
+            </div>
+        </div>
+
+        <div class="form__field form__field--button">
+            <button type="submit" class="button search__submit">
+                {% render 'icon', name: 'search', class: 'search__icon svg--baseline' %}
+                <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
+            </button>
+        </div>
+    </form>
+</div>

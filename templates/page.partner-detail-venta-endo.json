@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/My_project_copy_2_1_7516bcc3-1426-44ee-8cf3-573d249766cb.png",
+        "page-header-image--mobile": "shopify://shop_images/Files_0192_copy.jpg",
+        "subtitle": "venta endo",
+        "subtitle_color": "coral",
+        "page-header-title": "Experience is the mother of invention",
+        "title_styling": "outline",
+        "page-header-text": "Venta Endo saw an opportunity to achieve a safe, effective, and ergonomic solution for starting endodontic treatments. Bolstered by years of experience and some trial and error, the EndoHandle was finally born.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16425511631f876ba2": {
+      "type": "icon-block",
+      "blocks": {
+        "d9d75051-71c0-4a92-87e8-79de04811858": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Venta_Endo_BIG_LOGO_copy.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d9d75051-71c0-4a92-87e8-79de04811858"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/MSyePGtoHsU",
+        "cover_image": "shopify://shop_images/My_project_2_copy_3.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Endodontic Handle"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Endodontic Files"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Files_0280_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "Venta Endo",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Logan, Utah (USA) </p><p><strong>History</strong></p><p>Endodontist Dr. Steven S. Larsen D.D.S., M.S, founded Venta Endo with his first product, the EndoHandle, while looking for a solution to mitigate hand fatigue and visualization of the canal glide path safely. Dr. Larsen continues to practice full-time and is an assistant professor at the University of Utahn School of Dentistry.  </p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about Venta Endo",
+        "copy_block_button_link": "https://www.ventaendo.com/"
+      }
+    },
+    "1642485282e31f5704": {
+      "type": "content-panel--list",
+      "blocks": {
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Innovation, they took a difficult task and turned it into an easy one"
+          }
+        },
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Solution minded, a unique product that solved a common problem"
+          }
+        },
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Small business vibe, dedicated to customer satisfaction and support"
+          }
+        }
+      },
+      "block_order": [
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27",
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f",
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1313024654_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Universal EndoHandle",
+            "icon-content": "<p>Designed  for root canal preparation. The leverage of filing with the EndoHandle is at least five times more effective than the traditional two-finger method.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "MicroFiles",
+            "icon-content": "<p>MicroFiles have a unique contra-angle placed in the shaft of the file and fit the Universal EndoHandle's unique locking chamber, giving you better access and an unobstructed view into the pulp chamber.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "CalciFiles",
+            "icon-content": "<p>With a highly stiff design, the CalciFile is used for negotiation and initial instrumentation of difficult or calcified canals.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "universal-endohandle-endodontic-file-holder"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799186bc79c0bd": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16425511631f876ba2",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642485282e31f5704",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799186bc79c0bd"
+  ]
+}

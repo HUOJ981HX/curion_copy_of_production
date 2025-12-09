@@ -1,0 +1,74 @@
+{% for block in section.blocks %}
+    {% assign menu_list = block.settings.mega-menu %}
+
+    {% for link in linklists[menu_list].links %}
+        <li class="menu__item menu__item--dropdown">
+            <a class="menu__link" href="{{ link.url }}">
+                <span class="menu__title">{{ link.title }}</span>
+                <span class="dropdown__icon"></span>
+            </a>
+            {% if link.links != blank %}
+                <div class="dropdown dropdown__mega-nav">
+                    <div class="container">
+                        <ul class="dropdown__list mega-nav">
+                            {% for childlink in link.links %}
+                                {% comment %}{% if block.settings.mega-nav-title != blank %}
+                                    <span class="mega-nav__title">{{ block.settings.mega-nav-title }}</span>
+                                {% endif %}{% endcomment %}
+
+                                {% if childlink.links != blank %}
+                                    <li class="dropdown__item">
+                                        <span class="mega-nav__title">{{ childlink.title}}</span>
+                                        <ul class="dropdown__list">
+                                            {% for grandchildlink in childlink.links %}
+                                                <li class="dropdown__item">
+                                                    <a href="{{ grandchildlink.url }}" class="dropdown__link  {% if grandchildlink.active %}dropdown__link--active{% endif %}">
+                                                        <span class="dropdown__title">{{ grandchildlink.title }}</span>
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </li>
+                                {% else %}
+                                    <li class="dropdown__item">
+                                        <a href="{{ childlink.url }}" class="dropdown__link {% if childlink.active %}dropdown__link--active{% endif %}  {% if childlink.type == 'collection_link' %}dropdown__link--collection {% endif %}">
+                                            {% if childlink.type == 'collection_link' %}
+                                                {% assign linkCollection = childlink.object %}
+                                                <div class="dropdown__item-image">
+                                                    {% if linkCollection.image %}
+                                                        {% render 'responsive-image' with
+                                                            image: linkCollection.image, image_class: "background-image"
+                                                        %}
+                                                    {% else %}
+                                                        {% render 'responsive-image' with
+                                                            image: linkCollection.products.first.featured_image, image_class: "background-image" %}
+                                                    {% endif %}
+                                                </div>
+                                            {% endif %}
+                                            <span class="dropdown__title">{{ childlink.title }}</span>
+                                        </a>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                            {% if block.settings.mega-nav-image and block.settings.mega-nav-link %}
+                                <li class="dropdown__item dropdowm__item--image">
+                                    <a href="{{ block.settings.mega-nav-link }}" class="dropdown__link">
+                                        <div class="dropdown-image">
+                                            {% render 'responsive-image' with
+                                              image: block.settings.mega-nav-image,
+                                              image_class: "background-image"
+                                            %}
+                                        </div>
+                                        {% if block.settings.mega-nav-link-title %}
+                                            <span class="dropdown__title">{{ block.settings.mega-nav-link-title }}</span>
+                                        {% endif %}
+                                    </a>
+                                </li>
+                            {% endif %}
+                         </ul>
+                    </div>
+                </div>
+            {% endif %}
+         </li>
+    {% endfor %}
+{% endfor%}

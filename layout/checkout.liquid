@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+        <meta name="referrer" content="origin">
+
+        <title>{{ page_title }}</title>
+
+        {{ content_for_header }}
+
+        {{ checkout_stylesheets }}
+        {{ checkout_scripts }}
+    </head>
+    <body>
+        {{ skip_to_content_link }}
+
+        <header class="banner" data-header role="banner">
+          <div class="wrap">
+            {{ content_for_logo }}
+          </div>
+        </header>
+
+        {{ order_summary_toggle }}
+        <div class="content" data-content>
+          <div class="wrap">
+            <div class="main">
+              <header class="main__header" role="banner">
+                {{ content_for_logo }}
+                {{ breadcrumb }}
+                {{ alternative_payment_methods }}
+              </header>
+              <main class="main__content" role="main">
+                {{ content_for_layout }}
+              </main>
+              <footer class="main__footer" role="contentinfo">
+                {{ content_for_footer }}
+              </footer>
+            </div>
+            <aside class="sidebar" role="complementary">
+              <div class="sidebar__header">
+                {{ content_for_logo }}
+              </div>
+              <div class="sidebar__content">
+                {{ content_for_order_summary }}
+              </div>
+            </aside>
+          </div>
+        </div>
+
+        {{ tracking_code }}
+
+        <!-- CreditsYard Checkout Script -->
+        {% assign customer_balance = checkout.customer.metafields.creditsyard.store_credit_balance | times: 1 %}
+        {% if customer_balance > 0 %}
+          {% if checkout.discount_applications.size == 0 %}
+            {% if customer %}
+            <div id="checkout-store-credit-wrapper"></div>    
+              {% include 'store-credit-launcher' %}
+              <script src="https://store-credit.merchantyard.com/js/integrations/script.js"></script>
+            {% else %}
+              <div class="creditsyard-checkout-no-customer">
+                <p>You have USD {{ customer_balance }}, Please click the login button to be able to use your store credit. <a href="/account/login?return_url=/checkout">Login</a></p>
+              </div>
+            {% endif %}
+          {% endif %}
+        {% endif %}  
+        <style>
+          .creditsyard-checkout-no-customer {
+              margin-bottom: 18px;
+          }
+          .store-credit-embedded-widget {
+            text-align: center;
+          }
+          #checkout-store-credit-wrapper .store-credit-embedded-widget {
+            margin-top: 0;
+            padding: 0;
+            border: 0;
+            text-align: left;
+            margin-bottom: 23px;
+          }
+          #checkout-store-credit-wrapper .store-credit-embedded-body {
+            font-size: 14px;
+          }
+          #checkout-store-credit-wrapper .store-credit-embedded-body svg {
+            width: 20px;
+          }
+          #checkout-store-credit-wrapper .store-credit-embedded-button {
+            margin-top: 15px !important;
+            font-size: 13px !important;
+            padding: 0 10px;
+            height: 37px;
+          }
+          #checkout-store-credit-wrapper .store-credit-embedded-widget {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          #checkout-store-credit-wrapper .store-credit-embedded-button {
+            margin-top: 0 !important;
+          }  
+        </style>
+        <!-- End CreditsYard Checkout Script -->
+    </body>
+</html>

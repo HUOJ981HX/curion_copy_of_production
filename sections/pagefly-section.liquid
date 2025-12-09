@@ -1,0 +1,122 @@
+
+{% if section.settings.section_id.size > 0 %}
+  <!-- PageFlyGlobalSection -->
+  {% render 'pagefly-main-js' %}
+  {% render 'pagefly-main-css' %}
+  {% include section.settings.section_id %}
+{% else %}
+  
+    {% if request.design_mode %}
+      <style>.pf-ph{font-size:14px!important;background:#fafafa;padding:20px;text-align:center;border:1px solid #f0f0f0;border-radius:4px;margin:15px}.pf-ph span{display:block;background:#e6f7ff;padding:8px 15px;border:1px solid #91d5ff}</style>
+      <div class="pf-ph">
+        <h3>PageFly Section</h3>
+        <span>No section selected. Please select your section from the list</span>
+      </div>
+    {% endif %}
+  
+{% endif %}
+
+{% schema %}
+{
+  "name": "PageFly Section",
+  "settings": [
+    {
+      "id": "section_id",
+      "type": "select",
+      "label": "Sections",
+      "options": [
+        {
+          "label": "Select section",
+          "value": ""
+        },
+        {
+          "label": "2025-Q2-Bisco-Text",
+          "value": "pf-17c220b8"
+        },
+        {
+          "label": "2025-Q2-June-LM",
+          "value": "pf-ea7935f9"
+        },
+        {
+          "label": "2025-Q2-June-EVE",
+          "value": "pf-e96a97be"
+        },
+        {
+          "label": "2025-Q2-May-RTD",
+          "value": "pf-96762330"
+        },
+        {
+          "label": "2025-Q2-Isodam-Tri Hawk",
+          "value": "pf-bf0d8ac2"
+        },
+        {
+          "label": "2025-Q2-May-Bisco",
+          "value": "pf-0bc74c91"
+        },
+        {
+          "label": "2025-Q2-Pascal-TrollFoil",
+          "value": "pf-bcdaf238"
+        },
+        {
+          "label": "2025-Q2-Perio Gel-Stimmie",
+          "value": "pf-8570ac74"
+        },
+        {
+          "label": "2025-Q2-DMG - Text",
+          "value": "pf-522945e7"
+        },
+        {
+          "label": "Top 3 icons - 2025-Q2",
+          "value": "pf-a8798a2c"
+        },
+        {
+          "label": "2025-Q1-EVE-Lucida",
+          "value": "pf-d1621cf9"
+        },
+        {
+          "label": "2025-Q1-DMG - Text",
+          "value": "pf-cb01cfae"
+        },
+        {
+          "label": "2025-Q1-Garrison - Text",
+          "value": "pf-c0209123"
+        },
+        {
+          "label": "Clearance Sale Top icons",
+          "value": "pf-9f8e6e1c"
+        },
+        {
+          "label": "2025-clearance",
+          "value": "pf-3a560ded"
+        },
+        {
+          "label": "2025-Q1-Garrison-Smileline",
+          "value": "pf-c4c9ebd4"
+        },
+        {
+          "label": "Top 3 icons - 2025-Q1",
+          "value": "pf-69ce1e89"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Find and edit your section on the [section listing](https://bisco-dental-products.myshopify.com/admin/apps/pagefly/sections)"
+    },
+    {
+      "type": "paragraph",
+      "content": "To add block to a section, please use the App Block element on PageFly section editor."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PageFly Section"
+    }
+  ]
+}
+{% endschema %}

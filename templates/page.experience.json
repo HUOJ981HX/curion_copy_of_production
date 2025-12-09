@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_EXPERIENCE_Practice_in_harmony_Dental_Supplies.jpg",
+        "subtitle": "experience",
+        "subtitle_color": "blue",
+        "page-header-title": "Practice in harmony",
+        "title_styling": "no-outline",
+        "page-header-text": "Practice in harmony with a harmonious practice.\n<br>\n<br>\nOur products and experience put people first, helping you build better relationships between patients and all professionals in your practice.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1643082828a151751c": {
+      "type": "content-panel",
+      "blocks": {
+        "a0ec8e8d-dea6-4b74-8ba6-e9a7914e3a29": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_The_Curion_experience_Dental_Supplies.jpg",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_Home_experience_Icon_Dental_Supplies.png",
+            "copy_block_subtitle": "",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "The Curion experience",
+            "copy_block_text": "<p><strong>Collaborative</strong></p><p>We treat everyone as friends, building long-lasting relationships with partners and customers to listen and learn from their perspectives.          </p><p><strong>Strategic </strong></p><p>We take the time to review your needs. We view the world with a problem solving lens and always have a solution to offer.</p><p></p><p><strong>Helpful</strong></p><p>We care about people. This means being flexible, advising our customers and having your best interests at heart. </p><p><strong>It’s why we go the extra-mile.</strong></p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "a0ec8e8d-dea6-4b74-8ba6-e9a7914e3a29"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "16395281055b184aa4": {
+      "type": "banner-block",
+      "settings": {
+        "banner-block-image": "shopify://shop_images/Curion_Dental_We_re_here_with_you_Dental_Supplies.jpg",
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "banner-block-title": "We’re here with you",
+        "banner-block-text": "<p>We know running your practice often involves navigating exceptions. This is why we have options to meet your needs.</p>",
+        "banner-block-button-text": "",
+        "banner-block-link": "shopify://pages/about-us"
+      }
+    },
+    "164245718509548f89": {
+      "type": "content-panel",
+      "blocks": {
+        "7c43940b-80b2-405d-94c8-ed4a5cd7106b": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Simplified_returns_Dental_Supplies.png",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_Icon_Simplified_returns_Dental_Supplies.png",
+            "copy_block_subtitle": "",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Simplified returns",
+            "copy_block_text": "<p>Return an unopened item in its original packaging within 30 calendar days of your purchase for a full refund to the original form of payment.</p><p>If you have a Curion online account, returns can be initiated through your account portal. Simply, log in to your account and begin the returns process.</p><p>If you don't have an online account, please download and complete the returns form. Once complete, please email the form along with a photo of the item being returned to <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\">wecare@curion.ca</a>. Once received, a customer care representative will contact you with further instructions.</p>",
+            "copy_block_button_text": "Download Returns Form",
+            "copy_block_button_link": "https://cdn.shopify.com/s/files/1/2782/5410/files/RMA_Request_Form_5f617279-9412-42eb-ba00-4b292a1bc251.pdf?v=1662068690",
+            "contact_cta_checkbox": true,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "7c43940b-80b2-405d-94c8-ed4a5cd7106b"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "16424577896d53ca3b": {
+      "type": "content-panel",
+      "blocks": {
+        "25e006f7-ea05-4750-b7ec-dd002e9fcfbd": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Easy_order_delivery_Dental_Supplies.png",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_Icon-Fas-Easy-Shipping_Dental_Supplies.png",
+            "copy_block_subtitle": "",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Easy order & delivery",
+            "copy_block_text": "<p><strong>Fast, easy shipping</strong><br/>Enjoy the convenience of expedited shipping.</p><p><strong>Free delivery for orders over $250</strong><br/>Benefit from free delivery on orders over $250 to commercial (non-residential) addresses, wherever you are in Canada.*</p><p>To view shipping policy details for both  commercial and residential addresses, please click <a href=\"https://curion.ca/pages/shipping-returns\" target=\"_blank\" title=\"https://curion.ca/pages/shipping-returns\">here</a>.</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "25e006f7-ea05-4750-b7ec-dd002e9fcfbd"
+      ],
+      "settings": {
+        "starting_orientation": "left"
+      }
+    },
+    "1642457957bc6d9c48": {
+      "type": "content-panel--list",
+      "blocks": {
+        "440bc3be-60bb-44e3-bab7-e30f5b7de0e6": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Product consultation"
+          }
+        },
+        "5e97749f-7889-47e2-9999-b0f24abf1e9f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Technical support"
+          }
+        },
+        "11a068f9-271b-4ed7-9ab1-5488d6ea48d6": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Phone orders"
+          }
+        }
+      },
+      "block_order": [
+        "440bc3be-60bb-44e3-bab7-e30f5b7de0e6",
+        "5e97749f-7889-47e2-9999-b0f24abf1e9f",
+        "11a068f9-271b-4ed7-9ab1-5488d6ea48d6"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_Personal_support_guidance_Dental_Supplies.jpg",
+        "content_panel_icon_image": "shopify://shop_images/Curion_Dental_Icon_Dedicated-support-guidance_Dental_Supplies.png",
+        "copy_block_subtitle": "",
+        "content_panel_subtitle_color": "blue",
+        "copy_block_title": "Personal support & guidance",
+        "copy_block_text": "<p>We listen to your needs and provide you with custom advice, meeting you at your knowledge level and helping you buy with confidence.</p><p><strong>We’d love to chat. </strong></p><p><strong>Reach out for:</strong></p>",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "1643086812a5619c2d": {
+      "type": "content-panel",
+      "blocks": {
+        "8ba82b5e-3324-4f1b-bbf2-fecf4154c7e1": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Need_more_info_Dental_Supplies.jpg",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_Icon_Online-Order_Dental_Supplies.png",
+            "copy_block_subtitle": "",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Need more info?",
+            "copy_block_text": "<p>We have your best interest at heart. Life is complicated but finding the best products for your practice shouldn’t be. </p><p>Reach out to us for more info or to request a consultation.  </p><p><strong>Monday to Friday </strong>7:30 a.m. - 4 p.m. (PT)</p><p><strong>English:</strong> <a href=\"tel:1-800-667-8811\" target=\"_blank\" title=\"tel:1-800-667-8811\">1.800.667.8811</a></p><p><strong>French:</strong> <a href=\"tel:1-800-211-1200\" target=\"_blank\" title=\"tel:1-800-211-1200\">1.800.211.1200</a></p>",
+            "copy_block_button_text": "Contact us",
+            "copy_block_button_link": "mailto:wecare@curion.ca",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "8ba82b5e-3324-4f1b-bbf2-fecf4154c7e1"
+      ],
+      "settings": {
+        "starting_orientation": "left"
+      }
+    },
+    "164308683897c2e088": {
+      "type": "content-panel",
+      "blocks": {
+        "c0596a61-c51c-45a2-ae58-3a1dc85612a2": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_How_to_Dental_Supplies.png",
+            "content_panel_icon_image": "shopify://shop_images/ExpertDrivenSolutions.png",
+            "copy_block_subtitle": "",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "How to's",
+            "copy_block_text": "<p>Gain deeper knowledge and understanding of innovative products with resources to guide your buying decisions.</p><p>- Indirect Cementation Guide for Zirconia and Lithium Disilicate </p><p>- Fiber Post Cementation Guide </p><p>- Veneer Cementation Guide</p><p>- LM Instrument Decision Tree</p><p> Brush up on your knowledge.</p>",
+            "copy_block_button_text": "View all online resources",
+            "copy_block_button_link": "shopify://pages/resources",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "c0596a61-c51c-45a2-ae58-3a1dc85612a2"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "1639524087320b8526": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We empower caring  dental professionals  across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "View all education",
+        "intro-block-link": "shopify://pages/education"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1643082828a151751c",
+    "16395281055b184aa4",
+    "164245718509548f89",
+    "16424577896d53ca3b",
+    "1642457957bc6d9c48",
+    "1643086812a5619c2d",
+    "164308683897c2e088",
+    "1639524087320b8526"
+  ]
+}

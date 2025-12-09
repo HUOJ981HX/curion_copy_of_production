@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/2024-Black_Friday-Banner_6ad9f2d9-2673-4efc-9109-58e1042f12d9.png",
+        "page-header-image--mobile": "shopify://shop_images/2024-Black_Friday-Banner-M.png",
+        "subtitle": "GET A CURION STORE CREDIT WHEN YOU BUY ON",
+        "subtitle_color": "coral",
+        "page-header-title": "BLACK FRIDAY",
+        "title_styling": "no-outline",
+        "page-header-text": "<b>Take advantage of extra special discounts from Nov 25 - Dec 2, 2024. <br> PLUS Get a $25 store credit for every $250 spent (before tax). Use your store credit towards future purchases!</b>",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "8e5f105b-b753-41b3-b7fd-d46e49cd1813": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-3da1235d"
+      }
+    },
+    "pagefly_section_xGkPbt": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-f44a9f44"
+      }
+    },
+    "16566244604511776c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-343751e7"
+      }
+    },
+    "pagefly_section_YDDDVM": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-9c031e68"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "8e5f105b-b753-41b3-b7fd-d46e49cd1813",
+    "pagefly_section_xGkPbt",
+    "16566244604511776c",
+    "pagefly_section_YDDDVM",
+    "main"
+  ]
+}

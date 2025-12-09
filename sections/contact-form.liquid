@@ -1,0 +1,31 @@
+{% comment %}
+    This is the basic shopify contact form
+    with the addition of fields for custom success message and footer details.
+{% endcomment %}
+
+{% render "contact-form" %}
+
+{% schema %}
+{
+    "name": "Contact Form",
+    "class": "page-section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "success-title",
+            "label": "Success Title",
+            "default": "Thanks, your message has been sent!"
+        },
+        {
+            "type": "richtext",
+            "id": "success-message",
+            "label": "Success Message"
+        },
+        {
+            "type": "text",
+            "id": "form-footer",
+            "label": "Form Footer Content"
+        }
+    ]
+}
+{% endschema %}

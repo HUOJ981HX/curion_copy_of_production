@@ -1,0 +1,131 @@
+{% render 'breadcrumbs' %}
+
+<section class="page-section page-section--article page-section--events">
+    <article role="article" class="article article--event">
+        <div class='artilce__header'>
+            <div class='css-grid css-grid--default css-grid--small-1 css-grid--medium-2'>
+                <div class='article__summary-container'>
+
+                    {% if article.tags.size > 0 %}
+                        <div class='article__event-type'>
+                            {%- comment -%}
+                                Get the first tag to show on event card. Assuming first tag is always the Event Type
+                            {%- endcomment -%}
+
+                            {% assign event_type = article.tags[0] %}
+
+                            {% if event_type contains "Virtual" %}
+                                {% assign icon_name = 'event--virtual' %}
+                            {% elsif event_type contains "Webinar" or  event_type contains "Webinars" %}
+                                {% assign icon_name = 'webinar' %}
+                            {% elsif event_type contains "Conference" 
+                                or event_type contains "Lectures" 
+                                or event_type contains "In-Person" 
+                                or event_type contains "In Person" 
+                                or event_type contains "Live"%}
+                                {% assign icon_name = 'event--in-person' %}
+                            {% endif %}
+                            {% render 'icon', name: icon_name, class: 'event-type__icon' %} {{ article.tags[0] }}
+                        </div>
+                    {% endif %}
+
+                    <h1 class="page-header__title h4">{{ article.title | escape }}</h1>
+                    
+                    {% if article.metafields.iamota.event_date_time %}
+                        <div class='article__event-date'>
+                            {{ article.metafields.iamota.event_date_time }}
+                        </div>
+                    {% endif %}
+
+
+                    {% if article.metafields.iamota.event_credit %}
+                        <p class='article__event-credit'>
+                            {{ article.metafields.iamota.event_credit }}
+                        </p>
+                    {% endif %}
+                    {% if article.metafields.iamota.event_price %}
+                        <p class='article__event-price'>
+                            {{ article.metafields.iamota.event_price }}
+                        </p>
+                    {% endif %}
+
+                    {% if article.metafields.iamota.event_cta_link %}
+                        <a href='{{ article.metafields.iamota.event_cta_link }}' target='_blank' class="card__link button--secondary button">
+                            {{ article.metafields.iamota.event_cta_label | default: 'Sign Up' }}
+                        </a>       
+                    {% endif %}
+                </div>
+                <div class='article__feature-image-container'>
+                    <div class="article__feature-image">
+                        {% render 'responsive-image' with image: article.image, image_class: "background-image" %}
+                    </div>                        
+                </div>
+            </div>
+        </div>
+
+        <div class="rte blog-article__content event-details__container">
+            <h4 class='event-details__heading'>
+                Event Details
+            </h4>
+
+            {{ article.content }}
+
+            {% if article.metafields.iamota.event_details_cta_link %}
+                <div class='event-details__footer'>
+                    <a href='{{ article.metafields.iamota.event_details_cta_link }}' target='_blank' class="card__link card__link--event-details button--primary button">
+                        {{ article.metafields.iamota.event_details_cta_label | default: 'Learn More' }}
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </article>
+</section>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "articleBody": "{{ article.content | strip_html }}",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ shop.url }}{{ page.url }}"
+    },
+    "headline": "{{ article.title }}",
+    {% if article.excerpt != blank %}
+        "description": "{{ article.excerpt | strip_html }}",
+    {% endif %}
+    {% if article.image %}
+        {% assign image_size = article.image.width | append: 'x' %}
+        "image": [
+            "https:{{ article | img_url: image_size }}"
+        ],
+    {% endif %}
+    "datePublished": "{{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' }}",
+    "dateCreated": "{{ article.created_at | date: '%Y-%m-%dT%H:%M:%SZ' }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ article.author }}"
+    },
+    "publisher": {
+        "@type": "Organization",
+        {% if settings.share_image %}
+            {% assign image_size = settings.share_image.width | append: 'x' %}
+            "logo": {
+                "@type": "ImageObject",
+                "height": "{{ settings.share_image.height }}",
+                "url": "https:{{ settings.share_image | img_url: image_size }}",
+                "width": "{{ settings.share_image.width }}"
+            },
+        {% elsif article.image %}
+            {% assign image_size = article.image.width | append: 'x' %}
+            "logo": {
+                "@type": "ImageObject",
+                "height": "{{ article.image.height }}",
+                "url": "https:{{ article.image | img_url: image_size }}",
+                "width": "{{ article.image.width }}"
+            },
+        {% endif %}
+        "name": "{{ shop.name }}"
+    }
+}
+</script>

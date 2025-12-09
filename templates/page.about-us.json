@@ -1,0 +1,234 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_Home_About_Us_Dental_Supplies.jpg",
+        "subtitle": "about us",
+        "subtitle_color": "blue",
+        "page-header-title": "A team who cares",
+        "title_styling": "no-outline",
+        "page-header-text": "We are strategic collaborators, helpful humans, considerate professionals. Our team brings you the best because we care.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1639526848f7648391": {
+      "type": "timeline-slider",
+      "blocks": {
+        "062d8b93-4d85-4f6c-ab5e-77c7ad7e6e9c": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_Ron_Suh_Dental_Supplies.png",
+            "copy_block_title": "1991",
+            "copy_block_text": "<p>Ron Suh lays the first stone of Bisco Canada, starting with an exclusive line of Bisco products. </p><p>Our family-led company was built upon the idea of empowering the next generation. We strive to continue to do so. We are excited about the future.</p>"
+          }
+        },
+        "40528d14-1c87-4c7b-a2e8-35cf622d6e61": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_Dr_Suh_Dental_Supplies.png",
+            "copy_block_title": "2007",
+            "copy_block_text": "<p>We become exclusive distributors of the Bisco brand Canada wide, paving the way for next-level dentistry.</p>"
+          }
+        },
+        "b7e26e8a-1c90-4de0-8709-2dddbabf0ff4": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_RTD_Dental_Supplies.png",
+            "copy_block_title": "2008",
+            "copy_block_text": "<p>RTD’s Double Taper Light Post’s groundbreaking products appear on our radar. Together, we are proud to exclusively offer these new products.</p>"
+          }
+        },
+        "ea5e575d-21b1-46eb-bdb3-2ade8095a4ce": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_LM_Dental_Supplies.png",
+            "copy_block_title": "2014",
+            "copy_block_text": "<p>LM Dental becomes our exclusive partner. Together, we raise the bar of Canadian dental instrumentation by heightening awareness of their game-changing, user-centric instruments.</p>"
+          }
+        },
+        "782723c6-31eb-476c-a4b1-58d24b6dca40": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_Smileline_Dental_Supplies.png",
+            "copy_block_title": "2017",
+            "copy_block_text": "<p>We introduce SmileLine innovations to the Canadian market, developing a new exclusive partnership and building upon our cutting-edge clinical offering.</p>"
+          }
+        },
+        "ffd5efe2-6238-45c0-abd5-d9a498c311d4": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_online_storeDental_Supplies.png",
+            "copy_block_title": "2018",
+            "copy_block_text": "<p>We launch our online store, which sets the foundation for new ideas and initiatives.</p><p>We celebrate two new exclusive partnerships with unique brands: ReInvent and Sanctuary Health.</p>"
+          }
+        },
+        "09ba69ea-d689-48db-9d49-df9424a31b4b": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_Venta_Endo_Dental_Supplies.png",
+            "copy_block_title": "2019",
+            "copy_block_text": "<p>Venta Endo strengthens our disruptive offerings by trusting us with the exclusivity of the EndoHandle.</p>"
+          }
+        },
+        "1429cbba-5880-49a1-8156-6c666dd194f7": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_Lucida_Dental_Supplies.png",
+            "copy_block_title": "2020",
+            "copy_block_text": "<p>We are privileged to announce exclusivity for the Lucida Polishing System by DiaShine, offering another Style Italiano product to the dental world.</p>"
+          }
+        },
+        "42926496-fabd-43bc-b234-4194e9b35ebf": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_Chris_Jen_Dental_Supplies.png",
+            "copy_block_title": "2021",
+            "copy_block_text": "<p>We celebrate our 31st anniversary and a new milestone in our history, as our founder Ron Suh passes the torch to new directors and family, Chris and Jennifer Chung, partners in life and business.<br/><br/>Happynecks joins us as a new exclusive brand among our patient-centric products, harmonizing the dental experience.</p>"
+          }
+        },
+        "635bd200-6909-4e0c-af44-3ddfa635fec8": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_Curion_Dental_Supplies.png",
+            "copy_block_title": "2022",
+            "copy_block_text": "<p>We became Curion. Our new name and identity paves the way to our future. This new brand embodies our unique vision and purpose, while building upon existing relationships. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "062d8b93-4d85-4f6c-ab5e-77c7ad7e6e9c",
+        "40528d14-1c87-4c7b-a2e8-35cf622d6e61",
+        "b7e26e8a-1c90-4de0-8709-2dddbabf0ff4",
+        "ea5e575d-21b1-46eb-bdb3-2ade8095a4ce",
+        "782723c6-31eb-476c-a4b1-58d24b6dca40",
+        "ffd5efe2-6238-45c0-abd5-d9a498c311d4",
+        "09ba69ea-d689-48db-9d49-df9424a31b4b",
+        "1429cbba-5880-49a1-8156-6c666dd194f7",
+        "42926496-fabd-43bc-b234-4194e9b35ebf",
+        "635bd200-6909-4e0c-af44-3ddfa635fec8"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Paving the way for over 30 years"
+      }
+    },
+    "163952707984399b0f": {
+      "type": "vision-block",
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Our Vision",
+        "text": "With exclusive brands, in-depth knowledge, and the willingness and agility to constantly evolve, we aim to inspire generations of dental professionals to love what they do."
+      }
+    },
+    "1639527236ce20be98": {
+      "type": "employee-list",
+      "settings": {
+        "subtitle": "Executive Team",
+        "title": "Our trailblazers",
+        "employee_type": "Executive Team"
+      }
+    },
+    "1639527292e2c43643": {
+      "type": "employee-list",
+      "settings": {
+        "subtitle": "managers",
+        "title": "Our success drivers",
+        "employee_type": "Manager"
+      }
+    },
+    "16395273387369485d": {
+      "type": "icon-block",
+      "blocks": {
+        "a04d8fe4-a84d-46e1-8192-b202d64cd886": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Georgia_headshot.jpg",
+            "icon-title": "Georgia Dupuis",
+            "icon-content": "<p>Regional Sales Consultant (AB, SK, MB)<br/>Direct: <a href=\"tel:1.403.880.8163\" target=\"_blank\" title=\"tel:1.403.880.8163\">1.403.880.8163</a><br/>Email <a href=\"mailto:georgia@curion.ca\" target=\"_blank\" title=\"mailto:georgia@curion.ca\">georgia@curion.ca</a></p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a04d8fe4-a84d-46e1-8192-b202d64cd886"
+      ],
+      "settings": {
+        "subtitle": "OUR representatives in canada",
+        "subtitle_color": "blue",
+        "icon-block-title": "Our relationship builders",
+        "icon-block-description": ""
+      }
+    },
+    "1639527772f102237f": {
+      "type": "content-panel",
+      "blocks": {
+        "9232285c-edbd-4c4d-9b2a-40c19c583732": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Home_end-to-end_advisors_Dental_Supplies.png",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_EXPERIENCE_Icon_Dental_Supplies.png",
+            "copy_block_subtitle": "the Curion Experience",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Our end-to-end advisors",
+            "copy_block_text": "<p>Our customer service team goes the extra-mile to support you and simplify things throughout your journey.<br/><br/>Any questions or feedback? Reach out!<br/><br/>English<a href=\"tel:1.800.667.8811\" target=\"_blank\" title=\"tel:1.800.667.8811\"> <strong>1.800.667.8811</strong></a><br/>French  <a href=\"tel:1-800-211-1200\" title=\"tel:1-800-211-1200\"><strong>1.800.211.1200</strong></a><br/><br/>Email <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\"><strong>wecare@curion.ca</strong></a></p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": true,
+            "contact_cta_btn_label": "Contact Form"
+          }
+        }
+      },
+      "block_order": [
+        "9232285c-edbd-4c4d-9b2a-40c19c583732"
+      ],
+      "settings": {
+        "starting_orientation": "left"
+      }
+    },
+    "16395281055b184aa4": {
+      "type": "banner-block",
+      "settings": {
+        "banner-block-image": "shopify://shop_images/Curion_Dental_Home_Backed_by_expertiseDental_Supplies.jpg",
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "banner-block-title": "Backed by expertise",
+        "banner-block-text": "<p>We rely on our team’s dental expertise to supply evidence-based products and techniques. Continuous collaboration with industry experts and key opinion leaders means we keep an ear to the ground when it comes to the latest innovations—and we never miss a beat.</p>",
+        "banner-block-button-text": "See our curation process",
+        "banner-block-link": "shopify://pages/partners"
+      }
+    },
+    "1639524087320b8526": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We empower caring dental professionals across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "Live the experience",
+        "intro-block-link": "shopify://pages/experience"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1639526848f7648391",
+    "163952707984399b0f",
+    "1639527236ce20be98",
+    "1639527292e2c43643",
+    "16395273387369485d",
+    "1639527772f102237f",
+    "16395281055b184aa4",
+    "1639524087320b8526"
+  ]
+}

@@ -1,0 +1,82 @@
+{%- comment -%}
+  This is the Events section which is used for only the Events Landing Page
+
+  Theme Store required settings
+  - Heading: title of the Events List section
+  - Blog (which blog category to show in your store)
+
+  Theme Store optional settings
+  - Number of posts to show
+  - Show author
+  - Show date
+{%- endcomment -%}
+
+
+{%- assign blog = blogs[section.settings.blog] -%}
+
+{%- if section.settings.subtitle != blank -%}
+    <span class="subtitle subtitle--blue">{{ section.settings.subtitle | escape }}</span>
+{%- endif -%}
+
+<div class='page-section__header page-section__header--events-list'>
+    <h2 class="events-list__title">{{ section.settings.title | escape | default: "Upcoming Events" }}</h2>
+    {% if blog.articles.size > 0 %}
+        <a class='button button--primary' href="{{ blog.url }}">
+            Browse All {{ blog.title }}
+        </a>
+    {% endif %}
+</div>
+
+{%- comment -%}
+    Due to accessibility requirements, the Blog entries list functions
+    as a list of content items. Non-visual users will expect lists of content
+    to appear in a list structure, allowing for easier understanding and navigation of list items.
+{%- endcomment -%}
+
+{% if blog.articles.size > 0 %}
+    <div class="css-grid css-grid--default css-grid--small-1 css-grid--medium-2 css-grid--large-4 css-grid--events-list events-list">
+        {% for article in blog.articles limit: 4 %}
+            {% render 'card--event', class: 'css-grid__item', article: article %}
+        {% endfor %}
+    </div>
+{% else %}
+<div class='events-list--coming-soon'>
+    <h4>Coming Soon</h4>
+</div>
+{% endif %}
+
+
+
+{% schema %}
+{
+    "name": "Events List",
+    "class": "page-section page-section--blog-post page-section--events-list",
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Upcoming Events"
+        },
+        {
+            "id": "blog",
+            "type": "blog",
+            "label": "Events"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Events List",
+            "category": "Events",
+            "settings": {
+                "blog": "Dentistry Events"
+            }
+        }
+    ]
+}
+{% endschema %}

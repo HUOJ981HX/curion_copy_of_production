@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/2025-Q2-Loop-Main-2_898c56d5-23d7-45e1-869d-c61015ca167e.png",
+        "page-header-image--mobile": "shopify://shop_images/2025-Q2-Loop-Main-2-Mobile.png",
+        "subtitle": "Confidence in every cure.",
+        "subtitle_color": "coral",
+        "page-header-title": "Loop™",
+        "title_styling": "no-outline",
+        "page-header-text": "<b>LED Curing Light</b><br>Loop is not just another curing light. <br>Utilizing Closed-Loop Technology, it's the first true <br>innovation for light-curing in a generation.",
+        "background_color": "transparent",
+        "page-header-button-text": "Learn more",
+        "page-header-link": "shopify://products/garrison-dental-loop-led-curing-light"
+      }
+    },
+    "1656452246d66f19cf": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-a8798a2c"
+      }
+    },
+    "1656452275e8b3baa8": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-8570ac74"
+      }
+    },
+    "ec922ac5-89e3-40ce-b760-7f21317cf431": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-17c220b8"
+      }
+    },
+    "c1c78da2-79e9-464b-8a59-aed2e3f5127a": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-522945e7"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "1656452246d66f19cf",
+    "1656452275e8b3baa8",
+    "ec922ac5-89e3-40ce-b760-7f21317cf431",
+    "c1c78da2-79e9-464b-8a59-aed2e3f5127a",
+    "main"
+  ]
+}

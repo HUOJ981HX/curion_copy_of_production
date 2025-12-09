@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_EDUCATIONAL_EVENTS_Dental_Supplies.png",
+        "subtitle": "educational events",
+        "subtitle_color": "blue",
+        "page-header-title": "Restore & Revive",
+        "title_styling": "no-outline",
+        "page-header-text": "At Curion, we believe excellence goes hand in hand with continuous learning. We help you keep up to date with educational and product support documents by putting it all in one place.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1639158745f62d8b7d": {
+      "type": "icon-block",
+      "blocks": {
+        "0759b669-0f01-455a-975c-ff1b7611a0f6": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Dentists_Dental_Supplies.jpg",
+            "icon-title": "Dentists",
+            "icon-content": "<p>Stay ahead in your career and practice with unwavering confidence with the latest methods.</p><p><strong>Renew & Elevate Passion!</strong></p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "e4db01c8-41f4-43d9-8948-c4c5049354a1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Hygienists_Dental_Supplies.jpg",
+            "icon-title": "Hygienists",
+            "icon-content": "<p>Learn the latest tools and techniques to provide high-quality patient care with ease and confidence.</p><p><strong>Be Inspired!</strong></p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "c31ea87f-0ec7-498f-be60-93c0e0ba6f1c": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Students_New_Grads_Dental_Supplies.jpg",
+            "icon-title": "Students & New Grads",
+            "icon-content": "<p>Keep the “care” in “career”. Launch your work life with a head start, with expert tips and insights.</p><p><strong>Coming Soon!</strong></p>",
+            "icon-button-label": "",
+            "icon-button-link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "0759b669-0f01-455a-975c-ff1b7611a0f6",
+        "e4db01c8-41f4-43d9-8948-c4c5049354a1",
+        "c31ea87f-0ec7-498f-be60-93c0e0ba6f1c"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "16428720446d094f46": {
+      "type": "icon-block",
+      "blocks": {
+        "28c43cf4-6f62-4b17-b84f-9563740d5eb8": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/In-person-Education-events_b9d7c844-86fe-4d32-985d-8f365e6a5273.png",
+            "icon-title": "In-Person Events",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "7fd2fc51-ba4d-4084-b132-8a3d6a83b88a": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Virtual-Education-Event.png",
+            "icon-title": "Virtual (Live) Events",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "b461113b-6b1e-44bd-ac45-f29ed53bdafc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Watch-webinar.png",
+            "icon-title": "On-Demand Webinars",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "28c43cf4-6f62-4b17-b84f-9563740d5eb8",
+        "7fd2fc51-ba4d-4084-b132-8a3d6a83b88a",
+        "b461113b-6b1e-44bd-ac45-f29ed53bdafc"
+      ],
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "events-list-1": {
+      "type": "events-list",
+      "settings": {
+        "subtitle": "",
+        "title": "Dentistry Events",
+        "blog": "dentistry-events"
+      }
+    },
+    "events-list-2": {
+      "type": "events-list",
+      "settings": {
+        "subtitle": "",
+        "title": "Hygiene Events",
+        "blog": "hygiene-events"
+      }
+    },
+    "1642399958fb8bc0a9": {
+      "type": "events-list",
+      "settings": {
+        "subtitle": "",
+        "title": "Meet us here",
+        "blog": "conferences"
+      }
+    },
+    "events-list-3": {
+      "type": "events-list",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "Upcoming Student & Recent Grad Events",
+        "blog": "student-recent-grad-events"
+      }
+    },
+    "16391588505603941a": {
+      "type": "icon-block",
+      "blocks": {
+        "8f4211de-9f75-44f0-ad3c-4565c435377c": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_rdhu_logo_Dental_Supplies.png",
+            "icon-title": "RDHU Inc.",
+            "icon-content": "<p><em>rdhu</em>, created by dental hygienists for dental hygienists, has emerged as a leader in dental hygiene education in Canada, and around the globe, with over 16,000 members.</p>",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "https://www.rdhu.ca/"
+          }
+        },
+        "42883445-6a2b-48d6-8ca9-51a857a1ea53": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_catapult_logo_Dental_Supplies.png",
+            "icon-title": "Catapult Education",
+            "icon-content": "<p>The world's brightest minds. The industry's most innovative products. All under one roof.</p>",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "https://www.catapulteducation.com/home"
+          }
+        },
+        "3b9c9329-440e-4993-93fa-c6fc8f1511a5": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Style_Italiano_logo_Dental_Supplies.png",
+            "icon-title": "Style Italiano",
+            "icon-content": "<p>Style Italiano is a growing community of skilled dental practitioners who contribute their ideas to bring more simplicity and predictability into everyday dental procedures.</p>",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "https://www.styleitaliano.org/"
+          }
+        },
+        "2da1a93c-2896-434b-b56b-0cfae100bc33": {
+          "type": "icon-item",
+          "disabled": true,
+          "settings": {
+            "icon-title": "Partner",
+            "icon-content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "8f4211de-9f75-44f0-ad3c-4565c435377c",
+        "42883445-6a2b-48d6-8ca9-51a857a1ea53",
+        "3b9c9329-440e-4993-93fa-c6fc8f1511a5",
+        "2da1a93c-2896-434b-b56b-0cfae100bc33"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Educational Partners",
+        "icon-block-description": ""
+      }
+    },
+    "1642872232fe81ceb1": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "Our mission is to empower individuals to unleash their passion for dentistry",
+        "intro-block-button-text": "View resources",
+        "intro-block-link": "shopify://pages/resources"
+      }
+    }
+  },
+  "order": [
+    "page-header",
+    "1639158745f62d8b7d",
+    "16428720446d094f46",
+    "events-list-1",
+    "events-list-2",
+    "1642399958fb8bc0a9",
+    "events-list-3",
+    "16391588505603941a",
+    "1642872232fe81ceb1"
+  ]
+}

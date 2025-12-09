@@ -1,0 +1,534 @@
+/*!
+  {
+  "name": "Flash",
+  "property": "flash",
+  "tags": ["flash"],
+  "polyfills": ["shumway"]
+  }
+  !*/
+
+/*!
+ * jQuery JavaScript Library v3.7.1
+ * https://jquery.com/
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2023-08-28T13:37Z
+ */
+
+/*!
+ * jQuery Validation Plugin v1.21.0
+ *
+ * https://jqueryvalidation.org/
+ *
+ * Copyright (c) 2024 Jörn Zaefferer
+ * Released under the MIT license
+ */
+
+/*!
+ * weakmap-polyfill v2.0.4 - ECMAScript6 WeakMap polyfill
+ * https://github.com/polygonplanet/weakmap-polyfill
+ * Copyright (c) 2015-2021 polygonplanet <polygon.planet.aqua@gmail.com>
+ * @license MIT
+ */
+
+/*!
+{
+  "name": "@font-face",
+  "property": "fontface",
+  "authors": ["Diego Perini", "Mat Marquis"],
+  "tags": ["css"],
+  "knownBugs": [
+    "False Positive: WebOS https://github.com/Modernizr/Modernizr/issues/342",
+    "False Positive: WP7 https://github.com/Modernizr/Modernizr/issues/538"
+  ],
+  "notes": [{
+    "name": "@font-face detection routine by Diego Perini",
+    "href": "http://javascript.nwbox.com/CSSSupport/"
+  }, {
+    "name": "Filament Group @font-face compatibility research",
+    "href": "https://docs.google.com/presentation/d/1n4NyG4uPRjAA8zn_pSQ_Ket0RhcWC6QlZ6LMjKeECo0/edit#slide=id.p"
+  }, {
+    "name": "Filament Grunticon/@font-face device testing results",
+    "href": "https://docs.google.com/spreadsheet/ccc?key=0Ag5_yGvxpINRdHFYeUJPNnZMWUZKR2ItMEpRTXZPdUE#gid=0"
+  }, {
+    "name": "CSS fonts on Android",
+    "href": "https://stackoverflow.com/questions/3200069/css-fonts-on-android"
+  }, {
+    "name": "@font-face and Android",
+    "href": "http://archivist.incutio.com/viewlist/css-discuss/115960"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "Application Cache",
+  "property": "applicationcache",
+  "caniuse": "offline-apps",
+  "tags": ["storage", "offline"],
+  "notes": [{
+    "name": "MDN Docs",
+    "href": "https://developer.mozilla.org/en/docs/HTML/Using_the_application_cache"
+  }],
+  "polyfills": ["html5gears"]
+}
+!*/
+
+/*!
+{
+  "name": "Border Image",
+  "property": "borderimage",
+  "caniuse": "border-image",
+  "polyfills": ["css3pie"],
+  "knownBugs": ["Android < 2.0 is true, but has a broken implementation"],
+  "tags": ["css"]
+}
+!*/
+
+/*!
+{
+  "name": "Border Radius",
+  "property": "borderradius",
+  "caniuse": "border-radius",
+  "polyfills": ["css3pie"],
+  "tags": ["css"],
+  "notes": [{
+    "name": "Comprehensive Compat Chart",
+    "href": "https://muddledramblings.com/table-of-css3-border-radius-compliance"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "Box Shadow",
+  "property": "boxshadow",
+  "caniuse": "css-boxshadow",
+  "tags": ["css"],
+  "knownBugs": [
+    "WebOS false positives on this test.",
+    "The Kindle Silk browser false positives"
+  ]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Animations",
+  "property": "cssanimations",
+  "caniuse": "css-animation",
+  "polyfills": ["transformie", "csssandpaper"],
+  "tags": ["css"],
+  "warnings": ["Android < 4 will pass this test, but can only animate a single property at a time"],
+  "notes": [{
+    "name": "Article: 'Dispelling the Android CSS animation myths'",
+    "href": "https://web.archive.org/web/20180602074607/https://daneden.me/2011/12/14/putting-up-with-androids-bullshit/"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Columns",
+  "property": "csscolumns",
+  "caniuse": "multicolumn",
+  "polyfills": ["css3multicolumnjs"],
+  "tags": ["css"]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Gradients",
+  "caniuse": "css-gradients",
+  "property": "cssgradients",
+  "tags": ["css"],
+  "knownBugs": ["False-positives on webOS (https://github.com/Modernizr/Modernizr/issues/202)"],
+  "notes": [{
+    "name": "Webkit Gradient Syntax",
+    "href": "https://webkit.org/blog/175/introducing-css-gradients/"
+  }, {
+    "name": "Linear Gradient Syntax",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient"
+  }, {
+    "name": "W3C Spec",
+    "href": "https://drafts.csswg.org/css-images-3/#gradients"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Media Queries",
+  "caniuse": "css-mediaqueries",
+  "property": "mediaqueries",
+  "tags": ["css"],
+  "builderAliases": ["css_mediaqueries"]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Multiple Backgrounds",
+  "caniuse": "multibackgrounds",
+  "property": "multiplebgs",
+  "tags": ["css"]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Reflections",
+  "caniuse": "css-reflections",
+  "property": "cssreflections",
+  "tags": ["css"]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Supports",
+  "property": "supports",
+  "caniuse": "css-featurequeries",
+  "tags": ["css"],
+  "builderAliases": ["css_supports"],
+  "notes": [{
+    "name": "W3C Spec (The @supports rule)",
+    "href": "https://dev.w3.org/csswg/css3-conditional/#at-supports"
+  }, {
+    "name": "Related Github Issue",
+    "href": "https://github.com/Modernizr/Modernizr/issues/648"
+  }, {
+    "name": "W3C Spec (The CSSSupportsRule interface)",
+    "href": "https://dev.w3.org/csswg/css3-conditional/#the-csssupportsrule-interface"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Transforms 3D",
+  "property": "csstransforms3d",
+  "caniuse": "transforms3d",
+  "tags": ["css"],
+  "warnings": [
+    "Chrome may occasionally fail this test on some systems; more info: https://bugs.chromium.org/p/chromium/issues/detail?id=129004"
+  ]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Transforms",
+  "property": "csstransforms",
+  "caniuse": "transforms2d",
+  "tags": ["css"]
+}
+!*/
+
+/*!
+{
+  "name": "CSS Transitions",
+  "property": "csstransitions",
+  "caniuse": "css-transitions",
+  "tags": ["css"]
+}
+!*/
+
+/*!
+{
+  "name": "CSS textshadow",
+  "property": "textshadow",
+  "caniuse": "css-textshadow",
+  "tags": ["css"],
+  "knownBugs": ["FF3.0 will false positive on this test"]
+}
+!*/
+
+/*!
+{
+  "name": "Canvas text",
+  "property": "canvastext",
+  "caniuse": "canvas-text",
+  "tags": ["canvas", "graphics"],
+  "polyfills": ["canvastext"]
+}
+!*/
+
+/*!
+{
+  "name": "Canvas",
+  "property": "canvas",
+  "caniuse": "canvas",
+  "tags": ["canvas", "graphics"],
+  "polyfills": ["flashcanvas", "excanvas", "slcanvas", "fxcanvas"]
+}
+!*/
+
+/*!
+{
+  "name": "Cookies",
+  "property": "cookies",
+  "tags": ["storage"],
+  "authors": ["tauren"]
+}
+!*/
+
+/*!
+{
+  "name": "ES6 Promises",
+  "property": "promises",
+  "caniuse": "promises",
+  "polyfills": ["es6promises"],
+  "authors": ["Krister Kari", "Jake Archibald"],
+  "tags": ["es6"],
+  "notes": [{
+    "name": "The ES6 promises spec",
+    "href": "https://github.com/domenic/promises-unwrapping"
+  }, {
+    "name": "Chromium dashboard - ES6 Promises",
+    "href": "https://www.chromestatus.com/features/5681726336532480"
+  }, {
+    "name": "JavaScript Promises: an Introduction",
+    "href": "https://developers.google.com/web/fundamentals/primers/promises/"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "Flexbox (legacy)",
+  "property": "flexboxlegacy",
+  "tags": ["css"],
+  "polyfills": ["flexie"],
+  "notes": [{
+    "name": "The _old_ flexbox",
+    "href": "https://www.w3.org/TR/2009/WD-css3-flexbox-20090723/"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "Flexbox",
+  "property": "flexbox",
+  "caniuse": "flexbox",
+  "tags": ["css"],
+  "notes": [{
+    "name": "The _new_ flexbox",
+    "href": "https://www.w3.org/TR/css-flexbox-1/"
+  }],
+  "warnings": [
+    "A `true` result for this detect does not imply that the `flex-wrap` property is supported; see the `flexwrap` detect."
+  ]
+}
+!*/
+
+/*!
+{
+  "name": "Force Touch Events",
+  "property": "forcetouch",
+  "authors": ["Kraig Walker"],
+  "notes": [{
+    "name": "Responding to Force Touch Events from JavaScript",
+    "href": "https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/RespondingtoForceTouchEventsfromJavaScript.html"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "HTML5 Audio Element",
+  "property": "audio",
+  "caniuse": "audio",
+  "tags": ["html5", "audio", "media"],
+  "notes": [{
+    "name": "MDN Docs",
+    "href": "https://developer.mozilla.org/En/Media_formats_supported_by_the_audio_and_video_elements"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "HTML5 Video",
+  "property": "video",
+  "caniuse": "video",
+  "tags": ["html5", "video", "media"],
+  "knownBugs": ["Without QuickTime, `Modernizr.video.h264` will be `undefined`; https://github.com/Modernizr/Modernizr/issues/546"],
+  "polyfills": [
+    "html5media",
+    "mediaelementjs",
+    "sublimevideo",
+    "videojs",
+    "leanbackplayer",
+    "videoforeverybody"
+  ]
+}
+!*/
+
+/*!
+{
+  "name": "History API",
+  "property": "history",
+  "caniuse": "history",
+  "tags": ["history"],
+  "authors": ["Hay Kranen", "Alexander Farkas"],
+  "notes": [{
+    "name": "W3C Spec",
+    "href": "https://www.w3.org/TR/html51/browsers.html#the-history-interface"
+  }, {
+    "name": "MDN Docs",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/window.history"
+  }],
+  "polyfills": ["historyjs", "html5historyapi"]
+}
+!*/
+
+/*!
+{
+  "name": "Inline SVG",
+  "property": "inlinesvg",
+  "caniuse": "svg-html5",
+  "tags": ["svg"],
+  "notes": [{
+    "name": "Test page",
+    "href": "https://paulirish.com/demo/inline-svg"
+  }, {
+    "name": "Test page and results",
+    "href": "https://codepen.io/eltonmesquita/full/GgXbvo/"
+  }],
+  "polyfills": ["inline-svg-polyfill"],
+  "knownBugs": ["False negative on some Chromia browsers."]
+}
+!*/
+
+/*!
+{
+  "name": "Local Storage",
+  "property": "localstorage",
+  "caniuse": "namevalue-storage",
+  "tags": ["storage"],
+  "polyfills": [
+    "joshuabell-polyfill",
+    "cupcake",
+    "storagepolyfill",
+    "amplifyjs",
+    "yui-cacheoffline"
+  ]
+}
+!*/
+
+/*!
+{
+  "name": "SVG SMIL animation",
+  "property": "smil",
+  "caniuse": "svg-smil",
+  "tags": ["svg"],
+  "notes": [{
+  "name": "W3C Spec",
+  "href": "https://www.w3.org/AudioVideo/"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "SVG clip paths",
+  "property": "svgclippaths",
+  "tags": ["svg"],
+  "notes": [{
+    "name": "Demo",
+    "href": "http://srufaculty.sru.edu/david.dailey/svg/newstuff/clipPath4.svg"
+  }]
+}
+!*/
+
+/*!
+{
+  "name": "SVG",
+  "property": "svg",
+  "caniuse": "svg",
+  "tags": ["svg"],
+  "authors": ["Erik Dahlstrom"],
+  "polyfills": [
+    "svgweb",
+    "raphael",
+    "amplesdk",
+    "canvg",
+    "svg-boilerplate",
+    "sie",
+    "dojogfx",
+    "fabricjs"
+  ]
+}
+!*/
+
+/*!
+{
+  "name": "Session Storage",
+  "property": "sessionstorage",
+  "tags": ["storage"],
+  "polyfills": ["joshuabell-polyfill", "cupcake", "sessionstorage"]
+}
+!*/
+
+/*!
+{
+  "name": "Touch Events",
+  "property": "touchevents",
+  "caniuse": "touch",
+  "tags": ["media", "attribute"],
+  "notes": [{
+    "name": "Touch Events spec",
+    "href": "https://www.w3.org/TR/2013/WD-touch-events-20130124/"
+  }],
+  "warnings": [
+    "** DEPRECATED see https://github.com/Modernizr/Modernizr/pull/2432 **",
+    "Indicates if the browser supports the Touch Events spec, and does not necessarily reflect a touchscreen device"
+  ],
+  "knownBugs": [
+    "False-positive on some configurations of Nokia N900",
+    "False-positive on some BlackBerry 6.0 builds – https://github.com/Modernizr/Modernizr/issues/372#issuecomment-3112695"
+  ]
+}
+!*/
+
+/*!
+{
+  "name": "Web Workers",
+  "property": "webworkers",
+  "caniuse": "webworkers",
+  "tags": ["performance", "workers"],
+  "notes": [{
+    "name": "W3C Spec",
+    "href": "https://www.w3.org/TR/workers/"
+  }, {
+    "name": "HTML5 Rocks Tutorial",
+    "href": "https://www.html5rocks.com/en/tutorials/workers/basics/"
+  }, {
+    "name": "MDN Docs",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+  }],
+  "polyfills": ["fakeworker", "html5shims"]
+}
+!*/
+
+/*! @vimeo/player v2.24.0 | (c) 2024 Vimeo | MIT License | https://github.com/vimeo/player.js */
+
+/*! Native Promise Only
+    v0.8.1 (c) Kyle Simpson
+    MIT License: http://getify.mit-license.org
+*/
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */

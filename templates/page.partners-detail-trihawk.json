@@ -1,0 +1,234 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Tri_hawk_partner-banner_8858fc99-0d30-4ad6-8549-3c800f889444.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Tri_hawk_partner-banner-M.jpg",
+        "subtitle": "TRI HAWK Burs",
+        "subtitle_color": "coral",
+        "page-header-title": "FOR THE BUR CONNOISSEUR",
+        "title_styling": "outline",
+        "page-header-text": "With over 50 years of knowledge, incredible innovative research, professional feedback, and independent studies, Tri-Hawk burs provide a combination of cutting speed, strength, and safety that is unmatched in the dental instrument industry.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16425511631f876ba2": {
+      "type": "icon-block",
+      "blocks": {
+        "d9d75051-71c0-4a92-87e8-79de04811858": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Partners-TriHawk-logo_Dental_Supplies.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d9d75051-71c0-4a92-87e8-79de04811858"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=KLO909yFJI8&t=1s",
+        "cover_image": "shopify://shop_images/Talon-12-sectioning-bridge-6-4-1.jpg"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Carbide Burs"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Diamond Burs"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Talon_copy_cfd37d81-fcc5-43d8-addb-7f54d1af8e8d.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "TRI HAWK Burs",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Morrisburg, Ontario (Canada) </p><p><strong>History</strong></p><p>Founded by Gustel Fischer in 1969, Tri Hawk’s main focus is designing, manufacturing and marketing the most effective dental burs possible. After consulting with several well respected dental practitioners over the years, Fischer recognized that there was room for improvement when it came to creating dental burs that were high-quality and high-performing.</p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about Tri Hawk",
+        "copy_block_button_link": "https://www.trihawk.com/"
+      }
+    },
+    "1642485282e31f5704": {
+      "type": "content-panel--list",
+      "blocks": {
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Innovation, they took a difficult task and turned it into an easy one"
+          }
+        },
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Solution minded, a unique product that solved a common problem"
+          }
+        },
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Small business vibe, dedicated to customer satisfaction and support"
+          }
+        }
+      },
+      "block_order": [
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27",
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f",
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1313024654_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Cutting Speed",
+            "icon-content": "<p>Regular carbide burs delivering unmatched cutting speed due to our unique blade and rake angle designs.<br/><br/></p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4f6e6701-d69a-47ff-b474-1b59de6e1938": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Crown-cutting carbide burs",
+            "icon-content": "<p>Our Talon line—delivering high-performing cutting speed through our <strong>one-of-a-kind </strong>hyperbolic shape and our amazing blade design.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "8f22b10f-8c9e-420a-a093-1ea93d08170f": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Incomparable resistance",
+            "icon-content": "<p>Incomparable resistance to breakage due to our induction welding and proprietary steel blend.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4f6e6701-d69a-47ff-b474-1b59de6e1938",
+        "8f22b10f-8c9e-420a-a093-1ea93d08170f"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "trihawk-talon-crown-cutter-crosscut"
+          }
+        },
+        "88dbd9c4-39a4-4944-87b7-9f55e845e2a3": {
+          "type": "product",
+          "settings": {
+            "product": "trihawk-crown-cutter-standard-talon-carbide-burs"
+          }
+        },
+        "e5ac90e0-823f-4c4c-b82e-860ac00b3a8c": {
+          "type": "product",
+          "settings": {
+            "product": "trihawk-amazilia-solid-carbide-endodontic-surgical-burs"
+          }
+        },
+        "f52d3c72-662f-49a1-9a36-46c4b94da189": {
+          "type": "product",
+          "settings": {
+            "product": "tri-hawk-finishing-carbide-burs"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "88dbd9c4-39a4-4944-87b7-9f55e845e2a3",
+        "e5ac90e0-823f-4c4c-b82e-860ac00b3a8c",
+        "f52d3c72-662f-49a1-9a36-46c4b94da189"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799186bc79c0bd": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16425511631f876ba2",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642485282e31f5704",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799186bc79c0bd"
+  ]
+}

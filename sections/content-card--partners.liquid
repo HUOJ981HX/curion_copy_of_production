@@ -1,0 +1,93 @@
+<div class="container content-cards partner-cards">
+    {%- if section.settings.subtitle != blank -%}
+        <span class="subtitle subtitle--{{ section.settings.subtitle_color | default: 'blue' }}">{{ section.settings.subtitle | escape }}</span>
+    {%- endif -%}
+
+    {% if section.settings.section-title != blank %}
+        <h2 class="partner-cards__header">{{ section.settings.section-title }}</h2>
+    {% endif %}
+
+    <!-- Icon Item Loop  -->
+    {% if section.blocks.size > 0 %}
+        <div class="css-grid css-grid--default css-grid--large-4 css-grid--medium-4 css-grid--small-2 css-grid--content-cards">
+            {% for block in section.blocks %}
+                {% assign card_btn_label  = block.settings.card-button-label %}
+                {% assign card_link  = block.settings.card-button-link %}
+                {% assign card_image = block.settings.product-image %}
+                {% assign logo_image = block.settings.partner-logo %}
+                {% assign card_name  = block.settings.card-title %}
+
+                {% render 'card--partner', card_link: card_link, card_image: card_image, logo_image: logo_image, card_name: card_name, card_btn_label: card_btn_label %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Partner Cards",
+    "class": "page-section page-section--full-bleed page-section--partner-cards",
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "radio",
+            "id": "subtitle_color",
+            "label": "Choose the colour for the subtitle.",
+            "info" : "Default colour will be blue.",
+            "options": [
+                { "value": "blue", "label": "Blue" },
+                { "value": "coral", "label": "Coral" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "section-title",
+            "label": "Heading"
+        }
+    ],
+    "blocks": [
+        {
+        "type": "card",
+        "name": "Partner",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "partner-logo",
+                "label": "Partner Logo"
+            },
+            {
+                "type": "image_picker",
+                "id": "product-image",
+                "label": "Product Image"
+            },
+            {
+                "type": "text",
+                "id": "card-title",
+                "label": "Title"
+            },
+            {
+                "type": "text",
+                "id": "card-button-label",
+                "label": "Button Label",
+                "default": "Learn More"
+            },
+            {
+                "type": "url",
+                "id": "card-button-link",
+                "label": "Button Link"
+            }
+        ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Partner Cards",
+            "category": "Components"
+        }
+    ]
+}
+{% endschema %}

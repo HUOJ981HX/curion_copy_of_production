@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_Products_2023-Q4-Banner-1_e2bb4ca4-8f97-4d9c-b666-5ba510e06a26.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Curion_Dental_Products_2023-Q4-Banner-Mobile.jpg",
+        "subtitle": "Introducing Tri Hawk & EVE Rotary",
+        "subtitle_color": "coral",
+        "page-header-title": "Because the tool defines the result.",
+        "title_styling": "no-outline",
+        "page-header-text": "<b>For the bur connoisseur. Discover Tri Hawk's TALON burs for an unmatched combination of cutting speed, strength and safety. <br><br>Experience EVE's German engineered quality grinding and polishing instruments. Setting new industry standards since 1925.</b>",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1656624405711efc14": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-d4e9a3b1"
+      }
+    },
+    "16566244604511776c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-917a4f88"
+      }
+    },
+    "9c0e8eb7-07da-4cf0-931a-77912d10240b": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-190cbf7a"
+      }
+    },
+    "f7fbce58-6a4c-4776-a683-a97545839810": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-4a518129"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "1656624405711efc14",
+    "16566244604511776c",
+    "9c0e8eb7-07da-4cf0-931a-77912d10240b",
+    "f7fbce58-6a4c-4776-a683-a97545839810",
+    "main"
+  ]
+}

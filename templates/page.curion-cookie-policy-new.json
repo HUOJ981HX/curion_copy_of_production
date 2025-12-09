@@ -1,0 +1,49 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163961018441a7a2df": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Cookie_Policy.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Cookie_Policy-Mobile.jpg",
+        "subtitle": "COOKIE POLICY",
+        "subtitle_color": "blue",
+        "page-header-title": "At Curion, we care",
+        "title_styling": "no-outline",
+        "page-header-text": "",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16430496880fc4c68b": {
+      "type": "rich-text",
+      "settings": {
+        "title": "COOKIE POLICY – CURION",
+        "text": "<p>Effective Date of this Cookie Policy: March 6, 2024<br/>Last Updated on March 6, 2024<br/><br/><br/>Curion, the owner and operator of the website <a href=\"https://www.curion.ca\" target=\"_blank\" title=\"https://www.curion.ca\">www.curion.ca</a> and its corresponding web application(s), customer portal and application(s) on other platforms or devices (collectively, the “Website”). Curion is and remains committed to protecting the privacy and security of its users’ (collectively, the “Users” and individually, a “User”) personal information. <br/><br/><br/>The Website may use various types of cookies, including but not limited to essential cookies, functional cookies, performance cookies, analytical cookies and advertising cookies. Curion uses cookies primarily for session management purposes and to optimize user experiences on the Website.<br/><br/><strong>Non-Personal Information Obtained Through Cookies</strong><br/><br/>Curion may obtain non-personal cookies through cookies or small text files, which may include an anonymous unique identifier. Cookies may be sent to a User’s browser from Curion’s servers, upon which the cookies are stored on the User’s computer hard drive or device. <br/><br/>Cookies enable Curion to collect non-personal information about a User, thereby allowing Curion to safeguard the User’s preferences, both on an individual and aggregate basis. <br/><br/><strong>Essential Cookies</strong><br/><br/>Essential cookies help ensure the proper functioning of the Website. Essential cookies are required to provide the Website and features thereon. Essential cookies allow Users to access secure parts of the Website. It is possible to remove or disable essential cookies, however, the disabling or removal thereof may result in certain portions of the Website being inaccessible.<br/><br/><strong>Functional Cookies</strong><br/><br/>Functional cookies are used to save User preferences and settings. These cookies allow for the recognition of a User’s device, thereby allowing for the safeguard of User preferences, such as location and language. Functional cookies retain information to facilitate Users’ subsequent access and usage of the Website. <br/><br/><strong>Performance Cookies</strong><br/><br/>Performance cookies, also known as analytical cookies, collect information regarding the Website’s visitors, the use of the Website by Users, the time spent by each User on a webpage, the pages viewed and other information regarding the usage of the Website. Performance cookies may help direct appropriate advertisements to Users. <br/><br/><strong>Advertising Cookies</strong><br/><br/>Advertising cookies, also known and referred to as retargeting cookies, collect information regarding Users’ online activities, interests and searches. The information collected by advertising cookies is used to select the advertisements served on the Website, or to particular Users.<br/><br/><strong>Removing or Disabling Cookies</strong><br/><br/>Users may remove or disable cookies by activating certain browser settings, adjusting cookie settings or turning off cookies. Certain browser software may allow for the acceptance or rejection of cookies on a particular website. <br/><br/>A User may delete the cookies stored on its device, which may result in the deletion of the User’s preferences, thereby forcing such User to manually input the information. Users acknowledge that certain parts of the Website, such as YouTube video links, may be unavailable or inaccessible if cookies are disabled or removed. Moreover, the Website may not function optimally if cookies are disabled or otherwise removed.<br/><br/><strong>Updates</strong><br/><br/>Curion reserves the right to update this Cookie Policy, at any time, to reflect changes made to the Website, and updates to Curion’s cookie usage. The updated Cookie Policy shall be published on the Website, and shall specify the date of the latest update.<br/></p>"
+      }
+    },
+    "16427383724a57b4be": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Shop_1.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "163961018441a7a2df",
+    "16430496880fc4c68b",
+    "16427383724a57b4be"
+  ]
+}

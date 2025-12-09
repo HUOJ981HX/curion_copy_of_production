@@ -1,0 +1,85 @@
+<div class='container'>
+    <section class="logo-slider">
+        <div class='page-section__header page-section__header--slider page-section__header--logo-slider'>
+            <h2 class="page-section__title page-section__title--logo-slider">{{ section.settings.title | escape }}</h2>
+            {%- if section.settings.description != blank -%}
+                <div class="page-section__content rte">
+                    {{ section.settings.description }}
+                </div>
+            {%- endif -%}
+        </div>
+
+        <div class="swiper swiper--default slider--logo carousel--logo-slider">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-arrow swiper-button-prev" tabindex="-1">
+                <svg class='icon icon__arrow--left'><use xlink:href='#icon-swiper-previous'></use></svg>
+                <span class="sr-only">Previous</span>
+            </div>
+            <div class="swiper-arrow swiper-button-next" tabindex="-1">
+                <svg class='icon icon__arrow--right'><use xlink:href='#icon-swiper-next'></use></svg> 
+                <span class="sr-only">Next</span>
+            </div>
+            <ul class="swiper-wrapper"> 
+                {% assign content_blocks_length = section.blocks | size %}
+                {% for block in section.blocks %}
+                    {% assign mod = forloop.index | modulo: 4 %}
+
+                    {% if mod  == 1 and  forloop.index != 1 %}
+                        </li>
+                    {% endif %}
+
+                    {% if mod  == 1 %}
+                        <li class="swiper-slide{% if hasImage %} swiper-slide--with-image{% endif %}" tabindex="0">
+                    {% endif %}
+
+                    {% render 'responsive-image' with image: block.settings.logo_image, image_class: "animate-in animate-in--content-panel logo-image" %}
+
+                    {% if forloop.index == content_blocks_length %}
+                        </li>
+                    {% endif %}
+                {% endfor %} 
+            </ul>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+</div>
+
+
+{% schema %}
+{
+    "name": "Logo Slider",
+    "class": "page-section page-section--full-bleed page-section--logo-slider",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "logo",
+            "name": "Logo",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "logo_image",
+                    "label": "Logo Image"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Logo Slider",
+            "category": "Components"
+        }
+    ]
+}
+{% endschema %}

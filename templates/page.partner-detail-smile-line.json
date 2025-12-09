@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/VentaEndo_580de839-41f9-4de0-b16a-b20e4fb12399.png",
+        "page-header-image--mobile": "shopify://shop_images/Optishade-Full_set.jpg",
+        "subtitle": "Smile line",
+        "subtitle_color": "coral",
+        "page-header-title": "Discover possibility",
+        "title_styling": "outline",
+        "page-header-text": "Something about Smile Line products conjure a feeling of uniqueness, exclusivity and a dreamy quality that is often not present in dental products.  Couple that with a human-centric approach and you’ll begin to understand the growing global success of the brand.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16425508150b875cef": {
+      "type": "icon-block",
+      "blocks": {
+        "0d084854-ea03-4ae7-ae56-efb83b776430": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Smile_Line-Logo-Black.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0d084854-ea03-4ae7-ae56-efb83b776430"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/GDZce3xB2f0",
+        "cover_image": "shopify://shop_images/balancer_copy_4.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Digital Shade Taking"
+          }
+        },
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dental Photography & Accessories"
+          }
+        },
+        "3cf81937-6a5f-4774-809c-4c534b2bef1f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Composite Sculpting Tools & Devices"
+          }
+        },
+        "3dd98d17-d900-4827-bbab-a294c32e73fd": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dental Laboratory Products & Devices"
+          }
+        },
+        "5a08255b-b59f-4a7c-9e32-df58be5dfa83": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Intraoral Diagnostic Light"
+          }
+        }
+      },
+      "block_order": [
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "3cf81937-6a5f-4774-809c-4c534b2bef1f",
+        "3dd98d17-d900-4827-bbab-a294c32e73fd",
+        "5a08255b-b59f-4a7c-9e32-df58be5dfa83"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/514_B_dec2018_ccexpress_2.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "Smile Line",
+        "copy_block_text": "<p><strong>Location</strong></p><p>St-Imier, Switzerland</p><p><strong>History</strong></p><p>CEO, Olivier Schaeren, established a company in 1999 as a small dental dealer selling only a selection of high-end specialty products to dental labs in Switzerland. Through collaboration with his good friend, Jan Kaech, they developed the U-mid porcelain tray which became a big success. From this product, Smile Line was born. </p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about Smile Line",
+        "copy_block_button_link": "https://www.smileline.ch/en"
+      }
+    },
+    "1642097685eb603a56": {
+      "type": "content-panel--list",
+      "blocks": {
+        "11de12b0-20f6-48b2-9198-1c9d1333fe2d": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Superior quality, a unique style and exclusive feel"
+          }
+        },
+        "a400686e-0838-4d2a-bfd9-97d98f07f507": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Practical, unique, cutting-edge products developed in collaboration with clinicians"
+          }
+        },
+        "965d7b36-da49-4b97-80bf-4690d0aed232": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Partnership with Style Italiano, a group of skilled dentists that share a passion of improving dentistry"
+          }
+        },
+        "e025011a-7526-48a6-bc89-ebda2bc1a61f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "User-centric approach, helping clinicians do dentistry better, and faster"
+          }
+        }
+      },
+      "block_order": [
+        "11de12b0-20f6-48b2-9198-1c9d1333fe2d",
+        "a400686e-0838-4d2a-bfd9-97d98f07f507",
+        "965d7b36-da49-4b97-80bf-4690d0aed232",
+        "e025011a-7526-48a6-bc89-ebda2bc1a61f"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1159086107_copy_4.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting-edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "Learn more about Style Italiano",
+        "copy_block_button_link": "https://www.styleitaliano.org/"
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Optishade",
+            "icon-content": "<p>Optishade <em>StyleItaliano</em>, a unique device that makes shade matching precise, predictable and repeatable, replacing the need for traditional shade tabs.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/smile-line-optishade-styleitaliano-digital-shade-matching"
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "K-Lite",
+            "icon-content": "<p>A certified dental portable<br/>light that helps the clinician visualize fluorescent properties in dental<br/>materials and bacterial byproducts, reducing risk of iatrogenic tooth damage.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/k-lite"
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Smile Lite MDP",
+            "icon-content": "<p>A mini photo studio that provides the proper lighting necessary for intra-oral photography. For use with any smartphone, eliminating the need for expensive camera equipment. </p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/smile-line-smile-lite-mdp-style-italiano-mobile-dental-photography"
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "fb2d450e-2841-4b61-8840-6a5495f3541b": {
+          "type": "product",
+          "settings": {
+            "product": "smile-line-optishade-styleitaliano-digital-shade-matching"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "smile-line-compo-brush-style-italiano-composite-modeling-brushes"
+          }
+        },
+        "6e13f694-e71f-44dc-b400-db7b17b43dc5": {
+          "type": "product",
+          "settings": {
+            "product": "smile-line-veneer-me-style-italiano-veneer-delivery-case"
+          }
+        },
+        "163951144998bcda93-3": {
+          "type": "product",
+          "settings": {
+            "product": "k-lite"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "smile-line-compo-vibes-style-italiano-composite-modeling-instrument"
+          }
+        },
+        "7fbe91bd-a32a-4443-a037-3fc262ae2fa7": {
+          "type": "product",
+          "settings": {
+            "product": "smile-line-smile-lite-mdp-style-italiano-mobile-dental-photography"
+          }
+        },
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "smile-line-flexi-palette-styleitaliano-dental-photography-contrastor"
+          }
+        }
+      },
+      "block_order": [
+        "fb2d450e-2841-4b61-8840-6a5495f3541b",
+        "163951144998bcda93-2",
+        "6e13f694-e71f-44dc-b400-db7b17b43dc5",
+        "163951144998bcda93-3",
+        "163951144998bcda93-1",
+        "7fbe91bd-a32a-4443-a037-3fc262ae2fa7",
+        "163951144998bcda93-0"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "164279966180934ad6": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16425508150b875cef",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642097685eb603a56",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "164279966180934ad6"
+  ]
+}

@@ -1,0 +1,43 @@
+  {% comment %} Video Block Snippet {% endcomment %}
+
+  {% comment %}
+
+  <!-- If not using settings object in schema, then need to manually assign video_id and video_type to render the video then MUST INCLUDE them in the render tag, see example below -->
+
+  {% assign video_id = 'rXCbf9vdMxM' %}
+  {% assign video_type = 'youtube' %}
+
+  {% render 'video-block', video_id: video_id, video_type: video_type %}
+
+  {% endcomment %}
+
+  {% render 'video-block', settings: section.settings %}
+
+{% schema %}
+{
+    "name": "Video Block",
+    "class": "page-section page-section--video-block",
+    "settings": [
+        {
+            "type": "video_url",
+            "id": "video_url",
+            "label": "Video Url",
+            "accept": [
+            "youtube",
+            "vimeo"
+            ]
+        },
+        {
+            "type": "image_picker",
+            "id": "cover_image",
+            "label": "Cover Image"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Video Block",
+            "category": "Components"
+        }
+    ]
+}
+{% endschema %}

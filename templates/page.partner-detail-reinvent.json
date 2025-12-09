@@ -1,0 +1,231 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/NiTin_f22aa2f5-718a-4b40-adfb-2537f0bab758.png",
+        "page-header-image--mobile": "shopify://shop_images/My_project_2.jpg",
+        "subtitle": "ReInvent Dental",
+        "subtitle_color": "coral",
+        "page-header-title": "Promoting Clinical Success",
+        "title_styling": "outline",
+        "page-header-text": "Reinvent Dental Products is a leading-edge brand that provides unique product solutions for predictable, routine dentistry.  Their approach is guided by serving dentists who place restorative success above all else.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642552322146adb99": {
+      "type": "icon-block",
+      "blocks": {
+        "e8329f7e-33ba-419e-a269-7c167fc6ad57": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/reinvent-dark-logo.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e8329f7e-33ba-419e-a269-7c167fc6ad57"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/rw4hvOPFJpw",
+        "cover_image": "shopify://shop_images/balancer_e7811302-be4c-474e-ba7e-ff120aefd909.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Sectional Matrix Rings"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Sectional Matrix Bands"
+          }
+        },
+        "f5e80ed7-2fe4-4853-b73d-0d8ff1cc50ec": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Sectional Matrix Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "f5e80ed7-2fe4-4853-b73d-0d8ff1cc50ec"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/DoubleRingTypodont-RGB.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "ReInvent Dental",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Spring Lake, Michigan (USA) </p><p><strong>History</strong></p><p>Founded in 2017, Reinvent Dental Products is a privately held company with a specific focus on products used in general dentistry.  Providing clinicians with high-quality restorative accessories under its own brand, the company also serves as a channel for sales of other unique dental brands. </p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about ReInvent",
+        "copy_block_button_link": "https://www.reinventdental.com/"
+      }
+    },
+    "1642191661aa1f4907": {
+      "type": "content-panel--list",
+      "blocks": {
+        "3133e838-1c27-45eb-8e8d-99822416e454": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dedicated to providing unique products and exceptional value"
+          }
+        },
+        "554ee5dc-5ac4-4229-b924-53c3e08d9015": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Family business, strong core values, support"
+          }
+        }
+      },
+      "block_order": [
+        "3133e838-1c27-45eb-8e8d-99822416e454",
+        "554ee5dc-5ac4-4229-b924-53c3e08d9015"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1159086107_copy_2.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "Unique & cutting-edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "NiTin Rings",
+            "icon-content": "<p>Nitinol drawn-wire sectional<br/>matrix rings, resistant to over-stretching.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "NiTin Bands",
+            "icon-content": "<p>Firm, wider contour matrix bands<br/>with easy placement tab.</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "reivent-nitin-sectional-matrix-system"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "reinvent-nitin-matrix-rings"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "reinvent-nitin-full-contour-matrix-bands"
+          }
+        },
+        "163951144998bcda93-3": {
+          "type": "product",
+          "settings": {
+            "product": "reinvent-nitin-instruments-ring-and-band-forceps"
+          }
+        },
+        "fb2d450e-2841-4b61-8840-6a5495f3541b": {
+          "type": "product",
+          "settings": {
+            "product": "reinvent-nitin-wedges"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "163951144998bcda93-1",
+        "163951144998bcda93-2",
+        "163951144998bcda93-3",
+        "fb2d450e-2841-4b61-8840-6a5495f3541b"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799291e0c18274": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642552322146adb99",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642191661aa1f4907",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799291e0c18274"
+  ]
+}

@@ -1,0 +1,144 @@
+{% comment %}
+    {% if section.settings.starting_orientation == 'left' %}
+        {% capture content_align %}{% cycle "left", "right" %}{% endcapture %}
+    {% else %}
+        {% capture content_align %}{% cycle "right", "left" %}{% endcapture %}
+    {% endif %}
+
+    {% render 'content-panel', settings: block.settings, content_align: content_align %}
+{% endfor %}{% endcomment %}
+
+<section class="content-panel content-panel--split content-panel--default content-panel--list align-{{section.settings.starting_orientation}}">
+    <div class="content-panel__container">
+        <div class="content-panel__meta">
+            {% render 'responsive-image', image: section.settings.content_panel_image, image_class: "background-image   animate-in animate-in--content-panel" %}
+        </div>
+
+        <div class="content-panel__content">
+            {% if section.settings.content_panel_icon_image != blank %}
+                {% render 'responsive-image' with image: section.settings.content_panel_icon_image, image_class: "content-panel__icon icon" %}
+            {% endif %}
+
+            {%- if section.settings.copy_block_subtitle != blank -%}
+                <span class="subtitle subtitle--{{ section.settings.content_panel_subtitle_color | default: 'blue' }}">{{ section.settings.copy_block_subtitle | escape }}</span>
+            {%- endif -%}
+
+            {% if section.settings.copy_block_title != blank %}
+                <h2 class="copy-block__title">{{ section.settings.copy_block_title }}</h2>
+            {% endif %}
+
+            {% if section.settings.copy_block_text != blank %}
+                <div class="copy-block__text">{{ section.settings.copy_block_text }}</div>
+            {% endif %}
+
+            {% if section.blocks.size > 0 %}
+                <ul class="content-panel__list">
+                    {% for block in section.blocks %}
+                        {% if block.settings.content-panel-list-text != blank %}
+                            <li class="content-panel__list-item">
+                                <span class="content-panel__list-item-icon"></span>
+                                {{ block.settings.content-panel-list-text }}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if section.settings.copy_block_button_text != blank and section.settings.copy_block_button_link != blank %}
+                <a href="{{ section.settings.copy_block_button_link }}" 
+                   class="button button--primary button--text"
+                   {% if section.settings.copy_block_button_link contains 'http://' or section.settings.copy_block_button_link contains 'https://' %}target="_blank"{% endif %}
+                >
+                    {{ section.settings.copy_block_button_text }} <span class="button__icon-wrapper">{% render 'icon', name: 'arrow--cta-short', class: 'button__icon' %}</span>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+{
+    "name": "Content Panel -- List",
+    "class": "page-section page-section--content-panel page-section--full-bleed",
+    "settings": [
+        {
+            "type"  : "radio",
+            "id"    : "starting_orientation",
+            "options": [
+                { "value": "right", "label": "Image on the Left. Content on the Right"},
+                { "value": "left", "label": "Image on the Right. Content on the Left"}
+            ],
+            "label": "Starting Orientation",
+            "info" : "Panels in this section will automatically alternate between the content on the left/right side. You may select the orientation of the first panel."
+        },
+        {
+            "type"  : "image_picker",
+            "id"    : "content_panel_image",
+            "label" : "Image"
+        },
+        {
+            "type"  : "image_picker",
+            "id"    : "content_panel_icon_image",
+            "label" : "Icon Image"
+        },
+        {
+            "type"  : "text",
+            "id"    : "copy_block_subtitle",
+            "label" : "Subtitle"
+        },
+        {
+            "type": "radio",
+            "id": "content_panel_subtitle_color",
+            "label": "Choose the colour for the subtitle.",
+            "info" : "Default colour will be blue.",
+            "options": [
+                { "value": "blue", "label": "Blue" },
+                { "value": "coral", "label": "Coral" }
+            ]
+        },
+        {
+            "type"    : "text",
+            "id"      : "copy_block_title",
+            "label"   : "Title",
+            "default" : "Content Panel Title"
+        },
+        {
+            "type"    : "richtext",
+            "id"      : "copy_block_text",
+            "label"   : "Description",
+            "default" : "<p>Content Panel Description</p>"
+        },
+        {
+            "type"  : "text",
+            "id"    : "copy_block_button_text",
+            "label" : "Button Label"
+        },
+        {
+            "type"  : "url",
+            "id"    : "copy_block_button_link",
+            "label" : "Button Link"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "list-item",
+            "name": "List Item",
+            "limit": 8,
+            "settings": [
+                {
+                    "type"  : "text",
+                    "id"    : "content-panel-list-text",
+                    "label" : "Text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Content Panel - List",
+            "category": "Components"
+        }
+    ]
+}
+{% endschema %}

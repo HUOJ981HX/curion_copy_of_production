@@ -1,0 +1,268 @@
+{% assign product_badge = false %}
+{% assign badge_color = 'default' %}
+{% if product.compare_at_price > product.price %}
+	{% assign product_badge = 'SALE' %}
+	{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Sale'  %}
+{% assign product_badge = 'SALE' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'New'  %}
+{% assign product_badge = 'NEW' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Lab Product'  %}
+{% assign product_badge = 'Lab Product' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Sample'  %}
+{% assign product_badge = 'Sample' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Must-Have'  %}
+{% assign product_badge = 'Must-Have' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Top Pick' %}
+{% assign product_badge = 'Top Pick' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Dentist Favourite'  %}
+{% assign product_badge = 'Dentist Favourite' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Hygienist Favourite'  %}
+{% assign product_badge = 'Hygienist Favourite' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Curion Favourite'  %}
+{% assign product_badge = 'Curion Favourite' %}
+{% assign badge_color = 'blue' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive' %}
+{% assign product_badge = 'Online Exclusive' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 10% OFF' %}
+{% assign product_badge = 'Online Exclusive 10% OFF' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 15% OFF' %}
+{% assign product_badge = 'Online Exclusive 15% OFF' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 20% OFF' %}
+{% assign product_badge = 'Online Exclusive 20% OFF' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 25% OFF' %}
+{% assign product_badge = 'Online Exclusive 25% OFF' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 30% OFF' %}
+{% assign product_badge = 'Online Exclusive 30% OFF' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 1 + 1' %}
+{% assign product_badge = 'Online Exclusive 1 + 1' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 2 + 1' %}
+{% assign product_badge = 'Online Exclusive 2 + 1' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 3 + 1' %}
+{% assign product_badge = 'Online Exclusive 3 + 1' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 4 + 1' %}
+{% assign product_badge = 'Online Exclusive 4 + 1' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 5 + 1' %}
+{% assign product_badge = 'Online Exclusive 5 + 1' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Online Exclusive 6 + 1' %}
+{% assign product_badge = 'Online Exclusive 6 + 1' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Clearance' %}
+{% assign product_badge = 'Clearance' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Out of Stock' %}
+{% assign product_badge = 'Out of Stock' %}
+{% assign badge_color = 'yellow' %}
+{% endif %}
+
+{% if product.tags contains 'Buy 1 + 1' %}
+{% assign product_badge = 'Buy 1 + 1' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Buy 2 + 1' %}
+{% assign product_badge = 'Buy 2 + 1' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+
+{% if product.tags contains 'Buy 3 + 1' %}
+{% assign product_badge = 'Buy 3 + 1' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+
+{% if product.tags contains 'Buy 4 + 1' %}
+{% assign product_badge = 'Buy 4 + 1' %}
+{% assign badge_color = 'bfcm_red' %}
+{% endif %}
+
+{% if product.tags contains 'Buy 4 + 2' %}
+{% assign product_badge = 'Buy 4 + 2' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Buy 5 + 1' %}
+{% assign product_badge = 'Buy 5 + 1' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+
+{% if product.tags contains 'Buy 5 + 2' %}
+{% assign data_buy_5_2 = true %}
+{% assign product_badge = 'Buy 5 + 2' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Buy 6 + 1' %}
+{% assign product_badge = 'Buy 6 + 1' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Buy 10 + 3' %}
+{% assign product_badge = 'Buy 10 + 3' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+
+{% if product.tags contains 'Save 10%' %}
+{% assign product_badge = 'Save 10%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 15%' %}
+{% assign product_badge = 'Save 15%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 20%' %}
+{% assign product_badge = 'Save 20%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 25%' %}
+{% assign product_badge = 'Save 25%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 30%' %}
+{% assign product_badge = 'Save 30%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 35%' %}
+{% assign product_badge = 'Save 35%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 33%' %}
+{% assign product_badge = 'Save 33%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 40%' %}
+{% assign product_badge = 'Save 40%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 50%' %}
+{% assign product_badge = 'Save 50%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+
+{% if product.tags contains 'Super Sale - Save 30%' %}
+{% assign product_badge = 'Super Sale - Save 30%' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Super Sale' %}
+{% assign product_badge = 'Super Sale' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+
+{% if product.tags contains 'Black Friday' %}
+{% assign product_badge = 'Black Friday' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Hot Deal' %}
+{% assign product_badge = 'Hot Deal' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+
+{% if product.tags contains 'Bonus Offer' %}
+{% assign product_badge = 'Bonus Offer' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Intro Offer' %}
+{% assign product_badge = 'Intro Offer' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Buy 5 - Get 25% Off' %}
+{% assign product_badge = 'Buy 5 - Get 25% Off' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product.tags contains 'Save 15% + Buy 3 + 1' %}
+{% assign product_badge = 'Save 15% + Buy 3 + 1' %}
+{% assign badge_color = 'cyan' %}
+{% endif %}
+
+{% if product_badge %}
+	<div class='product-tags product-tags--badge product-tags--badge--{{ badge_color }} product-tags--pdp'>
+		<span class='product-tags__label'>
+			{{ product_badge }}
+		</span>
+	</div>		
+{% endif %}
+

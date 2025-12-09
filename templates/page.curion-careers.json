@@ -1,0 +1,152 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_careers_Work_that_matters_Dental_Supplies.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Curion_Dental_careers_Work_that_matters_mobile_Dental_Supplies.jpg",
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "page-header-title": "Work that matters",
+        "title_styling": "no-outline",
+        "page-header-text": "We inspire people to see new possibilities. Want to help us dynamize dentistry?",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642459773285ba074": {
+      "type": "vision-block",
+      "settings": {
+        "subtitle": "OUR PURPOSE",
+        "subtitle_color": "blue",
+        "title": "To inspire, renew & elevate passion",
+        "text": "Our purpose is to heighten fulfilment and unleash passion in the careers of dentistry.\n\nWe’re inspired and excited by innovation and what the future holds. We’ve made it our mission to share our passion to empower new generations of dental professionals, one partnership at a time."
+      }
+    },
+    "164245718509548f89": {
+      "type": "content-panel",
+      "blocks": {
+        "7c43940b-80b2-405d-94c8-ed4a5cd7106b": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Welcome_to_Curion_Dental_Supplies.png",
+            "copy_block_subtitle": "about",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Welcome to Curion",
+            "copy_block_text": "<p>Curion, formerly Bisco Canada, is a curator of innovative, high-quality products for dental professionals, offering extra-mile customer experience and expert-driven education. With exclusive brands, in depth knowledge, and the willingness and agility to constantly evolve, Curion inspires generations of dental professionals to love what they do.</p><p>Built upon the idea of empowering the next generation, Curion seeks to bring a new edge to dentistry with an eye to the future.</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "#",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c43940b-80b2-405d-94c8-ed4a5cd7106b"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "1642874107b7334141": {
+      "type": "content-panel--list",
+      "blocks": {
+        "6b026547-f7f2-4333-9977-e15800fc591f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Have an outgoing, positive and energetic personality"
+          }
+        },
+        "6751ea45-b78a-4d12-90da-920e1c9ffcf7": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Be collaborative and work well in a team environment"
+          }
+        },
+        "ddf6add5-7f35-4784-bced-7838d3118708": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Be passionate about learning. Possess a desire to grow in a constantly changing and evolving industry"
+          }
+        },
+        "f07558f2-431d-45c7-869a-2dd4f9281152": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Be proficient on computers and tech savvy."
+          }
+        },
+        "049bb70d-f1ba-41d6-9361-31aa01b715e0": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Must have keen organizational skills and be detail oriented"
+          }
+        },
+        "c652ea1e-45f3-46a3-b25f-75e1b47739f2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Have past customer service or sales experience"
+          }
+        },
+        "0e318714-996b-40b3-8598-9449c8e0a884": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Must be able to travel within Canada"
+          }
+        },
+        "c7ddbc2d-b094-4ca1-8a0f-bb1690d37993": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "It's not mandatory but if you speak French and/or have past experience in the dental industry, it would be a fantastic asset"
+          }
+        }
+      },
+      "block_order": [
+        "6b026547-f7f2-4333-9977-e15800fc591f",
+        "6751ea45-b78a-4d12-90da-920e1c9ffcf7",
+        "ddf6add5-7f35-4784-bced-7838d3118708",
+        "f07558f2-431d-45c7-869a-2dd4f9281152",
+        "049bb70d-f1ba-41d6-9361-31aa01b715e0",
+        "c652ea1e-45f3-46a3-b25f-75e1b47739f2",
+        "0e318714-996b-40b3-8598-9449c8e0a884",
+        "c7ddbc2d-b094-4ca1-8a0f-bb1690d37993"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_Want_to_help_us_Dental_Supplies.jpg",
+        "content_panel_icon_image": "shopify://shop_images/Curion_Dental_DynamicDentistry_Dental_Supplies.png",
+        "copy_block_subtitle": "careers",
+        "content_panel_subtitle_color": "blue",
+        "copy_block_title": "Want to help us dynamize dentistry?",
+        "copy_block_text": "<p>We care about people and the relationships we build. It’s at the core of who we are. Working together, we grow and innovate, supporting each other along the way.</p><p>To join our team and thrive, you must:</p>",
+        "copy_block_button_text": "If this is you, we want to meet you.",
+        "copy_block_button_link": "mailto:wecare@curion.ca"
+      }
+    },
+    "1639524087320b8526": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion_Dental_icon_CompanyCulture_Dental_Supplies.png",
+        "intro-block-title": "We empower caring dental professionals across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "See What We Stand For",
+        "intro-block-link": "shopify://pages/culture"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642459773285ba074",
+    "164245718509548f89",
+    "1642874107b7334141",
+    "1639524087320b8526"
+  ]
+}

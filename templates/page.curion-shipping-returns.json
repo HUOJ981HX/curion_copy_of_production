@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163961018441a7a2df": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_SHIPPING-RETURNS_Dental_Supplies.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Curion_Dental_SHIPPING-RETURNS-mobile_Dental_Supplies.jpg",
+        "subtitle": "shipping & returns",
+        "subtitle_color": "blue",
+        "page-header-title": "We're here with you",
+        "title_styling": "no-outline",
+        "page-header-text": "We know running your practice often involves navigating exceptions. This is why we have options to meet your needs.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642733800be69ad65": {
+      "type": "icon-block",
+      "blocks": {
+        "b43805c4-5997-4502-a2d5-7b2198169559": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Online-Order_Dental_Supplies.png",
+            "icon-title": "Free delivery for orders over $250",
+            "icon-content": "<p>Benefit from free delivery on orders over $250 to commercial (non-residential) addresses, wherever you are in Canada.*</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "9e2da70b-c67e-4657-a1c0-eb60e51acb01": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Simplified_returns_Dental_Supplies.png",
+            "icon-title": "Simplified Returns",
+            "icon-content": "<p>Return an unopened item in its original packaging within 30 calendar days of your purchase for a full refund to the original form of payment. <em>(Some restrictions may apply.)</em></p>",
+            "icon-button-label": "Download Returns Form",
+            "icon-button-link": "https://cdn.shopify.com/s/files/1/2782/5410/files/RMA_Request_Form_5f617279-9412-42eb-ba00-4b292a1bc251.pdf?v=1662068690"
+          }
+        },
+        "862c03c9-e18d-4457-93cd-3719e7531c27": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Fas-Easy-Shipping_Dental_Supplies.png",
+            "icon-title": "Fast, easy shipping",
+            "icon-content": "<p>All orders placed by 2:00 p.m. (PT) that are currently in stock, will be shipped from our office that same day via FedEx Standard Overnight.*</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b43805c4-5997-4502-a2d5-7b2198169559",
+        "9e2da70b-c67e-4657-a1c0-eb60e51acb01",
+        "862c03c9-e18d-4457-93cd-3719e7531c27"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Easy delivery & returns",
+        "icon-block-description": ""
+      }
+    },
+    "1643044248ad2bff97": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Curion (formerly, Bisco Canada) Shipping & Returns Policy",
+        "text": "<p><strong>PRODUCT DELIVERY</strong></p><p>Orders placed by 2:00 p.m. (Pacific Standard Time) that are currently in stock, will be shipped from our office that same day via FedEx Standard Overnight*.</p><p><strong>Commercial addresses:</strong> Benefit from free delivery on orders over $250 to commercial (non-residential) addresses, within Canada. *All orders under $250 will be subject to a flat rate shipping fee of $18.</p><p><strong>Residential addresses: </strong>Benefit from free delivery on orders over $375. All orders under $375 will be subject to a flat rate shipping fee of $23. All orders going to a residential address will be shipped via Canada Post. Please note that deliveries may take at least 5 business days and a signature will be required. </p><p>Rush delivery may be available at an additional charge. We will provide you with a quote for the cost of expedited shipping. Any additional fees will be added to your sales order.</p><p>While we strive to always have the products you need available to you, occasionally backorders may occur. If any products you are ordering are on backorder status, we will let you know the estimated in-stock date at the time the order is placed if ordered by phone or via email if ordered online.<br/><br/>*FedEx Standard Overnight shipping may not apply to all orders. Some packages may necessitate delivery by ground and may take 10-12 business days from the time of ordering.</p><p></p><p><strong>PAYMENT TERMS</strong></p><p><strong>CREDIT CARD:</strong> We accept Visa, Mastercard and American Express. At your request, we will keep your credit card information on file if you wish to have your orders processed automatically on your card.</p><p><strong>NET 30 DAYS:</strong> Existing accounts are payable within 30 days of the invoice date. As monthly statements are not issued except for overdue balances, please calculate the amount due from the invoice enclosed with your parcel.</p><p>C.O.D. Orders may be paid C.O.D. at an additional charge. When placing a C.O.D. order, you will be given the total amount of the order including all applicable taxes and shipping charges. Upon delivery, please have a cheque made payable to <strong>Curion Dental Products. </strong></p><p><strong>PRODUCT WARRANTY</strong></p><p>At Curion, we recognize our responsibility in ensuring your satisfaction with the products we supply. To this end, we will replace, at no extra charge to you, any proven defective products. Curion does not assume liability for any damage or loss, either direct or consequential, stemming from the use or misuse of any product we distribute.</p><p>It is the responsibility of the user to determine the suitability of the product for an intended procedure prior to use. The user assumes all risk and liability in connection therewith.</p><p><strong>30 DAY RETURN POLICY:</strong></p><p>Within 30 calendar days of purchase, any items found to be; defective due to manufacturing, damaged during shipping, or have been shipped to you in error, qualify for a full refund to the original form of payment plus free pickup arranged by Curion.</p><p>We ask that you please inspect your order upon receipt and contact us immediately (within 48 hours) if the item is defective, damaged or if you received the wrong item so that we can evaluate the issue and make it right. </p><p>Items ordered in error by the client or items being returned due to a change of mind may be subject to a re-stocking fee, plus the cost of shipping.</p><p>For our customers’ convenience and cost savings, Curion arranges all return pickups with our preferred shipping rate.</p><p></p><p><strong>GENERAL RETURN POLICY:</strong></p><p><strong>Product returns will be authorized ONLY if the following conditions are met: </strong></p><p>1.  An RMA has been requested and the product is returned within 30 days of the invoice date. </p><p>2. The product is unopened, unused and in the original packaging. </p><p>3. The product is damaged upon delivery or is defective (as determined by our customer care representative). </p><p></p><p><strong>Product returns will NOT be authorized for a refund if: </strong></p><p>1.  It has been more than 30 days since the product was purchased (per the date on original invoice). </p><p>2. The product is expired, opened, broken or used (excluding damaged/defective products). </p><p>3. The product is a special order, clearance, or final sale item.</p><p>4. The item requires special temperature control (refrigeration).</p><p>5. If the item purchased was combined with a special offer (i.e. store credit or free product). These items are eligible for exchange or store credit only.</p><p>Items that have been authorized but are outside of Curion’s 30-day return policy may be subject to a restocking fee and will qualify for a store credit only.</p><p><strong>RETURN OPTIONS & INSTRUCTIONS:</strong></p><p>For all return requests, with the exception of mis-shipments, a photo of the product displaying the lot# is required. </p><p>Choose how to obtain an RMA (Return Merchandise Authorization) number and request a return:</p><p><strong>Online:</strong> </p><p>1. Please log in to your Curion customer account. <a href=\"https://curion.ca/account/login?return_url=%2Faccount\" target=\"_blank\" title=\"LOGIN NOW\">LOGIN NOW</a></p><p>2. Please have your original web order number handy.</p><p>3. Please complete the step-by-step online returns request form.</p><p><strong>By Email:</strong></p><p>1. Please download our returns request form and submit the completed form to <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\">wecare@curion.ca</a> along with any product photos.</p><p><a href=\"https://cdn.shopify.com/s/files/1/2782/5410/files/RMA_Request_Form_5f617279-9412-42eb-ba00-4b292a1bc251.pdf?v=1662068690\" target=\"_blank\" title=\"Returns Form\"><strong>CLICK HERE to Download Returns Form</strong></a></p><p><strong>By Phone:</strong></p><p>Please call Curion toll free at 1.800.667.8811 with the following information.</p><p>1. Customer number and/or office telephone number.</p><p>2. Original invoice date and invoice number.</p><p>3. Name and description of product(s) and reason for return.</p><p><strong>Once you've been contacted by a customer care representative and a return label has been emailed to you, please follow these steps:</strong></p><p>1. Enclose item(s) to be returned in protective packaging</p><p>2. Enclose a copy of the invoice</p><p>3. Print and affix pre-paid FedEx label sent to your email address</p><p>4. Alert front office staff that package is ready for pickup on arranged date</p><p>5. Please allow up to 5 business days for our returns department to process the credit/refund.</p><p><strong>NEED MORE HELP?</strong></p><p><strong>Please call or email us.</strong></p>"
+      }
+    },
+    "16396103197f505e01": {
+      "type": "content-panel",
+      "blocks": {
+        "48d1b31c-55bd-48b2-87ab-b03081de090e": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_CONTACT_US_Dental_Supplies.png",
+            "content_panel_icon_image": "shopify://shop_images/Curion_Dental_Icon_Dedicated-support-guidance_Dental_Supplies.png",
+            "copy_block_subtitle": "contact us",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Ask us how we can help",
+            "copy_block_text": "<p>Monday to Friday 7:30 a.m.—4 p.m. (PST)<br/><br/>English: <a href=\"tel:1-800-667-8811\" title=\"tel:1-800-667-8811\"><strong>1.800.667.8811</strong></a><br/>French: <a href=\"tel:1.800.211.1200\" target=\"_blank\" title=\"tel:1.800.211.1200\"><strong>1.800.211.1200</strong></a><br/></p><p>Email: <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\"><strong>wecare@curion.ca</strong></a></p><p>2571 Smith Street<br/>Richmond, BC., V6X 2J1 Canada</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": true,
+            "contact_cta_btn_label": "Contact Form"
+          }
+        }
+      },
+      "block_order": [
+        "48d1b31c-55bd-48b2-87ab-b03081de090e"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "16427383724a57b4be": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We empower caring dental professionals across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "Live the experience",
+        "intro-block-link": "shopify://pages/experience"
+      }
+    }
+  },
+  "order": [
+    "163961018441a7a2df",
+    "1642733800be69ad65",
+    "1643044248ad2bff97",
+    "16396103197f505e01",
+    "16427383724a57b4be"
+  ]
+}

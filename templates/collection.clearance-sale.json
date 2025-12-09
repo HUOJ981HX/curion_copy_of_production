@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/2025_Clearance_Sale_Banner-New.jpg",
+        "page-header-image--mobile": "shopify://shop_images/2025_Clearance_Sale_Banner-Mobile.jpg",
+        "subtitle": "",
+        "subtitle_color": "coral",
+        "page-header-title": "",
+        "title_styling": "no-outline",
+        "page-header-text": "",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16566244604511776c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-9f8e6e1c"
+      }
+    },
+    "pagefly_section_rDYzdp": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-3a560ded"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "16566244604511776c",
+    "pagefly_section_rDYzdp",
+    "main"
+  ]
+}

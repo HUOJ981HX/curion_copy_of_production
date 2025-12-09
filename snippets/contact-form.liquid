@@ -1,0 +1,128 @@
+{% comment %}
+    This is the basic shopify contact form
+    with the addition of fields for custom success message and footer details.
+{% endcomment %}
+
+{% form 'contact', class:'form form--contact', id: id%}
+    <div class="form__wrapper">
+        {% if form.posted_successfully? %}
+            <div class="contact-form__success">
+                <h3 class="contact-form__success-title">{{ section.settings.success-title | default: 'Thanks, your message has been sent!' }}</h3>
+                
+                {% if section.settings.success-message != blank %}
+                    {{ section.settings.success-message }}
+                {% endif %}
+            </div>
+        {% else %}
+
+
+            {% if form.errors != blank %}
+                {% unless form.tags contains 'newsletter' %}
+                    <div class="form__error-message">
+                        {% for field in form.errors %}
+                            <div class="form__error">
+                                {{ field | capitalize }} {{ form.errors.messages[field] }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endunless %}
+            {% endif %}
+
+            <div class="form__field form__field--custom-select">
+                <label for="ContactFormReason" class="form__label">
+                  {{ 'contact.form.selector' | t }}
+                </label>
+
+                <div class="form__element">
+                    <select
+                        class="form__control form__select"
+                        name="contact[selector]"
+                        id="ContactFormReason"
+                        data-default="general"
+                        autocomplete="country"
+                        required
+                    >
+                        <option value="General Inquiry">General Inquiry</option>
+                        <option value="Product Suport">Product Support</option>
+                        <option value="Become a Partner">Become a Partner</option>
+                        <option value="Marketing">Marketing</option>
+                    </select>
+                    {% render 'icon', name: 'arrow--down', class: 'select__caret svg--baseline' %}
+                </div>
+                <label for="ContactFormReason" generated="true" class="error form__error"></label>
+            </div>
+
+            <div class="form__field form__field--input {% if form.errors != blank %} form__field--invalid{% endif %}">
+                <label for="ContactFormFirstName" class="form__label">{{ 'contact.form.first_name' | t }}</label>
+
+                <input class="form__control form__input" type="text"
+                    name="contact[first_name]"
+                    id="ContactFormFirstName"
+                    placeholder="{{ 'contact.form.first_name' | t }}"
+                    value="{% if form[first_name] %}{{ form[first_name] }}{% elsif customer %}{{ customer.first_name }}{% endif %}" required>
+            </div>
+
+            <div class="form__field form__field--input {% if form.errors != blank %} form__field--invalid{% endif %}">
+                <label for="ContactFormFirstName" class="form__label">{{ 'contact.form.last_name' | t }}</label>
+
+                <input class="form__control form__input" type="text"
+                    name="contact[last_name]"
+                    id="ContactFormFirstName"
+                    placeholder="{{ 'contact.form.last_name' | t }}"
+                    value="{% if form[last_name] %}{{ form[last_name] }}{% elsif customer %}{{ customer.last_name }}{% endif %}" required>
+            </div>
+
+            <div class="form__field form__field--input {% if form.errors != blank %} form__field--invalid{% endif %}">
+                <label for="ContactFormEmail" class="form__label">{{ 'contact.form.email' | t }}</label>
+                <div class="form__element">
+                    <input class="form__control form__input" type="email"
+                        name="contact[email]"
+                        id="ContactFormEmail"
+                        placeholder="{{ 'contact.form.email' | t }}"
+                        value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                        spellcheck="false"
+                        autocomplete="off"
+                        autocapitalize="off" required>
+                </div>
+            </div>
+
+            <div class="form__field form__field--input {% if form.errors != blank %} form__field--invalid{% endif %}">
+                <div class="form__element">
+                    <label for="ContactFormPhone" class="form__label">{{ 'contact.form.phone' | t }}</label>
+                    <input class="form__control form__input" type="tel"
+                        name="contact[phone]"
+                        id="ContactFormPhone"
+                        placeholder="{{ 'contact.form.phone' | t }}"
+                        value="{% if form[phone] %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                        pattern="[0-9\-]*" >
+                </div>
+            </div>
+
+            <div class="form__field form__field--textarea {% if form.errors != blank %} form__field--invalid{% endif %}">
+                <label for="ContactFormMessage" class="form__label">{{ 'contact.form.message' | t }}</label>
+                <div class="form__element">
+                    <textarea class="form__control form__textarea" rows="10"
+                        name="contact[body]"
+                        id="ContactFormMessage"
+                        placeholder="{{ 'contact.form.message' | t }}" required>
+                    {%- if form.body -%}
+                        {{- form.body -}}
+                    {%- endif -%}
+                  </textarea>
+                </div>
+            </div>
+
+            <p class="contact__policy">Your privacy is our priority. For more information, view our <a href="{{ routes.root_url }}policies/privacy-policy" target="_blank">privacy policy.</a></p>
+
+            <div class="button-collection button-collection--contact">
+                <input type="submit" class="button button--primary form__submit--ajax" value="{{ 'contact.form.send' | t }}">
+            </div>
+        {% endif %}
+
+        <div class="contact-form__footer">
+            {% if section.settings.form-footer != blank %}
+                {{ section.settings.form-footer }}
+            {% endif %}
+        </div>
+    </div>
+{% endform %}

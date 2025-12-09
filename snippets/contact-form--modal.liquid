@@ -1,0 +1,46 @@
+{% comment %}
+    This is the basic shopify contact form
+    with the addition of fields for custom success message and footer details.
+{% endcomment %}
+
+{% assign modal_id = modal_id | default: "contact_form" %}
+
+{% form 'contact'%}
+    {% if form.posted_successfully? or form.errors %}
+        {% unless form.tags contains 'newsletter' %}
+            {% assign modal_open = "modal--open" %}
+        {% endunless %}
+    {% endif %}
+{% endform %}
+
+{% if modal_id %}
+
+    {% capture modalAttributes %}
+        class -*-
+            modal -#-
+                contact-form--modal {{ modal_open }} -&-
+        id -*-
+            modal_{{ modal_id }}
+    {% endcapture %}
+
+    {% comment %}Modal HTML{% endcomment %}
+    <div {% render 'attribute', attribute: modalAttributes %}>
+
+        {% comment %}Modal Overlay {% endcomment %}
+        <div class="modal__overlay"></div>
+
+        {% comment %}Modal Popup {% endcomment %}
+        <div class="modal__popup">
+
+           {% comment %} Modal Content {% endcomment %}
+            <div class="modal__content">
+                <div class="modal__content-inner">
+                    {% render "icon", name: "close", class: "button__icon modal__close-button" %}
+        
+                    {% render "contact-form", id: 'contact-form-popup' %}                 
+                </div>
+            
+            </div>
+        </div>
+    </div>
+{% endif %}

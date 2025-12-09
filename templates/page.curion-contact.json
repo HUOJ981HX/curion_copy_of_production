@@ -1,0 +1,163 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163961018441a7a2df": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_It_s_time_Dental_Supplies.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Curion_Dental_It_s_time_mobile_Dental_Supplies.jpg",
+        "subtitle": "contact us",
+        "subtitle_color": "blue",
+        "page-header-title": "It's time.",
+        "title_styling": "no-outline",
+        "page-header-text": "Time for next-level dentistry. Time for better care. Let us show you the way. Ask us how we can help.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16396103197f505e01": {
+      "type": "content-panel",
+      "blocks": {
+        "48d1b31c-55bd-48b2-87ab-b03081de090e": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_CALL_OR_PLACE_A_PHONE_ORDER_Dental_Supplies.jpg",
+            "copy_block_subtitle": "Call or place a phone order",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Ask us how we can help",
+            "copy_block_text": "<p>Monday to Friday 7:30 a.m.—4 p.m. (PST)<br/><br/>English: <a href=\"tel:1-800-667-8811\" title=\"tel:1-800-667-8811\"><strong>1.800.667.8811</strong></a><br/>French: <a href=\"tel:1.800.211.1200\" target=\"_blank\" title=\"tel:1.800.211.1200\"><strong>1.800.211.1200</strong></a><br/><br/>Email: <a href=\"mailto:wecare@curion.ca\" target=\"_blank\" title=\"mailto:wecare@curion.ca\"><strong>wecare@curion.ca</strong></a></p><p>2571 Smith Street<br/>Richmond, BC., V6X 2J1 Canada</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": true,
+            "contact_cta_btn_label": "Contact Form"
+          }
+        }
+      },
+      "block_order": [
+        "48d1b31c-55bd-48b2-87ab-b03081de090e"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "16396106540ffde12c": {
+      "type": "content-panel--list",
+      "blocks": {
+        "3c5fe767-c293-411e-ba5a-2f5a255eeeab": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Simplified Returns"
+          }
+        },
+        "2ecdc1d3-fc28-446e-8ebf-4333bfbb097a": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Product guidance and support"
+          }
+        },
+        "30ceb0d9-2f3b-4f98-9fcf-dcf630128e9a": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Fast delivery"
+          }
+        }
+      },
+      "block_order": [
+        "3c5fe767-c293-411e-ba5a-2f5a255eeeab",
+        "2ecdc1d3-fc28-446e-8ebf-4333bfbb097a",
+        "30ceb0d9-2f3b-4f98-9fcf-dcf630128e9a"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_we_have_your_back_Dental_Supplies.png",
+        "copy_block_subtitle": "",
+        "content_panel_subtitle_color": "blue",
+        "copy_block_title": "At Curion, we have your back",
+        "copy_block_text": "<p>Our customer service team and representatives go the extra-mile to support you and simplify things throughout your journey.</p><p></p>",
+        "copy_block_button_text": "Find out more",
+        "copy_block_button_link": "shopify://pages/experience"
+      }
+    },
+    "1642733800be69ad65": {
+      "type": "icon-block",
+      "blocks": {
+        "b43805c4-5997-4502-a2d5-7b2198169559": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Online-Order_Dental_Supplies.png",
+            "icon-title": "24/7 Online Ordering",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "47f3d154-5b63-4c86-831d-20b837caae4e": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Dedicated-support-guidance_Dental_Supplies.png",
+            "icon-title": "Guidance & Support",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "9e2da70b-c67e-4657-a1c0-eb60e51acb01": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon_Simplified_returns_Dental_Supplies.png",
+            "icon-title": "Simplified Returns",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "862c03c9-e18d-4457-93cd-3719e7531c27": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Curion_Dental_Icon-Fas-Easy-Shipping_Dental_Supplies.png",
+            "icon-title": "Fast, Easy Shipping",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b43805c4-5997-4502-a2d5-7b2198169559",
+        "47f3d154-5b63-4c86-831d-20b837caae4e",
+        "9e2da70b-c67e-4657-a1c0-eb60e51acb01",
+        "862c03c9-e18d-4457-93cd-3719e7531c27"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "16427383724a57b4be": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We empower caring dental professionals across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "Live the experience",
+        "intro-block-link": "shopify://pages/experience"
+      }
+    }
+  },
+  "order": [
+    "163961018441a7a2df",
+    "16396103197f505e01",
+    "16396106540ffde12c",
+    "1642733800be69ad65",
+    "16427383724a57b4be"
+  ]
+}

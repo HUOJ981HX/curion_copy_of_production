@@ -1,0 +1,78 @@
+<button type="button" class="guarantees guarantees--cart modal__trigger" data-modal-target="guarantee-modal">
+    <!-- Icon Item Loop  -->
+    {% if section.blocks.size > 0 %}
+        <ul class="guarantee__list">
+            {% for block in section.blocks %}
+                <li class="guarantee__item">
+                    <div class="guarantee__icon">
+                        {% if block.settings.guarantee-image != blank %}
+                            {% render 'responsive-image' with
+                                image: block.settings.guarantee-image
+                            %}
+                        {% endif %}
+                    </div>
+                    {% if block.settings.guarantee-title != blank %}
+                        <span class="guarantee__title">{{ block.settings.guarantee-title }}</span>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</button>
+
+<div id="modal_guarantee-modal" class="modal modal--guarantees">
+    <div class="modal__overlay"></div>
+    <div class="modal__popup">
+        <div class="modal__content">
+            <button type="button" class=" button button__icon button--with-icon modal__close-button">
+                {% render 'icon', name: 'close' %}
+            </button>
+
+            {% if section.settings.modal-title != blank %}
+                <h3 class="guarantees-modal__header h4">{{ section.settings.modal-title }}</h3>
+            {% endif %}
+
+             {% if section.settings.modal-content != blank %}
+                <div class="guarantees-modal__content" tabindex="-1">{{ section.settings.modal-content }}</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Guarantee Bar",
+    "class": "page-section--guarantee",
+    "settings": [
+        {
+            "type": "text",
+            "id": "modal-title",
+            "label": "Modal Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "modal-content",
+            "label": "Modal Content"
+        }
+    ],
+    "blocks": [
+        {
+        "type": "guarantee-item",
+        "name": "Guarantee Item",
+        "limit": 3,
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "guarantee-image",
+                "label": "Icon"
+            },
+            {
+                "type": "text",
+                "id": "guarantee-title",
+                "label": "Title"
+            }
+        ]
+        }
+    ]
+}
+{% endschema %}

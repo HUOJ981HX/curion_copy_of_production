@@ -1,0 +1,21 @@
+<div class="page-section page-section--pagination">
+    <div class="pagination">
+        <a href="{{ paginate.previous.url }}" class="pagination__item {% unless paginate.previous.is_link %}pagination__item--disabled{% endunless %}">
+            {% render 'icon', name: 'swiper-previous', class: 'button__icon' %}
+            <span class="sr-only">{{ 'general.pagination.previous' | t }}</span>
+        </a>
+        <div class="pagination__pages">
+            {% for part in paginate.parts %}
+              {% if part.is_link %}
+                <a href="{{ part.url }}" class="pagination__page">{{ part.title }}</a>
+              {% else %}
+                <span class="pagination__page pagination__page--current">{{ part.title }}</span>
+              {% endif %}
+            {% endfor %}
+        </div>
+        <a href="{{ paginate.next.url }}" class="pagination__item {% unless paginate.next.is_link %}pagination__item--disabled{% endunless %}">
+            {% render 'icon', name: 'swiper-next', class: 'button__icon' %}
+            <span class="sr-only">{{ 'general.pagination.next' | t }}</span>
+        </a>
+    </div>
+</div>

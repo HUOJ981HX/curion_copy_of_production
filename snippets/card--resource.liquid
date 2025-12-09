@@ -1,0 +1,25 @@
+<article class="css-grid__item card card--default card--resource {{ class }}">
+    <a class='card__link--overlay' href="{{ file_upload.src }}" target="_blank"></a>
+    <div class='card__resource-wrapper'>
+        <div class="card__image-wrapper">
+            {% if file_image != blank %}
+                <img src="{{ file_image.src }}" alt="{{file_image.alt}}" class="accordion-panel__image"/>
+            {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+        </div>
+
+        <div class="card__content">
+            {% if file_name %}
+                <h3 class="card__title">{{ file_name }}</h3>
+            {% endif %}
+
+            <div class='card__resource-footer'>
+                {% if file_upload.src %}
+                    <a href="{{ file_upload.src }}" class="icon-block__button button button--primary button--text">View <span class="button__icon-wrapper">{% render 'icon', name: 'arrow--cta-short', class: 'button__icon' %}</span></a>
+                {% endif %}
+            </div>
+        </div>
+        
+    </div>
+</article>

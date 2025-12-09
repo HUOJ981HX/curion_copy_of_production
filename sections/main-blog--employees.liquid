@@ -1,0 +1,21 @@
+{%- assign limit = section.settings.limit -%}
+{% paginate blog.articles by 12 %}
+
+    <section class="page-section blog__posts css-grid css-grid--default css-grid--small-1 css-grid--medium-3 css-grid--large-3">
+        {% for article in blog.articles %}
+            {% render "card--employee" article: article %}
+        {% endfor %}
+    </section>
+
+    {% if paginate.pages > 1 %}
+        {% render 'pagination' paginate: paginate %}
+    {% endif %}
+{% endpaginate %}
+
+{% schema %}
+{
+    "name": "Employees",
+    "tag": "section",
+    "settings": []
+}
+{% endschema %}

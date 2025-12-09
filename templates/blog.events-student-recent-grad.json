@@ -1,0 +1,37 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/iStock-1273354293_copy_2.jpg",
+        "subtitle": "Student/Grad Events",
+        "subtitle_color": "blue",
+        "page-header-title": "Students & New Graduates",
+        "title_styling": "no-outline",
+        "page-header-text": "Keep the “care” in “career.”. Launch your work life with a head start, with expert tips and insights.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "main-blog": {
+      "type": "main-blog--events",
+      "settings": {
+        "limit": 3
+      }
+    }
+  },
+  "order": [
+    "page-header",
+    "main-blog"
+  ]
+}

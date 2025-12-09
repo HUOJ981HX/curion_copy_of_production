@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header-collection": {
+      "type": "page-header--collection",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642465642085df0ed": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/2022-Q4-Banner_19409631-a435-4f88-ba16-1c1cd02b34ca.png",
+        "page-header-image--mobile": "shopify://shop_images/Curion_2023_Giveaway-1200x628.webp",
+        "subtitle": "GET CURION CREDIT BY BUYING",
+        "subtitle_color": "coral",
+        "page-header-title": "ON BLACK FRIDAY ",
+        "title_styling": "no-outline",
+        "page-header-text": "<b>ALL CURRENT FLYER\nPROMOS STILL APPLY\n</b><br>Get credit you can use\non your next order !",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1656624405711efc14": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-63fe5ea0"
+      }
+    },
+    "16566244604511776c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-af9b70f9"
+      }
+    },
+    "165662454295b69adb": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-ae6c7e9e"
+      }
+    },
+    "165662456554b20407": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-827412f0"
+      }
+    },
+    "main": {
+      "type": "collection-page",
+      "settings": {}
+    },
+    "1656624510e4d46a3c": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-a74a8a25"
+      }
+    }
+  },
+  "order": [
+    "page-header-collection",
+    "1642465642085df0ed",
+    "1656624405711efc14",
+    "16566244604511776c",
+    "165662454295b69adb",
+    "165662456554b20407",
+    "main",
+    "1656624510e4d46a3c"
+  ]
+}

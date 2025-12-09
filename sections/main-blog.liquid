@@ -1,0 +1,37 @@
+{%- assign limit = section.settings.limit -%}
+{% paginate blog.articles by limit %}
+
+    <section class="page-section blog__posts css-grid css-grid--default css-grid--small-1 css-grid--medium-3 css-grid--large-3">
+        {% for article in blog.articles %}
+            {% render "card--post" article: article %}
+        {% endfor %}
+    </section>
+
+    {% if paginate.pages > 1 %}
+        {% render 'pagination' paginate: paginate %}
+    {% endif %}
+{% endpaginate %}
+
+{% schema %}
+{
+    "name": "Main Blog",
+    "tag": "section",
+    "settings": [
+        {
+            "type"  : "checkbox",
+            "id"    : "use_blog_count",
+            "label" : "Show blog post count",
+            "default" : true
+        },
+        {
+            "type": "range",
+            "id": "limit",
+            "min": 3,
+            "max": 24,
+            "step": 3,
+            "label": "Post per page",
+            "default": 6
+        }
+    ]
+}
+{% endschema %}

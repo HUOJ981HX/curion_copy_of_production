@@ -1,0 +1,115 @@
+
+{% assign overlay = 'banner-block--with-overlay' %}
+{% assign hasImage = false %}
+
+{% if section.settings.banner-block-image != blank %}
+    {% assign hasImage = true %}
+{% endif %}
+
+<div class="banner-block banner-block--default {{ overlay }} animate-in">
+    {% if section.settings.banner-block-link != blank and hasImage %}
+        <a href="{{ section.settings.banner-block-link }}" class="banner-block__link">
+    {% endif %}
+
+        <div class="background-media {% if hasImage %}background-media--with-image{% endif %}">
+            <div class="background-media__overlay"></div>
+            
+            {% if section.settings.banner-block-image != blank %}
+                <div class="background-media__background">
+                    {% render 'responsive-image' with image: section.settings.banner-block-image, image_class: "background-image" %}
+                </div>
+            {% endif %}
+
+            <div class="background-media__content {% if hasImage %}background-media__content--left{% endif %}">
+                {%- if section.settings.subtitle != blank -%}
+                    <span class="subtitle subtitle--{{ section.settings.subtitle_color | default: "blue" }}">{{ section.settings.subtitle | escape }}</span>
+                {%- endif -%}
+
+                {% if section.settings.banner-block-title != blank %}
+                    <h2 class="banner-block__title h3">{{ section.settings.banner-block-title }}</h2>
+                {% endif %}
+
+                {% if section.settings.banner-block-text != blank %}
+                    <div class="banner-block__content">{{ section.settings.banner-block-text }}</div>
+                {% endif %}
+
+                {% if section.settings.banner-block-button-text != blank and section.settings.banner-block-link != blank %}
+
+                    {% if hasImage %}
+                        <span class="button button--primary button--text">
+                            {{ section.settings.banner-block-button-text }} 
+                            <span class="button__icon-wrapper">{% render 'icon', name: 'arrow--cta-short', class: 'button__icon' %}</span>
+                        </span>
+                    {% else %}
+                        <a href="{{ section.settings.banner-block-link }}" 
+                           class="button button--primary button--text"
+                           {% if section.settings.banner-block-link contains 'http://' or section.settings.banner-block-link contains 'https://' %}target="_blank"{% endif %}
+                        >
+                            {{ section.settings.banner-block-button-text }}
+                            <span class="button__icon-wrapper">{% render 'icon', name: 'arrow--cta-short', class: 'button__icon' %}</span>
+                        </a>
+                    {% endif %}
+
+                {% endif %}
+            </div>
+        </div>
+
+    {% if section.settings.banner-block-link != blank and hasImage %}
+        </a>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Banner Block",
+    "class": "page-section page-section--full-bleed page-section--banner-block",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner-block-image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "radio",
+            "id": "subtitle_color",
+            "label": "Choose the colour for the subtitle.",
+            "info" : "Default colour will be blue.",
+            "options": [
+                { "value": "blue", "label": "Blue" },
+                { "value": "coral", "label": "Coral" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "banner-block-title",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "banner-block-text",
+            "label": "Text"
+        },
+        {
+            "type": "text",
+            "id": "banner-block-button-text",
+            "label": "Button Label"
+        },
+        {
+           "type": "url",
+            "id": "banner-block-link",
+            "label": "Button Link"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Banner Block",
+            "category": "Components"
+        }
+    ]
+}
+{% endschema %}

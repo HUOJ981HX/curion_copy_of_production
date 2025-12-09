@@ -1,0 +1,64 @@
+{%- comment -%}
+  This is a required section for the Shopify Theme Store.
+  It is available in the "Featured Collection" section in the theme editor.
+
+  Theme Store required settings
+  - Collection
+
+  Theme Store optional settings
+  - Heading: title of the featured collection section
+{%- endcomment -%}
+<section class="featured-collection ">
+    {% if section.settings.title != blank %}
+        <h2 class="featured-collection__title">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+
+    {%- assign collection = collections[section.settings.collection] -%}
+
+    <div class="carousel carousel--featured-collection animate-in animate-in--slide-right swiper">
+        <!-- If we need navigation buttons -->
+        <div class="swiper-arrow swiper-button-prev"><span class="sr-only">Previous</span></div>
+        <div class="swiper-arrow swiper-button-next"><span class="sr-only">Next</span></div>
+        <ul class="swiper-wrapper">
+            {% for product in collection.products limit: 6 %}
+                <li class="swiper-slide">
+                    {% render 'card--product' product: product %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% if section.settings.copy_block_button_text != blank and section.settings.copy_block_button_link != blank %}
+        <a href="{{ section.settings.copy_block_button_link }}" class="button button--primary button--feature-collection">{{ section.settings.copy_block_button_text }}</a>
+    {% endif %}
+</section>
+
+{% schema %}
+{
+    "name": "Featured collection",
+    "class": "page-section page-section--feature-collection",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Featured collection"
+        },
+        {
+            "id": "collection",
+            "type": "collection",
+            "label": "Collection"
+        },
+        {
+           "type"  : "text",
+           "id"    : "copy_block_button_text",
+           "label" : "Button Label"
+        },
+        {
+           "type"  : "url",
+           "id"    : "copy_block_button_link",
+           "label" : "Button Link"
+        }
+    ]
+}
+{% endschema %}

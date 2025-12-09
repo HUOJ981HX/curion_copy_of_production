@@ -1,0 +1,54 @@
+{%- assign limit = section.settings.limit -%}
+
+{% if blog.articles.size > 0 %}
+<div class='main-blog main-blog--news'>
+    <div class='main-blog__wrapper'>
+        {% paginate blog.articles by limit %}
+            <section class="page-section blog__posts blog__posts--news css-grid css-grid--default css-grid--small-1 css-grid--medium-3 css-grid--large-3">
+                {% for article in blog.articles %}
+                    {% render "card--post" article: article %}
+                {% endfor %}
+            </section>
+
+            {% if paginate.pages > 1 %}
+                {% render 'pagination' paginate: paginate %}
+            {% endif %}
+        {% endpaginate %}
+    </div>
+    <div class='main-blog--news-types'>
+        <h5 class='news-types__heading'>News Types</h5>
+        <ul class='news-types__list'>
+            <li class='news-types__list-item {% if current_tags == blank %}news-types__list-item--current{% endif %}'>
+                <a href="/blogs/{{ blog.handle }}">
+                    All
+                </a>
+            </li>
+            {% for tag in blog.all_tags %}
+                <li class='news-types__list-item {% if current_tags contains tag %}news-types__list-item--current{% endif %}'>
+                    {{ tag | link_to_tag: tag }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
+
+
+{% schema %}
+{
+    "name": "Main Blog - News",
+    "class": "page-section page-section--default page-section--news",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "range",
+            "id": "limit",
+            "min": 3,
+            "max": 24,
+            "step": 3,
+            "label": "News per page",
+            "default": 6
+        }
+    ]
+}
+{% endschema %}

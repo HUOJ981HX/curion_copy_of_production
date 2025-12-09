@@ -1,0 +1,238 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Partners_banner-1.png",
+        "page-header-image--mobile": "shopify://shop_images/Partners_banner-Mobile-1.png",
+        "subtitle": "TriCom Dental",
+        "subtitle_color": "coral",
+        "page-header-title": "Maintain your vacuum system",
+        "title_styling": "outline",
+        "page-header-text": "TriCom Products and Solutions.\n A manufacturing company of Dental/Medical infection control products. Tricom provides premier cleaning and maintenance products that help keep your business in working order!",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16425511631f876ba2": {
+      "type": "icon-block",
+      "blocks": {
+        "d9d75051-71c0-4a92-87e8-79de04811858": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Tricom_Dental-logo.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d9d75051-71c0-4a92-87e8-79de04811858"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=0k1q6JQxz3I&t=89s",
+        "cover_image": "shopify://shop_images/Partners_Video.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dental"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Medical"
+          }
+        },
+        "b8a20023-1e80-47c9-9e2a-abbcdf1ccd47": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "General Healthcare"
+          }
+        },
+        "a044e408-8e27-4c34-95e1-d9e76cebeceb": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Industrial"
+          }
+        },
+        "7261bdb1-0d0d-4215-a3b3-f30485f63ed5": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Our products are safe to use in your own home!"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "b8a20023-1e80-47c9-9e2a-abbcdf1ccd47",
+        "a044e408-8e27-4c34-95e1-d9e76cebeceb",
+        "7261bdb1-0d0d-4215-a3b3-f30485f63ed5"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Back_Image.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "TriCom Dental",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Texas (USA) </p><p><strong>History</strong></p><p>TriCom Dental Products is owned and operated in Texas, with shipping facilities located in Houston, Hollywood, FL, and Colorado Springs, CO.<br/><br/>Since our company opened its doors in 1996, the products developed are always designed with our practitioners in mind and what products they would use in everyday practice. <br/><br/>We bring to you time and cost efficient products, making your practice run with optimum efficiency. TriCom Dental Products LLC continues to bring unique methods at high quality standards.<br/><br/>We are a company you can depend on, with reliable patented products, chemically designed method that stands strong next to our dedication for customer satisfaction.<br/><br/>Changing the way you think about Infection Control!</p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about TriCom Dental",
+        "copy_block_button_link": "https://www.tricomdentalproducts.com/"
+      }
+    },
+    "1642485282e31f5704": {
+      "type": "content-panel--list",
+      "blocks": {
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Innovation, they took a difficult task and turned it into an easy one"
+          }
+        },
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Solution minded, a unique product that solved a common problem"
+          }
+        },
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Small business vibe, dedicated to customer satisfaction and support"
+          }
+        }
+      },
+      "block_order": [
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27",
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f",
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1313024654_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Reliable patented products",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Chemically designed method",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "vacuclear-tablets"
+          }
+        },
+        "0eb8a8b5-4eaa-4477-9c51-bc4cb7c1b141": {
+          "type": "product",
+          "settings": {
+            "product": "vacushock-tablets"
+          }
+        },
+        "020e15b4-82f3-4f65-a667-9df0519e11df": {
+          "type": "product",
+          "settings": {
+            "product": "vacushock-and-vacuclear-kit"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "0eb8a8b5-4eaa-4477-9c51-bc4cb7c1b141",
+        "020e15b4-82f3-4f65-a667-9df0519e11df"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799186bc79c0bd": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16425511631f876ba2",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642485282e31f5704",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799186bc79c0bd"
+  ]
+}

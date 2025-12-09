@@ -1,0 +1,569 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/CURION_DENTAL_OUR_PARTNERS_1_DENTAL_SUPPLIES_7c2f6c0b-5059-4fe2-a68c-6106bded9c9a.png",
+        "page-header-image--mobile": "shopify://shop_images/CURION_DENTAL_OUR_PARTNERS_1_DENTAL_SUPPLIES_Mobile.png",
+        "subtitle": "Our Partners",
+        "subtitle_color": "coral",
+        "page-header-title": "We bring brands to life",
+        "title_styling": "outline",
+        "page-header-text": "Thanks to our in-depth industry knowledge and our commitment to long-term partnerships, we have exclusive access to innovative brands at the forefront of technology and science.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16577581965dfc0c12": {
+      "type": "content-card--partners",
+      "blocks": {
+        "973039fe-1a35-4279-8172-76dc1d3c1e8d": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-Bisco_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_BISCO-Inc_Dental_Supplies.png",
+            "card-title": "Bisco Inc",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-bisco"
+          }
+        },
+        "8499f8ef-4d93-4a0f-9325-d0939d29ca57": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-LM_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_LM-Dental_Dental_Supplies.png",
+            "card-title": "LM Dental",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-lmdental"
+          }
+        },
+        "0eaa3155-86f8-4954-b274-8ddf61107df3": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-Smile-Line_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_Smile-Line_Dental_Supplies.png",
+            "card-title": "Smile Line",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-smile-line"
+          }
+        },
+        "3481f045-5590-400f-86e3-3c2e4d8a47dd": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-Happynecks_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_Happynecks_Dental_Supplies.png",
+            "card-title": "Happynecks",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-happynecks"
+          }
+        },
+        "7f55a816-64ee-43ba-bad7-a8b240e0e656": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-ReInvent-Dental_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_ReInvent-Dental_Dental_Supplies.png",
+            "card-title": "ReInvent Dental",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-reinvent"
+          }
+        },
+        "c4a26522-65fb-4538-bc07-fbb15ef182a4": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-Sanctuary-Health_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_Sanctuary-Health_Dental_Supplies.png",
+            "card-title": "Sanctuary Health",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-sanctuary"
+          }
+        },
+        "6eb54b0c-0d1e-4330-8911-645dd3206945": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-Diashine_-Lucida_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_Diashine_Lucida_Dental_Supplies.png",
+            "card-title": "Diashine® Lucida",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-diashine"
+          }
+        },
+        "842b8aa9-2889-4476-bd2b-dabc70c17150": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-RTD-by-Dentsply_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_RTD_Dental_Supplies.png",
+            "card-title": "RTD by Dentsply",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-rtd"
+          }
+        },
+        "d8b359ee-ec81-41c3-9cb2-286e2044dec5": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Patners-Logo-Venta-Endo_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_Venta-Endo_Dental_Supplies.png",
+            "card-title": "Venta Endo",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-ventaendo"
+          }
+        },
+        "0f99a67e-aded-4929-8300-2cefee1a8369": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Curion_Dental_Partners-TriHawk-logo_Dental_Supplies.png",
+            "product-image": "shopify://shop_images/Curion_Dental_Talon-12-sectioning-bridge_Dental_Supplies.jpg",
+            "card-title": "TRI HAWK Burs",
+            "card-button-label": "Learn More",
+            "card-button-link": "https://curion.ca/pages/partner-trihawk"
+          }
+        },
+        "card_4CNTEf": {
+          "type": "card",
+          "settings": {
+            "partner-logo": "shopify://shop_images/Patners-Logo-AI-Genetics_3763e73f-18e7-4352-8785-8466890987d4.png",
+            "product-image": "shopify://shop_images/AI_Genetics.png",
+            "card-title": "AI Genetics",
+            "card-button-label": "Learn More",
+            "card-button-link": "shopify://pages/partner-ai-genetics"
+          }
+        }
+      },
+      "block_order": [
+        "973039fe-1a35-4279-8172-76dc1d3c1e8d",
+        "8499f8ef-4d93-4a0f-9325-d0939d29ca57",
+        "0eaa3155-86f8-4954-b274-8ddf61107df3",
+        "3481f045-5590-400f-86e3-3c2e4d8a47dd",
+        "7f55a816-64ee-43ba-bad7-a8b240e0e656",
+        "c4a26522-65fb-4538-bc07-fbb15ef182a4",
+        "6eb54b0c-0d1e-4330-8911-645dd3206945",
+        "842b8aa9-2889-4476-bd2b-dabc70c17150",
+        "d8b359ee-ec81-41c3-9cb2-286e2044dec5",
+        "0f99a67e-aded-4929-8300-2cefee1a8369",
+        "card_4CNTEf"
+      ],
+      "settings": {
+        "subtitle": "unique & cutting-edge",
+        "subtitle_color": "coral",
+        "section-title": "Exclusive Partners"
+      }
+    },
+    "16433471698c1953f3": {
+      "type": "logo-slider",
+      "blocks": {
+        "fa7f2f24-c6b0-493a-9c90-2cb7af75d631": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_BISCO-Logo_Dental_Supplies.png"
+          }
+        },
+        "d77d07ed-4762-4500-9a2f-6df618cc3715": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Smile_Line-Logo-Black_Dental_Supplies.png"
+          }
+        },
+        "aeb3fb2d-d9a3-4e7e-a257-de24d5bc698a": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/LM_logo_horizontal_8cee6cb1-b4da-4258-9f64-7fbd0efa5e92.jpg"
+          }
+        },
+        "b83c6d50-b855-41cd-8429-88d35706a814": {
+          "type": "logo",
+          "settings": {}
+        },
+        "0b437c87-2119-4d0e-8e61-501fd3c2ca07": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Ascentcare_Logo_copy_41ff04ae-326f-49df-8349-e3dbde861b76.png"
+          }
+        },
+        "7ba900f9-4d4f-4fa9-bf6f-8627a7db34e3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Woordlogo-happyneck-rgb_e5a21719-bc00-48d1-9e2a-05f1538a5f1c.jpg"
+          }
+        },
+        "8401767e-73f3-45aa-99bc-8cc380cac166": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/RTD_4cf8b701-a3de-41cd-9cb0-32e956c58e8c.png"
+          }
+        },
+        "f38ab258-b9d0-47e4-bd93-784fbaecf36d": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Venta_Endo_BIG_LOGO_copy_bacb7973-6094-4520-892b-dde4dd118bf2.png"
+          }
+        },
+        "8ae92dfa-e69f-49d8-ac50-3eba548238b9": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Sanctuary-R_2e13890a-3d4b-490a-a411-95ff19f6eed9.png"
+          }
+        },
+        "beadd117-a3c6-49d8-bb96-2e9074b0a6b0": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/reinvent-dark-logo_c7325513-2b30-4116-8055-0727c3ddfda3.png"
+          }
+        },
+        "962f9b03-22dc-4ec9-9786-dc4d07ca6753": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_image": "shopify://shop_images/QuietOn_d3c62308-57dc-4c33-9acb-c3b8ec40ba9f.png"
+          }
+        },
+        "d297660e-febc-4e3a-8862-c2397630de2f": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/DIASHINE-Logo_400x400_crop_center_copy_72ac2cd8-9cc2-47e7-bc73-92127db0b259.png"
+          }
+        },
+        "a6e91a51-be3c-4694-b6ff-f1bd0e85b27b": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Tricom-Logo_14a7e01b-63f7-476f-8975-acbb09f3194f.png"
+          }
+        }
+      },
+      "block_order": [
+        "fa7f2f24-c6b0-493a-9c90-2cb7af75d631",
+        "d77d07ed-4762-4500-9a2f-6df618cc3715",
+        "aeb3fb2d-d9a3-4e7e-a257-de24d5bc698a",
+        "b83c6d50-b855-41cd-8429-88d35706a814",
+        "0b437c87-2119-4d0e-8e61-501fd3c2ca07",
+        "7ba900f9-4d4f-4fa9-bf6f-8627a7db34e3",
+        "8401767e-73f3-45aa-99bc-8cc380cac166",
+        "f38ab258-b9d0-47e4-bd93-784fbaecf36d",
+        "8ae92dfa-e69f-49d8-ac50-3eba548238b9",
+        "beadd117-a3c6-49d8-bb96-2e9074b0a6b0",
+        "962f9b03-22dc-4ec9-9786-dc4d07ca6753",
+        "d297660e-febc-4e3a-8862-c2397630de2f",
+        "a6e91a51-be3c-4694-b6ff-f1bd0e85b27b"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_5_copy_4.png",
+            "icon-title": "BISCO Inc.",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-bisco"
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_9d3cdfa3-91ee-47ad-a503-05ed1fb44fbe.png",
+            "icon-title": "LM Dental",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-lmdental"
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_56c3dd47-30e1-4fe2-8ceb-a2fbcf995dab.png",
+            "icon-title": "Smile Line",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-smile-line"
+          }
+        },
+        "9da4ae58-64bc-4353-8323-23370c6412fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_6.png",
+            "icon-title": "Ascentcare Dental",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-ascentcare"
+          }
+        },
+        "5c56170e-12a1-49de-926b-6697eaac2d92": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_3.png",
+            "icon-title": "Happynecks",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-happynecks"
+          }
+        },
+        "f0f7a890-51ff-4077-a8cd-de828914c93b": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_7.png",
+            "icon-title": "ReInvent Dental",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-reinvent"
+          }
+        },
+        "e929632e-fc15-45d4-81e0-02cd4a58fee4": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_5.png",
+            "icon-title": "Sanctuary Health",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-sanctuary"
+          }
+        },
+        "948c8693-78b4-4203-b384-3291cb19c0fd": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_9.png",
+            "icon-title": "Diashine® Lucida",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-diashine"
+          }
+        },
+        "5854470c-2bd8-4ef0-b9d2-f4ac76350746": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_4.png",
+            "icon-title": "RTD by Dentsply",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-rtd"
+          }
+        },
+        "5dc3d433-ff73-4d8a-b42d-70bdc2433c0c": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_8.png",
+            "icon-title": "Venta Endo",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-ventaendo"
+          }
+        },
+        "eb139905-49ee-4106-b5b0-87fbae841c7f": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/My_project_copy_8_copy_2_84d9b50c-77cd-4e94-863f-772e0edf83d2.png",
+            "icon-title": "QuietOn",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/partner-quieton"
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1",
+        "9da4ae58-64bc-4353-8323-23370c6412fc",
+        "5c56170e-12a1-49de-926b-6697eaac2d92",
+        "f0f7a890-51ff-4077-a8cd-de828914c93b",
+        "e929632e-fc15-45d4-81e0-02cd4a58fee4",
+        "948c8693-78b4-4203-b384-3291cb19c0fd",
+        "5854470c-2bd8-4ef0-b9d2-f4ac76350746",
+        "5dc3d433-ff73-4d8a-b42d-70bdc2433c0c",
+        "eb139905-49ee-4106-b5b0-87fbae841c7f"
+      ],
+      "disabled": true,
+      "settings": {
+        "subtitle": "unique & cutting-edge",
+        "subtitle_color": "coral",
+        "icon-block-title": "Exclusive Partners",
+        "icon-block-description": ""
+      }
+    },
+    "16433457001b733f5d": {
+      "type": "logo-slider",
+      "blocks": {
+        "4ee8d3bf-93e6-4207-845e-160abad63835": {
+          "type": "logo",
+          "settings": {}
+        },
+        "8bb8d928-473e-47cc-8fd5-2a8200a518f5": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_DMG-Logo-slider_Dental_Supplies.png"
+          }
+        },
+        "6f42367d-1d91-4c20-8104-958fa67554bc": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Eve-Logo_Dental_Supplies.jpg"
+          }
+        },
+        "877feb98-226e-4fdb-8d38-3951cdf6002e": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Garrison-Logo_Slider_Dental_Supplies.png"
+          }
+        },
+        "logo_B3eCK9": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Patners-Logo-Ascentcare-Dental_Dental_Supplies.png"
+          }
+        },
+        "d47d7f4d-030a-46cf-988a-0323c0fc4544": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Ambience-Logo_Dental_Supplies.png"
+          }
+        },
+        "b675abc0-b3bd-4094-8df0-09bf40f6b562": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Vista_Apex_Logo_Slider_Dental_Supplies.png"
+          }
+        },
+        "d3940221-3a26-431b-b6a2-1ce7e9c3f20f": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Phoenix_Dental_logo_Dental_Supplies.png"
+          }
+        },
+        "b17b1ff4-54b6-429b-bf40-98884488714e": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Vitacore-logo_Dental_Supplies.jpg"
+          }
+        },
+        "00a454a0-1077-4a92-8abf-14f56197ee52": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Commonsense-Partners-Logo.png"
+          }
+        },
+        "b7200f8f-54a9-455a-9bc0-6a13b8a97a95": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Force-of-nature-logo_Dental_Supplies.png"
+          }
+        },
+        "10abdb3c-ae4c-4290-9b34-843b63a2b089": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Curion_Dental_Tricom-Logo_Slider_Dental_Supplies.png"
+          }
+        },
+        "dd297520-287f-4d1a-9903-1e40a64c7b68": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/4D-rubber-logo-long-Corp-Partner_2247881f-eca0-44bb-8379-01c769a39240.png"
+          }
+        },
+        "logo_N8ec9E": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Perio_Protect-Partners-logo.png"
+          }
+        },
+        "logo_pkUyBN": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Polydentia-Parters-logo_1d3fcaba-373e-43d8-944b-a5694a6f3c96.png"
+          }
+        },
+        "logo_tzHDaE": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Directa_Dental_-Partners_78e65045-e8a3-4697-b5df-51cb662c3981.png"
+          }
+        },
+        "logo_iXxmBT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Stimmie-Partners-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "4ee8d3bf-93e6-4207-845e-160abad63835",
+        "8bb8d928-473e-47cc-8fd5-2a8200a518f5",
+        "6f42367d-1d91-4c20-8104-958fa67554bc",
+        "877feb98-226e-4fdb-8d38-3951cdf6002e",
+        "logo_B3eCK9",
+        "d47d7f4d-030a-46cf-988a-0323c0fc4544",
+        "b675abc0-b3bd-4094-8df0-09bf40f6b562",
+        "d3940221-3a26-431b-b6a2-1ce7e9c3f20f",
+        "b17b1ff4-54b6-429b-bf40-98884488714e",
+        "00a454a0-1077-4a92-8abf-14f56197ee52",
+        "b7200f8f-54a9-455a-9bc0-6a13b8a97a95",
+        "10abdb3c-ae4c-4290-9b34-843b63a2b089",
+        "dd297520-287f-4d1a-9903-1e40a64c7b68",
+        "logo_N8ec9E",
+        "logo_pkUyBN",
+        "logo_tzHDaE",
+        "logo_iXxmBT"
+      ],
+      "settings": {
+        "title": "Preferred Partners",
+        "description": "<p>Trusted brands with award-winning products.</p>"
+      }
+    },
+    "1639523690ca0ee359": {
+      "type": "content-panel",
+      "blocks": {
+        "ce8da091-716c-4571-baa8-6c03d8ce2f16": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Curion_Dental_Our_Curation_Process_Dental_Supplies.png",
+            "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+            "copy_block_subtitle": "become a partner",
+            "content_panel_subtitle_color": "coral",
+            "copy_block_title": "Our Curation Process",
+            "copy_block_text": "<p>We empower game changers who bring a unique, human-centric edge to dentistry.<br/></p><p><strong>Step 1</strong>: Ensure that the product meets our curation criteria: it must be unique, useful, high-quality, patient-centric, user-centric, and backed by science.</p><p><strong>Step 2</strong>: Verify that the company shares our values.</p><p><strong>Step 3</strong>: Products undergo rigorous testing with the help of a panel of experts (dentists and key opinion leaders).</p><p><strong>Step 4</strong>: Perform a legal and compliance audit.</p><p><strong>Step 5</strong>: Enhance the product’s visibility and develop in-house expertise for product support.</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": "",
+            "contact_cta_checkbox": false,
+            "contact_cta_btn_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "ce8da091-716c-4571-baa8-6c03d8ce2f16"
+      ],
+      "settings": {
+        "starting_orientation": "left"
+      }
+    },
+    "1639524087320b8526": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "Let’s shape next-level dentistry together",
+        "intro-block-button-text": "Discover our story",
+        "intro-block-link": "shopify://pages/about-us"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16577581965dfc0c12",
+    "16433471698c1953f3",
+    "16395112109db0cf18",
+    "16433457001b733f5d",
+    "1639523690ca0ee359",
+    "1639524087320b8526"
+  ]
+}

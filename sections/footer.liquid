@@ -1,0 +1,189 @@
+<footer class="footer footer--default">
+    {% if section.settings.footer_logo %}
+        <div class='footer__container footer__container--logo'>
+            {% assign footer_logo_size = 'master' %}
+            <img src="{{ section.settings.footer_logo | img_url: footer_logo_size }}"
+                 srcset="{{ section.settings.footer_logo | img_url: footer_logo_size }} 1x, {{ section.settings.footer_logo | img_url: footer_logo_size, scale: 2 }} 2x"
+                 alt="{{ section.settings.footer_logo.alt | default: shop.name }}"
+                 class="footer__logo">
+            <span class="sr-only">{{ section.settings.footer_logo.alt | default: shop.name }}</span>
+        </div>
+    {% endif %}
+    <div class="footer__container footer__container--footer-menu">
+        <div class="footer__content footer__content--newsletter">
+            <h2 class="footer__title footer__newsletter-title">{{ section.settings.newsletter_form_title | default: "Join Our Newsletter" }}</h2>
+            {% if section.settings.newsletter_form_description %}
+                <div class='footer__newsletter-description'>
+                    {{ section.settings.newsletter_form_description }}
+                </div>
+            {% endif %}
+            {% render 'newsletter-form', id: 'footer' %}
+
+            {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Linkedin, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
+            <nav class="menu menu--default menu--social" aria-label="Social Menu">
+                <ul class="menu__list">
+                    {% for social in social_accounts %}
+                        {%- assign social_handle = social | handleize -%}
+                        {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
+                        {% capture social_icon %}{{ social_handle }}{% endcapture %}
+
+                        {% if settings[social_link] != blank %}
+                            <li class="menu__item">
+                                <a href="{{ settings[social_link] }}" class="menu__link" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}" target="_blank">
+                                    {% render 'icon', name: social_icon %}
+                                    <span class="icon-fallback-text">{{ social }}</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__content footer__content--menu">
+            <div class='css-grid css-grid--default css-grid--footer-menu css-grid--small-2 css-grid--medium-2 css-grid--large-4'>
+                {% comment %}First Footer Menu{% endcomment %}
+                <div class='css-grid__item'>
+                    <nav class="menu menu--default menu--footer menu--footer--first" aria-label="Footer menu">
+                        {%- assign footer_linklist = section.settings.footer_linklist -%}
+                        {% if linklists[footer_linklist].links.size > 0 %}
+                            <ul class="menu__list">
+                                {% for link in linklists[footer_linklist].links %}
+                                    <li class="menu__item">
+                                        <a href="{{ link.url }}" class="menu__link">{{ link.title }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </nav>
+                </div>
+
+                {% comment %}Second Footer Menu{% endcomment %}
+                <div class='css-grid__item'>
+                    <nav class="menu menu--default menu--footer menu--footer--second" aria-label="Footer menu">
+                        {%- assign footer_linklist = section.settings.footer_linklist_2 -%}
+                        {% if linklists[footer_linklist].links.size > 0 %}
+                            <ul class="menu__list">
+                                {% for link in linklists[footer_linklist].links %}
+                                    <li class="menu__item">
+                                        <a href="{{ link.url }}" class="menu__link">{{ link.title }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </nav>
+                </div>
+
+                {% comment %}Third Footer Menu{% endcomment %}
+                <div class='css-grid__item'>
+                    <nav class="menu menu--default menu--footer menu--footer--third" aria-label="Footer menu">
+                        {%- assign footer_linklist = section.settings.footer_linklist_3 -%}
+                        {% if linklists[footer_linklist].links.size > 0 %}
+                            <ul class="menu__list">
+                                {% for link in linklists[footer_linklist].links %}
+                                    <li class="menu__item">
+                                        <a href="{{ link.url }}" class="menu__link">{{ link.title }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </nav>
+                </div>
+
+                {% comment %}Fourth Footer Menu{% endcomment %}
+                <div class='css-grid__item'>
+                    <nav class="menu menu--default menu--footer menu--footer--fourth" aria-label="Footer menu">
+                        {%- assign footer_linklist = section.settings.footer_linklist_4 -%}
+                        {% if linklists[footer_linklist].links.size > 0 %}
+                            <ul class="menu__list">
+                                {% for link in linklists[footer_linklist].links %}
+                                    <li class="menu__item">
+                                        <a href="{{ link.url }}" class="menu__link">{{ link.title }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__container footer__container--legal">
+        <div class="legal">
+            <div class="legal__container">
+                <div class="legal__content">
+                    <div>
+                        <p class="footer__copyright">
+                            &copy; {{ 'now' | date: "%Y" }}, {{ section.settings.footer_legal_content }}
+                        </p>
+                    </div>
+                    {%- assign footer_legal = section.settings.footer_linklist_5 -%}
+                    {% render 'menu', menu_list: footer_legal, menu_classes: 'menu--legal' %}
+                    {% if section.settings.footer_address != blank %}
+                        <div class="footer__address">{{ section.settings.footer_address }}</div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% schema %}
+{
+    "name": "Footer",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "footer_logo",
+            "label": "Footer Logo image"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_linklist",
+            "label": "First menu",
+            "default": "footer"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_linklist_2",
+            "label": "Second menu"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_linklist_3",
+            "label": "Third menu"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_linklist_4",
+            "label": "Fourth menu"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_linklist_5",
+            "label": "Legal menu"
+        },
+        {
+            "type": "text",
+            "id": "newsletter_form_title",
+            "label": "Newsletter Form Title",
+            "default": "Join Our Newsletter"
+        },
+        {
+            "type": "richtext",
+            "id": "newsletter_form_description",
+            "label": "Newsletter Form Description"
+        },
+        {
+            "type": "text",
+            "id": "footer_legal_content",
+            "label": "Footer Copyright"
+        },
+        {
+            "type": "text",
+            "id": "footer_address",
+            "label": "Footer Address"
+        }
+    ]
+}
+{% endschema %}

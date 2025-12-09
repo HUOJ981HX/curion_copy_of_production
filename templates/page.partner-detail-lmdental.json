@@ -1,0 +1,354 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/My_project_copy_2_f86fd820-3862-48f1-a0b3-a2d1100b27a2.png",
+        "page-header-image--mobile": "shopify://shop_images/My_project_copy_8_copy_2.png",
+        "subtitle": "LM DENTAL",
+        "subtitle_color": "coral",
+        "page-header-title": "Feel the difference",
+        "title_styling": "outline",
+        "page-header-text": "Human experience is at the heart of LM’s pioneering innovations, easing & enhancing dental care with carefully designed instruments.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16425515134541275b": {
+      "type": "icon-block",
+      "blocks": {
+        "74fd3c3c-84db-427a-a18c-0cb15b5bb5b4": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/LM_logo_horizontal_01ad2d4c-25b2-4424-a599-5339fabfa9fd.jpg",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "74fd3c3c-84db-427a-a18c-0cb15b5bb5b4"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=Hu7PWxN_y6k",
+        "cover_image": "shopify://shop_images/balancer_copy_5.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Diagnostic Instruments"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dental Hygiene Instruments"
+          }
+        },
+        "f8ff800e-5bb9-486e-be09-424737f01c9f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Composite Instruments"
+          }
+        },
+        "aef5a9f6-c405-402a-aa92-a7685abe08c6": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Restorative Instruments"
+          }
+        },
+        "9412a18a-8a25-4973-b74e-ac44f156918d": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Surgical/Extraction Instruments"
+          }
+        },
+        "8807b881-d555-4b84-890b-24c152dea8b8": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Restorative Products"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "f8ff800e-5bb9-486e-be09-424737f01c9f",
+        "aef5a9f6-c405-402a-aa92-a7685abe08c6",
+        "9412a18a-8a25-4973-b74e-ac44f156918d",
+        "8807b881-d555-4b84-890b-24c152dea8b8"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/LMDental_brandfilm_cut4.00_00_45_30360.Still010_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "EXCLUSIVE PARTNER",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "LM Dental",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Parainen, Finland</p><p><strong>History</strong></p><p>Dr. Pekka Kangasniemi founded LM Dental in 1973, inspired by ergonomics. Today, his thoughtful designs advanced by clinician collaborations flow through every instrument detail, from the careful sourcing of high-quality materials to state-of-the-art production.</p><p><strong>Specialty areas</strong></p><p></p>",
+        "copy_block_button_text": "Learn more about LM Dental",
+        "copy_block_button_link": "https://lm-dental.com/"
+      }
+    },
+    "16420366915065e4dc": {
+      "type": "content-panel--list",
+      "blocks": {
+        "57b6bd2b-2885-468e-8a0e-a09e61cb6980": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Industry pioneer"
+          }
+        },
+        "d93b1266-db46-4195-a087-ffe62dc2cb90": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Carefully designed ergonomics"
+          }
+        },
+        "e729e8bd-93af-4841-a35b-510a0b469cda": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Superior product quality"
+          }
+        },
+        "096ba20b-d2f5-4ec8-bf20-82e21fd41b1f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Patient-centric approach"
+          }
+        },
+        "bf7fed6c-eaa6-41d0-9f3b-ff951d1e6d2c": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Collaborations with Style Italiano"
+          }
+        }
+      },
+      "block_order": [
+        "57b6bd2b-2885-468e-8a0e-a09e61cb6980",
+        "d93b1266-db46-4195-a087-ffe62dc2cb90",
+        "e729e8bd-93af-4841-a35b-510a0b469cda",
+        "096ba20b-d2f5-4ec8-bf20-82e21fd41b1f",
+        "bf7fed6c-eaa6-41d0-9f3b-ff951d1e6d2c"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1313024654_copy_da3a7967-4c71-4900-bd62-5432c3bdce11.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting-edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "Learn more about Style Italiano",
+        "copy_block_button_link": "https://www.styleitaliano.org/"
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "LM ErgoSense Handle",
+            "icon-content": "<p>Lightweight handle made of medical-grade silicone for optimal grip.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "LM Sharp Diamond",
+            "icon-content": "<p>100% sharpen-free dental hygiene instruments.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "LM Dark Diamond",
+            "icon-content": "<p>Non-stick composite instruments coating using advanced PVD micro-coating.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        },
+        "948c8693-78b4-4203-b384-3291cb19c0fd": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "LM Arte",
+            "icon-content": "<p>Innovative instruments for aesthetic composite layering, developed in collaboration with Style Italiano.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        },
+        "9da4ae58-64bc-4353-8323-23370c6412fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "LM Dental Tracking System",
+            "icon-content": "<p>RFID tracking technology for automated traceability, logistics, and infection control.</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1",
+        "948c8693-78b4-4203-b384-3291cb19c0fd",
+        "9da4ae58-64bc-4353-8323-23370c6412fc"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "sharpjack-sickle-sharpen-free"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "sickle-lm204s"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "syntette-sharp-diamond"
+          }
+        },
+        "163951144998bcda93-3": {
+          "type": "product",
+          "settings": {
+            "product": "furcator-ks"
+          }
+        },
+        "fb2d450e-2841-4b61-8840-6a5495f3541b": {
+          "type": "product",
+          "settings": {
+            "product": "flexplorer-11f-12f"
+          }
+        },
+        "e3895450-cf7d-4a1e-9a2c-7640892b8f4f": {
+          "type": "product",
+          "settings": {
+            "product": "lm-arte-solo-anterior"
+          }
+        },
+        "6a92ad15-fbce-4f71-bf39-e48edd9d2663": {
+          "type": "product",
+          "settings": {
+            "product": "lm-arte-posterior-misura"
+          }
+        },
+        "9f5b1a67-67b4-4b89-9535-12ce41aacbbb": {
+          "type": "product",
+          "settings": {
+            "product": "mini-spatula-dark-diamond"
+          }
+        },
+        "0c3ab0ea-0e82-4e15-859c-8730cf254a45": {
+          "type": "product",
+          "settings": {
+            "product": "lm-rootout"
+          }
+        },
+        "398ebe6e-8067-4155-90d7-12acfc6524b5": {
+          "type": "product",
+          "settings": {
+            "product": "lm-slimlift-s3"
+          }
+        },
+        "30d48f94-796c-46f0-8706-c3a186f8f73c": {
+          "type": "product",
+          "settings": {
+            "product": "lm-liftout-s3"
+          }
+        },
+        "cf91bf82-fa7b-4495-8d14-a136f6db74be": {
+          "type": "product",
+          "settings": {
+            "product": "lm-twistout-c3"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "163951144998bcda93-1",
+        "163951144998bcda93-2",
+        "163951144998bcda93-3",
+        "fb2d450e-2841-4b61-8840-6a5495f3541b",
+        "e3895450-cf7d-4a1e-9a2c-7640892b8f4f",
+        "6a92ad15-fbce-4f71-bf39-e48edd9d2663",
+        "9f5b1a67-67b4-4b89-9535-12ce41aacbbb",
+        "0c3ab0ea-0e82-4e15-859c-8730cf254a45",
+        "398ebe6e-8067-4155-90d7-12acfc6524b5",
+        "30d48f94-796c-46f0-8706-c3a186f8f73c",
+        "cf91bf82-fa7b-4495-8d14-a136f6db74be"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799760d7ff4171": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16425515134541275b",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "16420366915065e4dc",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799760d7ff4171"
+  ]
+}

@@ -1,0 +1,241 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Perio_Protect_Partners-Banner-2_2d4a3f28-2e96-4c79-a255-5c3cb8720a4c.png",
+        "page-header-image--mobile": "shopify://shop_images/Perio_Protect_Partners-Banner-M.png",
+        "subtitle": "Perio Protect®",
+        "subtitle_color": "coral",
+        "page-header-title": "TREAT YOUR GUMS NICELY.",
+        "title_styling": "outline",
+        "page-header-text": "Results from Perio Tray delivery of Perio Gel 1.7% hydrogen peroxide include reductions in bacterial loads, inflammation, and bleeding; decreases in pocket depths; whiter teeth and fresher breath.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "16425511631f876ba2": {
+      "type": "icon-block",
+      "blocks": {
+        "d9d75051-71c0-4a92-87e8-79de04811858": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Perio-Protect-Logo-2C-Transparent-BG.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d9d75051-71c0-4a92-87e8-79de04811858"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=7ihBj8g-LkM",
+        "cover_image": "shopify://shop_images/Youtube_Thumnail_image-1.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Periodontal Care"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Non-Invasive Dentistry"
+          }
+        },
+        "list_item_FxRXFN": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Rx Tray Therapy"
+          }
+        },
+        "list_item_jHFQxn": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Adjunctive Periodontal Therapy"
+          }
+        },
+        "list_item_zChUJy": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Adjunctive Antimicrobial Therapy"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "list_item_FxRXFN",
+        "list_item_jHFQxn",
+        "list_item_zChUJy"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Perio-Protect-Woman-01-600x600.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "Perio Protect®",
+        "copy_block_text": "<p><strong>Location</strong></p><p>St. Louis, MO (USA) </p><p><strong>History</strong></p><p>Perio Protect is the leader in non-invasive periodontal therapy in the post-antibiotic age. Founded in 2005 by a dentist caring for his own patients, Perio Protect developed a new marketplace in dentistry for prescription periodontal medicament carriers. The Perio Tray medicament carrier with an internal peripheral seal is the only carrier with FDA clearance for deep delivery into the sulcus or periodontal pocket. The deep delivery (up to 9mm) maintains the medication long enough for therapeutic effect. Research demonstrates that patients using Perio Tray therapy with scaling or surgery have better pocket depth reductions and less bleeding than scaling or surgery alone. </p><p>Patients appreciate the ease of use, the comfort, and the side<br/>effects of whiter teeth and fresher breath. Hygienists appreciate easier maintenance and prophy appointments. Doctors and office managers appreciate practice growth with sustainably good clinical results. </p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about Perio Protect",
+        "copy_block_button_link": "https://www.perioprotect.com/"
+      }
+    },
+    "1642485282e31f5704": {
+      "type": "content-panel--list",
+      "blocks": {
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "innovative products and technologies designed for the post-antibiotic age"
+          }
+        },
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "help dental providers reduce the incidence of periodontal disease andthe chronic oral inflammatory burdens"
+          }
+        },
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "deliver more predictable patient outcomes for healthy gums and optimal restorative treatment"
+          }
+        }
+      },
+      "block_order": [
+        "08410a83-3ca3-48dc-993f-1d8d76e58d27",
+        "bf734b3e-c34f-40eb-ad76-f10d6fa3fb9f",
+        "505c3c80-0e43-4051-bee3-41dd71c7ce79"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1313024654_copy.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Solid science",
+            "icon-content": "<p>Detail description<br/></p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4f6e6701-d69a-47ff-b474-1b59de6e1938": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Innovative products and technologies",
+            "icon-content": "<p>Detail description</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "8f22b10f-8c9e-420a-a093-1ea93d08170f": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Clinically relevant solutions",
+            "icon-content": "<p>Detail description</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4f6e6701-d69a-47ff-b474-1b59de6e1938",
+        "8f22b10f-8c9e-420a-a093-1ea93d08170f"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "e5ac90e0-823f-4c4c-b82e-860ac00b3a8c": {
+          "type": "product",
+          "settings": {
+            "product": "perio-protect-perio-gel-1-7-hydrogen-peroxide-periodontal-treatment"
+          }
+        },
+        "f52d3c72-662f-49a1-9a36-46c4b94da189": {
+          "type": "product",
+          "settings": {
+            "product": "perio-protect-perio-tray-travel-case"
+          }
+        }
+      },
+      "block_order": [
+        "e5ac90e0-823f-4c4c-b82e-860ac00b3a8c",
+        "f52d3c72-662f-49a1-9a36-46c4b94da189"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799186bc79c0bd": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "16425511631f876ba2",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642485282e31f5704",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799186bc79c0bd"
+  ]
+}

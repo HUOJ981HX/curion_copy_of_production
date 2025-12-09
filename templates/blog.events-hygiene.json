@@ -1,0 +1,37 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_HYGIENE_EVENTS_Dental_Supplies.jpg",
+        "subtitle": "Hygiene Events",
+        "subtitle_color": "blue",
+        "page-header-title": "Hygienists",
+        "title_styling": "no-outline",
+        "page-header-text": "Learn the latest tools and techniques to provide high-quality patient care with ease and confidence.",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "main-blog": {
+      "type": "main-blog--events",
+      "settings": {
+        "limit": 9
+      }
+    }
+  },
+  "order": [
+    "page-header",
+    "main-blog"
+  ]
+}

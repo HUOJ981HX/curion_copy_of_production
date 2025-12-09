@@ -1,0 +1,136 @@
+{%- comment -%}
+  This is a required section for the Shopify Theme Store.
+  It is available when you add "Collection list" section in the Theme Editor.
+
+  Theme Store required settings
+  - Heading: title of the collection list section
+  - Collection
+{%- endcomment -%}
+<section class="collection-list">
+    <div class="container">
+        {%- if section.settings.subtitle != blank -%}
+            <span class="subtitle subtitle--{{ section.settings.subtitle_color | default: 'blue' }}">{{ section.settings.subtitle | escape }}</span>
+        {%- endif -%}
+        
+        {% if section.settings.title != blank %}
+            <h2 class="collection-list__title">{{ section.settings.title | escape }}</h2>
+        {% endif %}
+
+        <div class="collection-list__description">
+            {% if section.settings.description != blank %}
+                <div class="collection-list__text">{{ section.settings.description }}</div>
+            {% endif %}
+
+            {% if section.settings.button_text != blank and section.settings.button_link != blank %}
+                <div class="collection-list__button">
+                    <a href="{{ section.settings.button_link }}" class="button button--{% if section.settings.subtitle_color == 'coral' %}tertiary{% else %}primary{% endif %}">{{ section.settings.button_text }}</a>
+                </div>
+            {% endif %}  
+        </div>  
+    </div>
+
+    <div class="carousel--collection-list-wrapper">
+        <div class=" animate-in animate-in--slide-right swiper carousel--collection-list container">
+            <ul class="swiper-wrapper">
+                {% for block in section.blocks %}
+                    {%- assign collection = collections[block.settings.collection] -%}
+                    <li class="swiper-slide">
+                        {% render 'card--collection', collection: collection %}
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>  
+
+         <!-- If we need navigation buttons -->
+         <div class="swiper-arrow swiper-button-prev" tabindex="-1">
+            <svg class='icon icon__arrow--left'><use xlink:href='#icon-swiper-previous'></use></svg>
+            <span class="sr-only">Previous</span>
+        </div>
+        <div class="swiper-arrow swiper-button-next" tabindex="-1">
+            <svg class='icon icon__arrow--right'><use xlink:href='#icon-swiper-next'></use></svg> 
+            <span class="sr-only">Next</span>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Collection list",
+    "class": "page-section page-section--full-bleed",
+    "max_blocks": 50,
+    "settings": [
+        {
+            "type"  : "text",
+            "id"    : "subtitle",
+            "label" : "Subtitle"
+        },
+        {
+            "type": "radio",
+            "id": "subtitle_color",
+            "label": "Choose the colour for the subtitle.",
+            "info" : "Default colour will be blue.",
+            "options": [
+                { "value": "blue", "label": "Blue" },
+                { "value": "coral", "label": "Coral" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Collection list"
+        },
+        {
+            "type"    : "richtext",
+            "id"      : "description",
+            "label"   : "Description"
+        },
+        {
+            "type"  : "text",
+            "id"    : "button_text",
+            "label" : "Button Label"
+        },
+        {
+            "type"  : "url",
+            "id"    : "button_link",
+            "label" : "Button Link"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "collection",
+            "name": "Collection",
+            "settings": [
+                {
+                    "label": "Collection",
+                    "id": "collection",
+                    "type": "collection"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Collection list",
+            "category": "Collection",
+            "blocks": [
+                {
+                    "type": "collection"
+                },
+                {
+                    "type": "collection"
+                },
+                {
+                    "type": "collection"
+                },
+                {
+                    "type": "collection"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,42 @@
+<div class="faq-block">
+    <h3 class="faq-block__h3">{{ product.metafields.iamota.faqs_section_title | default: "Frequently Asked Questions" }}</h3>
+
+    {% if product.metafields.iamota.faqs_section_content != blank %}
+        <div class="faq-block__description">{{ product.metafields.iamota.faqs_section_content }}</div>
+    {% endif %}
+
+    <div class="accordion accordion--default js-accordion" data-collapse-all="">
+        {% for faq_question in product.metafields.iamota.faq_question %}
+            <div id="accordion-{{ block.id }}" class="accordion__item js-accordion__item">
+                <p class="accordion__title">
+                    <button type="button" class="accordion__button js-accordion__button" id="accordion-{{ block.id }}--button" aria-controls="accordion--{{ block.id }}--content" aria-expanded="false">
+                        {% if faq_question != blank %}
+                            {{ faq_question }}
+                        {% endif %}
+
+                        <span class="accordion__icon">
+                            {% render 'icon', name: 'minus', class: 'accordion__icon--close svg--baseline' %}
+                            {% render 'icon', name: 'plus', class: 'accordion__icon--open svg--baseline' %}
+                        </span>
+                    </button>
+                </p>
+
+                <div id="accordion--{{ block.id }}--content" class="accordion__content js-accordion__content" role="region" aria-labelledby="accordion-{{ block.id }}--button" hidden>
+                    {% if product.metafields.iamota.faq_answer[forloop.index0] != blank %}
+                        {{ product.metafields.iamota.faq_answer[forloop.index0] }}
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "Accordion (FAQ)",
+    "class": "page-section page-section--faq page-section--full-bleed page-section--faq--product",
+    "settings": [
+    ]
+}
+{% endschema %}

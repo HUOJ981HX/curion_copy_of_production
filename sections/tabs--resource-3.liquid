@@ -1,0 +1,93 @@
+{% assign resource_tabs_subtitle_3 = page.metafields.iamota.resource_tabs_subtitle_3 %}
+{% assign resource_tabs_heading_3 = page.metafields.iamota.resource_tabs_heading_3 %}
+{% assign resource_tabs_description_3 = page.metafields.iamota.resource_tabs_description_3 %}
+
+{% assign counter = 0 %}
+
+{%- capture resource_tabs_3 -%}
+    <!-- English Resources Tab -->
+    {% if page.metafields.iamota.english_file_upload_3.size > 0 %}
+        {%- assign counter = counter | plus: 1 -%}
+        <h4 class="css-grid__item css-grid__item--card tab-panel" tabindex="0">
+            <button class="tab__title">English
+                <div class="tab__icon">
+                    {% render 'icon', name: 'minus', class: 'tab__icon--close svg--baseline' %}
+                    {% render 'icon', name: 'plus', class: 'tab__icon--open svg--baseline' %}
+                </div>
+            </button>
+        </h4>
+
+        <div class="css-grid__item css-grid__item--panel" id="tab_1">
+            <div class='tab-content__wrapper css-grid--large-4 css-grid--medium-4 css-grid--small-2'>
+                {% for english_file_upload_3 in page.metafields.iamota.english_file_upload_3 %} 
+                    {% assign file_upload = english_file_upload_3 | first %}
+                    {% assign file_image = page.metafields.iamota.english_file_image_3[forloop.index0] | first %}
+                    {% assign file_name = page.metafields.iamota.english_file_name_3[forloop.index0] %}
+
+                    {% render 'card--resource', file_upload: file_upload, file_image : file_image, file_name : file_name %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    <!-- French Resources Tab -->
+    {% if page.metafields.iamota.french_file_upload_3.size > 0 %}
+        {%- assign counter = counter | plus: 1 -%}
+        <h4 class="css-grid__item css-grid__item--card tab-panel" tabindex="0">
+            <button class="tab__title">French
+                <div class="tab__icon">
+                    {% render 'icon', name: 'minus', class: 'tab__icon--close svg--baseline' %}
+                    {% render 'icon', name: 'plus', class: 'tab__icon--open svg--baseline' %}
+                </div>
+            </button>
+        </h4>
+
+        <div class="css-grid__item css-grid__item--panel" id="tab_2">
+            <div class='tab-content__wrapper css-grid--large-4 css-grid--medium-4 css-grid--small-2'>
+                {% for french_file_upload_3 in page.metafields.iamota.french_file_upload_3 %} 
+                    {% assign file_upload = french_file_upload_3 | first %}
+                    {% assign file_image = page.metafields.iamota.french_file_image_3[forloop.index0] | first %}
+                    {% assign file_name = page.metafields.iamota.french_file_name_3[forloop.index0] %}
+
+                    {% render 'card--resource', file_upload: file_upload, file_image : file_image, file_name : file_name %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{%- endcapture -%}
+
+
+{%- assign resource_tabs_3 = resource_tabs_3 | trim -%}
+
+<div class="container">
+    <div class="resource-tabs--header-wrapper container">
+        {%- if resource_tabs_subtitle_3 != blank -%}
+            <span class="subtitle subtitle--blue resource-tabs--subtitle">{{ resource_tabs_subtitle_3 | escape }}</span>
+        {%- endif -%}
+    
+        {% if resource_tabs_heading_3 != blank %}
+            <h2 class="resource-tabs--heading">{{ resource_tabs_heading_3 }}</h2>
+        {% endif %}
+    
+        {% if resource_tabs_description_3 != blank %}
+            <p class="resource-tabs--description">{{ resource_tabs_description_3 }}</p>
+        {% endif %}
+    </div>
+
+    {%- unless resource_tabs_3 == blank -%}
+        <div class="tabs tabs--resources">
+            <div class="css-grid--large-5 css-grid--medium-5 css-grid--small-1 css-grid--accordion" 
+            style="grid-template-columns: repeat({{ counter }},1fr);"
+            data-product-tab-content>
+            {{ resource_tabs_3 }}
+            </div>
+        </div>
+    {%- endunless -%}
+</div>
+
+{% schema %}
+{
+    "name": "Tabs",
+    "class": "page-section page-section--gap page-section--full-bleed page-section--tabs"
+}
+{% endschema %}

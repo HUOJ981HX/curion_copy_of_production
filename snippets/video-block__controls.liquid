@@ -1,0 +1,51 @@
+{% comment %}  {% endcomment %}
+
+{% comment %} Prepare Video-Block Controls Attributes {% endcomment %}
+{% capture videoControlsAttribute %}
+	class -*-
+		video-block__controls	
+{% endcapture %}
+
+{% comment %} Video Controls HTML {% endcomment %}
+<div {% render 'attribute', attribute: videoControlsAttribute %} >
+
+	{% unless "native, none" contains controls %}
+
+		{% unless controls_position  %}
+			{% if video_type == "youtube" %}
+				{% assign default_controls_position = "left" %}
+			{% else %}
+			    {% assign default_controls_position = "right" %}
+			{% endif %}
+		{% endunless %}
+		
+		{% comment %} Prepare Video-Block Control Bar Attributes {% endcomment %}
+		{% capture videoControlBarAttributes %}
+			class -*-
+				video-block__controls-bar -#-
+					{{ controls_position | default: default_controls_position }}
+		{% endcapture %}
+		<div {% render 'attribute', attribute: videoControlBarAttributes %}>
+			
+			{% comment %} Mute Control {% endcomment %}
+			{% if controls == 'custom' or controls == 'mute-only' %}
+				{% render 'icon', name: 'mute', class: 'video-block__control video-block__control--unmute' %}
+				{% render 'icon', name: 'volume', class: 'video-block__control video-block__control--mute' %}
+            {% endif %}
+
+            {% comment %} Play/Pause Control {% endcomment %}
+            {% if controls == 'custom' or controls == 'play-only' %}
+            	{% render 'icon', name: 'play', class: 'video-block__control video-block__control--play' %}
+            	{% render 'icon', name: 'pause', class: 'video-block__control video-block__control--pause' %}
+            {% endif %}
+
+		</div>
+
+	{% endunless %}
+
+	{% if is_poster %}
+		<div class="video-block__controls-poster">
+			{% render 'icon', name: 'play', class: 'video-block__control video-block__control--play' %}
+		</div>
+	{% endif %}
+</div>

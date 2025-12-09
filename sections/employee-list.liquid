@@ -1,0 +1,89 @@
+{%- comment -%}
+  This is the Events section which is used for only the Events Landing Page
+
+  Theme Store required settings
+  - Heading: title of the Events List section
+  - Blog (which blog category to show in your store)
+
+  Theme Store optional settings
+  - Number of posts to show
+  - Show author
+  - Show date
+{%- endcomment -%}
+
+
+{%- assign blog = blogs['employee'] -%}
+{%- assign employee_type = section.settings.employee_type -%}
+{%- assign employee_count = 0 -%}
+
+{% for employee in blog.articles %}
+    {% if employee.tags contains employee_type %}
+        {% assign employee_count = employee_count | plus: 1 %}
+    {% endif %}
+{% endfor %}  
+
+{% if employee_count <= 3 %}
+    {% assign desktop_grid_class = 'css-grid--large-3' %}
+{% elsif employee_count == 4 %}
+    {% assign desktop_grid_class = 'css-grid--large-4' %}
+{% else %}
+    {% assign desktop_grid_class = 'css-grid--large-5' %}
+{% endif %}
+
+{%- if section.settings.subtitle != blank -%}
+    <span class="subtitle subtitle--blue">{{ section.settings.subtitle | escape }}</span>
+{%- endif -%}
+
+<div class='page-section__header page-section__header--employee-list'>
+    <h2 class="employee-list__title">{{ section.settings.title | escape | default: "Our Team" }}</h2>
+</div>
+
+{%- comment -%}
+    Due to accessibility requirements, the Blog entries list functions
+    as a list of content items. Non-visual users will expect lists of content
+    to appear in a list structure, allowing for easier understanding and navigation of list items.
+{%- endcomment -%}
+
+<div class="css-grid css-grid--default css-grid--small-1 css-grid--medium-3 {{ desktop_grid_class }} css-grid--employee-list employee-list">
+    {% for employee in blog.articles %}
+        {% if employee.tags contains employee_type %}
+            {% render 'card--employee', class: 'css-grid__item', article: employee %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+{% schema %}
+{
+    "name": "Employee List",
+    "class": "page-section page-section--blog-post page-section--employee-list",
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Our Team"
+        },
+        {
+            "type": "radio",
+            "id": "employee_type",
+            "label": "Employee Type",
+            "options": [
+                { "value": "Executive Team", "label": "Executive Team" },
+                { "value": "Manager", "label": "Manager" }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Employee List",
+            "category": "Employee"
+        }
+    ]
+}
+{% endschema %}

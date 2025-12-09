@@ -1,0 +1,81 @@
+<div class="container">
+    <!-- Desktop Tabs Section -->
+    <div class="tabs--desktop tabs js-tabs--desktop" role="tablist" aria-label="{{ section.settings.tab_label }}">
+
+        <!-- Product Tab 1 - Html content field and Icon repeater -->
+        {% for block in section.blocks %}
+            {% if block.settings.tab_content != blank and block.settings.tab_title != blank %}
+                <button type="button" id="tab-{{ block.id }}--button" class="tab__button--desktop js-tab__button--desktop h3" role="tab" aria-controls="tab-{{ block.id }}--content">{{ block.settings.tab_title }}</button>
+
+                <div id="tab-{{ block.id }}--content" class="tab__content--desktop js-tab__content--desktop" role="tabpanel" aria-labelledby="tab-{{ block.id}}--button" tabindex="0">
+                    <div class='tab-content__wrapper'>
+                        {{ block.settings.tab_content }}
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <!-- Mobile Accordion for Tabs Section -->
+    <div class="tabs--mobile">
+    {% if section.blocks.size > 0 %}
+        <div class="tab tab--default js-tab--mobile">
+            {% for block in section.blocks %}
+                <div id="accotab-{{ block.id }}" class="tab__item js-tab__item--mobile">
+                    <h3 class="tab__title js-tab__title--mobile h4">
+                        <button type="button" class="tab__button js-tab__button--mobile" id="accotab-{{ block.id }}--button" aria-controls="accotab-{{ block.id }}--content" aria-expanded="false">
+                            {% if block.settings.tab_title != blank %}
+                                {{ block.settings.tab_title }}
+                            {% endif %}
+
+                            <span class="tab__icon">
+                                {% render 'icon', name: 'minus', class: 'tab__icon--close svg--baseline' %}
+                                {% render 'icon', name: 'plus', class: 'tab__icon--open svg--baseline' %}
+                            </span>
+                        </button>
+                    </h3>
+
+                    <div id="accotab-{{ block.id }}--content" class="tab__content js-tab__content--mobile" role="region" aria-labelledby="accotab-{{ block.id }}--button" hidden>
+                        {% if block.settings.tab_content != blank %}
+                            {{ block.settings.tab_content }}
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Tabs",
+    "class": "page-section page-section--gap page-section--full-bleed page-section--tabs",
+    "settings": [
+        {
+            "type": "text",
+            "id": "tab_label",
+            "label": "Tablist Label",
+            "info": "Provide a label that describes the purpose of the set of tabs. Used for accessibility."
+        }
+    ],
+    "blocks": [
+        {
+        "type": "tab",
+        "name": "Tab",
+        "limit": 3,
+        "settings": [
+            {
+                "type"  : "text",
+                "id"    : "tab_title",
+                "label" : "Title"
+            },
+            {
+                "type"  : "richtext",
+                "id"    : "tab_content",
+                "label" : "Content"
+            }
+        ]
+        }
+    ]
+}
+{% endschema %}

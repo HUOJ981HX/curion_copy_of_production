@@ -1,0 +1,178 @@
+{% assign additionalInfo = customer.metafields.accentuate %}
+
+{% unless customer.metafields.accentuate.dental_profession and customer.metafields.accentuate.office_phone %}
+    <div class="page-header page-header--account page-header--account-additional-info-submission">
+        <div class="page-header__content">
+            <h1 class="page-header__title heading--h1">{{ 'customer.account.title' | t }}</h1>
+            <p>Tell us more about your practice to complete your registration.</p>
+        </div>
+    </div>
+    <div class="page-section page-section--account-additional-info-submission">
+        <form class='form form--additional-customer-info' id="customer_metafields">
+            <div class="form__wrapper">
+                <input type="hidden" name="customer[id]" value="{{ customer.id }}" />
+                <div class="form__field form__field--custom-select">
+                    <label for="dental-profession" class="form__label">
+                        Dental Profession
+                    </label>
+
+                    <div class="form__element">
+                        <select 
+                            id="dental-profession" 
+                            name="metafield[accentuate.dental_profession]"
+                            class="form__control form__select"
+                            required
+                        />
+                            <option value="">-- Select --</option>
+                            <option value="Dentist" {% if customer.metafields.accentuate.dental_profession == "Dentist" %} selected {% endif %}>Dentist</option>
+                            <option value="Hygienist" {% if customer.metafields.accentuate.dental_profession == "Hygienist" %} selected {% endif %}>Hygienist</option>
+                            <option value="Lab" {% if customer.metafields.accentuate.dental_profession == "Lab" %} selected {% endif %}>Lab</option>
+                            <option value="Dentist-Specialty" {% if customer.metafields.accentuate.dental_profession == "Dentist-Specialty"%} selected {% endif %}>Dentist-Specialty</option>
+                            <option value="Non-Dental Professional" {% if customer.metafields.accentuate.dental_profession == "Non-Dental Professional"%} selected {% endif %}>Non-Dental Professional</option>
+                        </select>
+                        {% render 'icon', name: 'arrow--down', class: 'select__caret svg--baseline' %}
+                    </div>
+                    <label for="dental-profession" generated="true" class="error form__error"></label>
+                    <input hidden type="text" name="customer[tags][]" id='customer-role-tag'>
+                </div>
+
+                <div class="form__field form__field--input">
+                    <label for="office-phone" class="form__label">
+                        Office Phone
+                    </label>
+                    <input class="form__control form__input" type="text" id="office-phone" name="metafield[accentuate.office_phone]" value="{{ customer.metafields.accentuate.office_phone }}" required/>
+                </div>
+
+                <div class="form__field form__field--input">
+                    <label class="form__label" for="practice-name">Practice Name (Optional)</label>
+                    <input class="form__control form__input" type="text" id="practice-name" name="metafield[accentuate.practice_name]" value="{{ customer.metafields.accentuate.practice_name }}" />
+                </div>
+
+                <div class="form__field form__field--input">
+                    <label class="form__label" for="bisco-account-number">Bisco Account Number (Optional)</label>
+                    <input class="form__control form__input" type="text" id="bisco-account-number" name="metafield[accentuate.bisco_account_number]" value="{{ customer.metafields.accentuate.bisco_account_number }}"/>
+                </div>
+
+                <input class="button button--primary form__button form__submit--ajax" type="submit">
+            </div>
+        </form>
+    </div>
+{% else %}
+    <div class="page-header page-header--account page-header--account-page">
+        <div class="page-header__content">
+            <h1 class="page-header__title heading--h1">{{ 'customer.account.title' | t }}</h1>
+            <a href="{{ routes.account_logout_url }}" class="button button--primary button__log-in">Log Out</a>
+        </div>
+    </div>
+    <div class="page-section page-section--no-gap page-section--account-orders">
+        <h2 class="account-details__title">{{ 'customer.orders.title' | t }}</h2>
+        {% paginate customer.orders by 20 %}
+            {% if customer.orders.size != 0 %}
+                <table class="responsive-table order-table__table">
+                    <thead>
+                        <tr class="order-table__header">
+                            <th class="order-table__header-item">{{ 'customer.orders.order_number' | t }}</th>
+                            <th class="order-table__header-item">{{ 'customer.orders.date' | t }}</th>
+                            <th class="order-table__header-item">{{ 'customer.orders.payment_status' | t }}</th>
+                            <th class="order-table__header-item">{{ 'customer.orders.fulfillment_status' | t }}</th>
+                            <th class="order-table__header-item">{{ 'customer.orders.total' | t }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for order in customer.orders %}
+                            <tr class="order-table__row">
+                                <td class="order-table__item" data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
+                                <td class="order-table__item" data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | date: format: 'month_day_year' }}</td>
+                                <td class="order-table__item" data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                                <td class="order-table__item" data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
+                                <td class="order-table__item" data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p>{{ 'customer.orders.none' | t }}</p>
+            {% endif %}
+
+            {% if paginate.pages > 1 %}
+                {% render 'pagination' %}
+            {% endif %}
+        {% endpaginate %}
+    </div>
+
+    <div class="page-section page-section--account-details">
+        <h2 class="account-details__title">{{ 'customer.account.details' | t }}</h2>
+
+        <div class='customer-details__container'>
+            <div class='customer-details__row'>
+                <div class='customer-details__label'>
+                    <p>
+                      Name:  
+                    </p>
+                </div>
+                <div class='customer-details__value'>
+                    {{ customer.first_name }} {{ customer.last_name }}
+                </div>
+            </div>
+
+            <div class='customer-details__row'>
+                <div class='customer-details__label'>
+                    <p>
+                      Email:  
+                    </p>
+                </div>
+                <div class='customer-details__value'>
+                    {{ customer.email }}
+                </div>
+            </div>
+
+            {% for field in additionalInfo %}
+                {% capture key %}{{ field | first }}{% endcapture %}
+                {% capture value %}{{ field | last }}{% endcapture %}
+                <div class='customer-details__row'>
+                    <div class='customer-details__label'>
+                        <p>
+                          {{ key | replace: '_', ' ' | capitalize }}:
+                        </p>
+                    </div>
+                    <div class='customer-details__value'>
+                        {{ value }}
+                    </div>
+                </div>
+            {% endfor %}
+
+            <button id="customer-edit__button">Edit</button>
+            <div id="customer-edit__form" hidden>
+                <form id="customer_metafields_edit">
+                    <input type="hidden" name="customer[id]" value="{{ customer.id }}" />
+
+                    <div class="form__field form__field--input">
+                        <label for="office-phone" class="form__label">
+                            Office Phone
+                        </label>
+                        <input class="form__control form__input" type="text" id="office-phone" name="metafield[accentuate.office_phone]" value="{{ customer.metafields.accentuate.office_phone }}" required/>
+                    </div>
+
+                    <div class="form__field form__field--input">
+                        <label class="form__label" for="practice-name">Practice Name (Optional)</label>
+                        <input class="form__control form__input" type="text" id="practice-name" name="metafield[accentuate.practice_name]" value="{{ customer.metafields.accentuate.practice_name }}" />
+                    </div>
+
+                    <div class="form__field form__field--input">
+                        <label class="form__label" for="bisco-account-number">Bisco Account Number (Optional)</label>
+                        <input class="form__control form__input" type="text" id="bisco-account-number" name="metafield[accentuate.bisco_account_number]" value="{{ customer.metafields.accentuate.bisco_account_number }}"/>
+                    </div>
+
+                    <input class="button button--primary form__button" type="submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="address">
+            <h2 class="account-details__title account-details__title-address">Addresses</h2>
+            {{ customer.default_address | format_address }}
+        </div>
+        <a href="{{ routes.account_addresses_url }}">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a>
+    </div>    
+{% endunless %}
+

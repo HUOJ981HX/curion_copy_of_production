@@ -1,0 +1,31 @@
+<article class="css-grid__item card card--default card--partner{% if card_link %} has-link {% endif %}{{ class }}">
+    {% if card_link %}
+        <a class='card__link--overlay' href="{{ card_link }}" target="_blank"></a>
+    {% endif %} 
+    <div class='card__partner-wrapper'>
+        <div class="card__image-wrapper{% if logo_image != blank %} has-logo-image{% endif %}">
+            {% if logo_image != blank %}
+                {% render 'responsive-image' with image: logo_image, image_class: 'partner-logo__image' %}
+            {% endif %}
+
+            {% if card_image != blank %}
+                {% render 'responsive-image' with image: card_image, image_class: 'accordion-panel__image product__image' %}
+            {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+        </div>
+
+        <div class="card__content">
+            {% if card_name %}
+                <h3 class="card__title">{{ card_name }}</h3>
+            {% endif %}
+
+            <div class='card__partner-footer'>
+                {% if card_link %}
+                    <a href="{{ card_link }}" class="icon-block__button button button--primary button--text">{{card_btn_label}} <span class="button__icon-wrapper">{% render 'icon', name: 'arrow--cta-short', class: 'button__icon' %}</span></a>
+                {% endif %}
+            </div>
+        </div>
+        
+    </div>
+</article>

@@ -1,0 +1,67 @@
+<div class="banner-block banner-block--default banner-block--with-overlay">
+    {% if section.settings.banner-block-link != blank %}
+        <a href="{{ section.settings.banner-block-link }}" class="banner-block__link">
+    {% endif %}
+
+        <div class="background-media">
+            <div class="background-media__overlay"></div>
+
+            {% if section.settings.banner-block-image != blank %}
+                <div class="background-media__background">
+                    {% render 'responsive-image' with image: section.settings.banner-block-image, image_class: "background-image" %}
+                </div>
+            {% endif %}
+
+            <div class="background-media__content background-media__content--left">
+                {% if section.settings.banner-block-title != blank %}
+                    <h3 class="banner-block__title">{{ section.settings.banner-block-title }}</h3>
+                {% endif %}
+
+                {% if section.settings.banner-block-text != blank %}
+                    <div class="banner-block__content">{{ section.settings.banner-block-text }}</div>
+                {% endif %}
+
+                {% if section.settings.banner-block-button-text != blank and section.settings.banner-block-link != blank %}
+                    <div class="button button--secondary">{{ section.settings.banner-block-button-text }}</div>
+                {% endif %}
+            </div>
+        </div>
+
+    {% if section.settings.banner-block-link != blank %}
+        </a>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Collection Driver",
+    "class": "page-section page-section--no-gap page-section--collection-driver",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner-block-image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "banner-block-title",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "banner-block-text",
+            "label": "Text"
+        },
+        {
+            "type": "text",
+            "id": "banner-block-button-text",
+            "label": "Button Label"
+        },
+        {
+           "type": "url",
+            "id": "banner-block-link",
+            "label": "Button Link"
+        }
+    ]
+}
+{% endschema %}

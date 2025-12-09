@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/iStock-1072035598-new_2cb62bb2-8cfd-4533-a338-ae58059736e2.jpg",
+        "page-header-image--mobile": "shopify://shop_images/iStock-1072035598_copy-1.jpg",
+        "subtitle": "Join Our Newsletter",
+        "subtitle_color": "blue",
+        "page-header-title": "Stay in the know!",
+        "title_styling": "no-outline",
+        "page-header-text": "",
+        "background_color": "white",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "182ce70b-6007-4cac-b92b-bcee1b60fae7": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Sign up today!",
+        "text": ""
+      }
+    },
+    "167103741409a2ea48": {
+      "type": "apps",
+      "blocks": {
+        "1d7e2ff5-a174-4c09-ab5c-6921cd3b724c": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "QNFysy"
+          }
+        }
+      },
+      "block_order": [
+        "1d7e2ff5-a174-4c09-ab5c-6921cd3b724c"
+      ],
+      "settings": {}
+    },
+    "1639524087320b8526": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/CompanyCulture.png",
+        "intro-block-title": "We empower caring dental professionals across Canada to tap into the joy of dentistry.",
+        "intro-block-button-text": "See What We Stand For",
+        "intro-block-link": "shopify://pages/culture"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "182ce70b-6007-4cac-b92b-bcee1b60fae7",
+    "167103741409a2ea48",
+    "1639524087320b8526"
+  ]
+}

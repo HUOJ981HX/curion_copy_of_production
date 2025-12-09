@@ -1,0 +1,100 @@
+<div class='container'>
+    <section class="timeline-slider">
+        <div class='page-section__header page-section__header--slider page-section__header--timeline-slider'>
+            {%- if section.settings.subtitle != blank -%}
+                <span class="subtitle subtitle--blue">{{ section.settings.subtitle | escape }}</span>
+            {%- endif -%}
+            <h2 class="page-section__title page-section__title--timeline-slider">{{ section.settings.title | escape }}</h2>
+        </div>
+
+        <div class="swiper swiper--default slider--timeline carousel--timeline-slider">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-arrow swiper-button-prev" tabindex="-1">
+                <svg class='icon icon__arrow--left'><use xlink:href='#icon-swiper-previous'></use></svg>
+                <span class="sr-only">Previous</span>
+            </div>
+            <div class="swiper-arrow swiper-button-next" tabindex="-1">
+                <svg class='icon icon__arrow--right'><use xlink:href='#icon-swiper-next'></use></svg> <span class="sr-only">Next</span>
+            </div>
+            <ul class="swiper-wrapper">
+                {% for block in section.blocks %}
+                    <li class="swiper-slide">
+                        <section class="content-panel content-panel--default content-panel--split align-right">
+                            <div class="content-panel__container">
+                                <div class="content-panel__meta">
+                                    {% render 'responsive-image' with image: block.settings.content_panel_image, image_class: "background-image" %}
+                                </div>
+
+                                <div class="content-panel__content ">
+                                    <div class='content-panel__content-wrapper'>
+                                        {% render 'icon', name: 'timeline', class: 'slider__icon' %}
+                                        {% if block.settings.copy_block_title != blank %}
+                                            <h2 class="copy-block__title h3">{{ block.settings.copy_block_title }}</h2>
+                                        {% endif %}
+
+                                        {% if block.settings.copy_block_text != blank %}
+                                            <div class="copy-block__text">{{ block.settings.copy_block_text }}</div>
+                                        {% endif %}
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+</div>
+
+{% schema %}
+{
+    "name": "Timeline Slider",
+    "class": "page-section page-section--full-bleed page-section--timeline-slider",
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "slide",
+            "name": "Slide",
+            "settings": [
+                {
+                    "type"  : "image_picker",
+                    "id"    : "content_panel_image",
+                    "label" : "Image"
+                },
+                {
+                    "type"  : "text",
+                    "id"    : "copy_block_title",
+                    "label" : "Title"
+                },
+
+                {
+                    "type"  : "richtext",
+                    "id"    : "copy_block_text",
+                    "label" : "Text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Timeline Slider",
+            "category": "Sliders"
+        }
+    ]
+}
+{% endschema %}

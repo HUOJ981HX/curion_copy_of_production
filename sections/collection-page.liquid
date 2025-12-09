@@ -1,0 +1,57 @@
+<div class='page-section page-section--collection-page page-section--collection-filter'>
+    <div id="iamota-filters">
+        {% render 'filter-menu' %}
+    </div>
+    <div class='page-section page-section--product__lists product__lists'>
+        {%- capture pt_sort_section -%}
+            {%- if settings.pt_show_sort_by_group and collection.handle != nil and template contains 'collection' -%}
+                {%- assign current_sort_order = collection.sort_by | default: collection.default_sort_by -%}
+                <div class="filter-group filter-group-sort-orders {% if settings.pt_force_dropdown or pt_force_dropdown or settings.pt_sort_by_dropdown %}pt-display-dropdown{% endif %}">
+                  <div class="scroll-content">
+                    <ul class="nav-sort-orders">
+                      {%- if settings.pt_sort_manual_text != blank and collection.default_sort_by == 'manual' -%}<li class="active {% if current_sort_order == 'manual' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'manual' %}?sort_by=manual{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_manual_text }}</a></div></li>{%- endif -%}
+                      {%- if settings.pt_sort_price_asc_text != blank -%}<li class="active {% if current_sort_order == 'price-ascending' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'price-ascending' %}?sort_by=price-ascending{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_price_asc_text }}</a></div></li>{%- endif -%}
+                      {%- if settings.pt_sort_price_desc_text != blank -%}<li class="active {% if current_sort_order == 'price-descending' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'price-descending' %}?sort_by=price-descending{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_price_desc_text }}</a></div></li>{%- endif -%}
+                      {%- if settings.pt_sort_created_desc_text != blank -%}<li class="active {% if current_sort_order == 'created-descending' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'created-descending' %}?sort_by=created-descending{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_created_desc_text }}</a></div></li>{%- endif -%}
+                      {%- if settings.pt_sort_created_asc_text != blank -%}<li class="active {% if current_sort_order == 'created-ascending' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'created-ascending' %}?sort_by=created-ascending{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_created_asc_text }}</a></div></li>{%- endif -%}
+                      {%- if settings.pt_sort_best_selling_text != blank -%}<li class="active {% if current_sort_order == 'best-selling' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'best-selling' %}?sort_by=best-selling{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_best_selling_text }}</a></div></li>{%- endif -%}
+                      {%- if settings.pt_sort_title_asc_text != blank -%}<li class="active {% if current_sort_order == 'title-ascending' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'title-ascending' %}?sort_by=title-ascending{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_title_asc_text }}</a></div></li>{%- endif -%}
+                      {%- if settings.pt_sort_title_desc_text != blank -%}<li class="active {% if current_sort_order == 'title-descending' %}selected{% endif %}"><div class="collection-name"><a href="{{ request.path }}{% unless current_sort_order == 'title-descending' %}?sort_by=title-descending{% endunless %}">{% if settings.pt_show_sort_by_checkboxes %}<i class="check-icon"></i> {% endif %}{{ settings.pt_sort_title_desc_text }}</a></div></li>{%- endif -%}
+                     </ul>
+                   </div>
+                </div>
+            {%- endif -%}
+        {%- endcapture -%}
+
+
+
+        {% paginate collection.products by 20 %}
+            <div class='product__lists__container'>
+                <div class='product__lists__header css-grid css-grid--default css-grid--small-1 css-grid--medium-2'>
+                    <div class='css-grid__item sort-by__wrapper'>
+                        <span class='sort-by__label'>Sort By</span>
+                        {%- if settings.pt_sort_position == 'top' -%}
+                            {{ pt_sort_section }}
+                        {%- endif -%}
+                    </div>
+                    <div class='css-grid__item filter-results__wrapper'>
+                        {% if paginate.items > 1 %}
+                            <p>{{ paginate.current_offset | plus: 1 }} - {{ paginate.current_offset | plus: 20 }} out of {{ paginate.items }} Results</p>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <section class="page-section--no-gap product__lists__wrapper css-grid css-grid--default css-grid--small-2 css-grid--medium-2 css-grid--large-3 css-grid--extra-large-4">
+                    {% for product in collection.products %}
+                        {%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
+                        {% render "card--product" product: product %}
+                    {% endfor %}
+                </section>
+            </div>
+
+            {% if paginate.pages > 1 %}
+                {% render 'pagination' paginate: paginate %}
+            {% endif %}
+        {% endpaginate %}
+    </div>
+</div>

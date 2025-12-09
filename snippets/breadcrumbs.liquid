@@ -1,0 +1,130 @@
+{% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
+    <nav class="breadcrumbs menu menu--breadcrumbs" role="navigation" aria-label="breadcrumbs">
+        <ul class="menu__list">
+            {% if template contains 'page' %}
+                <li class="menu__item">
+                    <a href="{{ shop.url }}" class="menu__link">
+                        {{ home_label | default: "Home" }}
+                    </a>
+                </li>
+                <li class="menu__item menu__item--separator" aria-hidden="true">
+                    {% render 'icon', name: 'arrow--right' %}
+                </li>
+                <li class="menu__item menu__item--current">
+                    {{ page.title }}
+                </li>
+            {% elsif template contains 'product' %}
+                {% if product.type %}
+                    <li class="menu__item">
+                        <a href="{{ routes.collections_url }}/{{ product.type | handleize }}" class="menu__link">
+                            {{ product.type }}
+                        </a>
+                    </li>
+                {% endif %}
+
+                <li class="menu__item menu__item--separator" aria-hidden="true">
+                    {% render 'icon', name: 'arrow--right' %}
+                </li>
+                <li class="menu__item menu__item--current">
+                    {% if product.title contains "™" %}
+                        {{ product.title | replace: "™", "<sup>TM</sup>" }}
+                    {% else %}                        
+                        {{ product.title }}
+                    {% endif %}
+                </li>
+            {% elsif template contains 'collection' and collection.handle %}
+                {% if collection.handle == 'all' %}
+                    <li class="menu__item">
+                        <a href="{{ shop.url }}" class="menu__link">
+                            {{ home_label | default: "Home" }}
+                        </a>
+                    </li>
+                {% else %}
+                    <li class="menu__item">
+                        <a href="{{ routes.all_products_collection_url }}" class="menu__link">
+                            All Collections
+                        </a>
+                    </li>
+                {% endif %}
+
+                <li class="menu__item menu__item--separator" aria-hidden="true">
+                    {% render 'icon', name: 'arrow--right' %}
+                </li>
+
+                {% if current_tags %}
+                    {% capture url %}{{ routes.collections_url }}/{{ collection.handle }}{% endcapture %}
+
+                    <li class="menu__item">
+                        <a href="{{ url }}" class="menu__link">
+                            {{ collection.title }}
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item--separator" aria-hidden="true">
+                        {% render 'icon', name: 'arrow--right' %}
+                    </li>
+                    <li class="menu__item menu__item--current">
+                        {{ current_tags | join: " + " }}
+                    </li>
+                {% else %}
+                    <li class="menu__item menu__item--current">
+                        {{ collection.title }}
+                    </li>
+                {% endif %}
+
+            {% elsif template == 'blog' %}
+                <li class="menu__item menu__item--separator" aria-hidden="true">
+                    {% render 'icon', name: 'arrow--right' %}
+                </li>
+
+                {% if current_tags %}
+                    <li class="menu__item">
+                        <a href="{{ blog.url }}" class="menu__link">
+                            {{ blog.title }}
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item--separator" aria-hidden="true">
+                        {% render 'icon', name: 'arrow--right' %}
+                    </li>
+                    <li class="menu__item menu__item--current">
+                        {{ current_tags | join: " + " }}
+                    </li>
+                {% else %}
+                    <li class="menu__item menu__item--current">
+                        {{ blog.title }}
+                    </li>
+                {% endif %}
+            {% elsif template contains 'article' %}
+                <li class="menu__item">
+                    <a href="{{ blog.url }}" class="menu__link">
+                        {{ blog.title }}
+                    </a>
+                </li>
+                <li class="menu__item menu__item--separator" aria-hidden="true">
+                    {% render 'icon', name: 'arrow--right' %}
+                </li>
+                <li class="menu__item menu__item--current">
+                    {{ article.title }}
+                </li>
+            {% elsif template contains 'addresses' or template contains 'order' %}
+                <li class="menu__item">
+                    <a href="{{ routes.account_url }}" class="menu__link">
+                        {{ 'customer.account.title' | t }}
+                    </a>
+                </li>
+                <li class="menu__item menu__item--separator" aria-hidden="true">
+                    {% render 'icon', name: 'arrow--right' %}
+                </li>
+                <li class="menu__item menu__item--current">
+                    {{ page_title }}
+                </li>
+            {% else %}
+                <li class="menu__item menu__item--separator" aria-hidden="true">
+                    {% render 'icon', name: 'arrow--right' %}
+                </li>
+                <li class="menu__item menu__item--current">
+                    {{ page_title }}
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+{% endunless %}

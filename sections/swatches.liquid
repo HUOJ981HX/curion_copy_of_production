@@ -1,0 +1,94 @@
+{%- if section.blocks.size > 0 -%}
+<style type="text/css">
+
+    {%- for block in section.blocks -%}
+        {%- comment -%} Text-based Swatches {%- endcomment -%}
+        {%- case block.type -%}
+            {%- when 'swatch--text' -%}
+            .swatch__option input[value='{{block.settings.title}}'] + label .form__option-label-inner:after {
+                content: "{{ block.settings.abbreviation }}"
+            }
+
+
+            .swatch__option input[value='{{block.settings.title}}'] + label .form__option-label-visually-hidden {
+                border: 0;
+                clip: rect(0 0 0 0);
+                height: 1px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+                width: 1px;
+            }
+
+            {%- comment -%} Color Swatches {%- endcomment -%}
+            {%- when 'swatch--color' -%}
+            .swatch__option input[value='{{block.settings.title}}'] + label .form__option-label-inner {
+                {%- if block.settings.color != blank -%}
+                background-color: {{ block.settings.color }};
+                {%- endif -%}
+                {%- if block.settings.image -%}
+                background-image:url({{ block.settings.image | img_url: '50x50', crop: 'center' }});
+                {%- endif -%}
+            }
+        {%- endcase -%}
+    {%- endfor -%}
+</style>
+{%- endif -%}
+
+{% schema %}
+{
+    "name": "Swatches",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Swatches",
+            "info": "Use this section to define swatch colors / images to be used throughout the site.."
+        }
+    ],
+    "blocks": [
+        {
+            "type": "swatch--color",
+            "name": "Color Swatch",
+            "settings": [
+                {
+                    "type": "color",
+                    "id": "color",
+                    "label": "Color"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+            ]
+        },
+        {
+            "type": "swatch--text",
+            "name": "Text Swatch",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "subtitle",
+                    "label": "Variant Option"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Variant Title"
+                },
+                {
+                    "type": "text",
+                    "id": "abbreviation",
+                    "label": "Variant Abbreviation"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/My_project_copy_6_6f1f8b46-25fd-4f32-88ea-f09f2deab227.png",
+        "page-header-image--mobile": "shopify://shop_images/DT_Post_Illusion_X-RO_copy_3c269def-7079-44c3-8979-535eabbb2e2b.jpg",
+        "subtitle": "RTD by dentsply sirona (Maillefer)",
+        "subtitle_color": "coral",
+        "page-header-title": "Pioneering bold innovations",
+        "title_styling": "outline",
+        "page-header-text": "Known for bringing many “firsts” to several areas of dentistry, RTD is the world leader in fiber endodontic post and fiber composite technology.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642552164f216efe6": {
+      "type": "icon-block",
+      "blocks": {
+        "eb765154-f7b6-4cdc-a26f-73fa6b801568": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/RTD_copy.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "eb765154-f7b6-4cdc-a26f-73fa6b801568"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/wzlz4kTDOTU",
+        "cover_image": "shopify://shop_images/My_project_2_copy_2.png"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Fiber post technology"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Fiber post accesssories"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/about-us_3.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "RTD by Dentsply Sirona (Maillefer)",
+        "copy_block_text": "<p><strong>Location</strong></p><p>St. Egreve, France </p><p><strong>History</strong></p><p>Established in 1968 by Dr. Marc Reynaud, Recherches Techniques Dentaires (RTD) developed and commercialized the fiber- reinforced composite post and is the world wide leader in this field. For over 50 years, RTD has adapted and developed  nnovative materials, equipment, and techniques to exercise complete and caring control of the process. Because innovation, through research and development, is central to its business, RTD re-invests a large percentage of its capital in human resources and equipment. The RTD development team includes dentists, engineers, and technicians specializing in dental materials science and chemistry.</p><p>RTD posts are made with a proprietary \"pulltrusion\" method and are then milled to dimensional specifications with robotic accuracy. Regardless of the shape, size or price-point, quality is never compromised. The patented, X-RO® fiber, developed exclusively for RTD posts, further increased the strength of their posts by 20% and radiopacity by 50%, making them the strongest fiber posts available.</p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about RTD Dental",
+        "copy_block_button_link": "https://www.rtddental.com/"
+      }
+    },
+    "1642488034d7038f27": {
+      "type": "content-panel--list",
+      "blocks": {
+        "f9d4765a-02ab-43f1-9193-b9522ad607ab": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Dedication to product innovation"
+          }
+        },
+        "04006722-6634-4520-aa8c-72628a651a9c": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Investment in technology and ongoing research"
+          }
+        },
+        "501bd463-a5b1-47d2-898e-97c2ec3ef478": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Collaborative approach to new product development"
+          }
+        },
+        "5e22ec09-1685-42bd-a8a6-082005f5fcae": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Honesty and integrity"
+          }
+        }
+      },
+      "block_order": [
+        "f9d4765a-02ab-43f1-9193-b9522ad607ab",
+        "04006722-6634-4520-aa8c-72628a651a9c",
+        "501bd463-a5b1-47d2-898e-97c2ec3ef478",
+        "5e22ec09-1685-42bd-a8a6-082005f5fcae"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/iStock-1313024654_copy_da3a7967-4c71-4900-bd62-5432c3bdce11.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "unique & cutting edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Fiber Technology",
+            "icon-content": "<p>Patented X-RO® fiber technology</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "https://www.rtddental.com/en/products"
+          }
+        },
+        "be19fb92-2ca7-49f4-b687-225afae22fa1": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Proven Design",
+            "icon-content": "<p>Proven double-taper design</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "https://www.rtddental.com/en/products/fiber-posts/dt-light-post"
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Colour changing technology",
+            "icon-content": "<p>Patented illusion colour changing technology</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "https://www.rtddental.com/en/products/fiber-posts/dt-light-post-illusion-x-ro"
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "be19fb92-2ca7-49f4-b687-225afae22fa1",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "double-taper-light-post-x-ro-illusion-colour-changing-endodontic-posts"
+          }
+        },
+        "163951144998bcda93-1": {
+          "type": "product",
+          "settings": {
+            "product": "rtd-dentsply-sirona-double-taper-light-post-endodontic-posts"
+          }
+        },
+        "163951144998bcda93-2": {
+          "type": "product",
+          "settings": {
+            "product": "rtd-dentsply-sirona-light-post-quartz-fiber-composite-endodontic-posts"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0",
+        "163951144998bcda93-1",
+        "163951144998bcda93-2"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "164279424209b6194d": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Curion-experience.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642552164f216efe6",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642488034d7038f27",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "164279424209b6194d"
+  ]
+}

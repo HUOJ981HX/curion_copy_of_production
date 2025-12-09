@@ -1,0 +1,54 @@
+{% assign variants_count = product.variants.size %}
+{% assign has_variants = false %}
+
+{% if variants_count > 1 %}
+    {% assign has_variants = true %}
+{% endif %}
+
+{% for tag in product.tags %}
+    {% if tag contains 'collection' %}
+        {%- capture collection_type -%}
+            {{ tag | handleize }}
+        {%- endcapture -%}
+    {% endif %}
+{% endfor %}
+
+
+<article class="css-grid__item card card--default card--product">
+    {% render 'product-tags', product: product %}
+
+    <a href="{{ product.url }}">
+        <div class="card__image-wrapper">
+            {% if product.featured_image != blank %}
+                {% render 'responsive-image' with image: product.featured_image, image_class: 'card__product-image background-image' %}
+            {% endif %}
+            <span class="card__button">View {% render 'icon', name: 'arrow--cta', class: 'button__icon' %}</span>
+        </div>
+
+        <div class="card__content">
+            {% if product.title != blank  %}
+                <h3 class="card__title">{{ product.title }}</h3>
+            {% endif %}
+
+            <div class="card__price">
+                {% if has_variants %}
+                    {% assign lowest_price = product.price_min | money %}
+                    {{ 'products.product.from_text_html' | t: price: lowest_price }}
+                {% else %}
+                    {% if product.compare_at_price_max > product.price %}
+                        <span class="visually-hidden" data-compare-text>
+                            {{ 'products.product.regular_price' | t }}
+                        </span>
+                        <s data-compare-price class="card__price--sale">
+                            {% if product.compare_at_price > product.price %}
+                                {{ product.compare_at_price | money }}
+                            {% endif %}
+                        </s>
+                    {% endif %}
+
+                    <span class="card__price--original">{{ product.price | money }}</span>
+                {% endif %}
+            </div>
+        </div>
+    </a>
+</article>

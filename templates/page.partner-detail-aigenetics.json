@@ -1,0 +1,216 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1639510395559bbc3b": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/Curion_Dental_AI_GENETICS_Partners_Dental_Supplies.jpg",
+        "page-header-image--mobile": "shopify://shop_images/Curion_Dental_AI_GENETICS_Partners_mobile_Dental_Supplies.jpg",
+        "subtitle": "AI GENETICS",
+        "subtitle_color": "coral",
+        "page-header-title": "UNLOCK YOUR POTENTIAL. KNOW YOUR CODE.",
+        "title_styling": "outline",
+        "page-header-text": "With a team of leading geneticists, researchers, and lab technicians, working together to innovate in genetics and data analysis, AI Genetics conducts research using the latest equipment and cutting-edge science.",
+        "background_color": "transparent",
+        "page-header-button-text": "",
+        "page-header-link": ""
+      }
+    },
+    "1642552322146adb99": {
+      "type": "icon-block",
+      "blocks": {
+        "e8329f7e-33ba-419e-a269-7c167fc6ad57": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Patners-Logo-AI-Genetics_3763e73f-18e7-4352-8785-8466890987d4.png",
+            "icon-title": "",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e8329f7e-33ba-419e-a269-7c167fc6ad57"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "",
+        "icon-block-description": ""
+      }
+    },
+    "163951071412bb1bd6": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://youtu.be/seuUW-O0Bv0",
+        "cover_image": "shopify://shop_images/AI_Genetics_Video_Banner.jpg"
+      }
+    },
+    "1639511044e5ebb6a9": {
+      "type": "content-panel--list",
+      "blocks": {
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "NGS Sequencing"
+          }
+        },
+        "577f80de-4c40-42d8-92d1-82300b7da6a2": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Genotyping"
+          }
+        },
+        "f5e80ed7-2fe4-4853-b73d-0d8ff1cc50ec": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "White Labeling"
+          }
+        }
+      },
+      "block_order": [
+        "03835e7f-c9c4-47ac-ba18-ec7644849a0e",
+        "577f80de-4c40-42d8-92d1-82300b7da6a2",
+        "f5e80ed7-2fe4-4853-b73d-0d8ff1cc50ec"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_OralRisk_Test_Kit_WHITE_LABELLING_Dental_Supplies.png",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Curion-exclusive-partner.png",
+        "copy_block_subtitle": "exclusive partner",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "AI GENETICS",
+        "copy_block_text": "<p><strong>Location</strong></p><p>Mississauga, ON </p><p><strong>History</strong></p><p>With a team of leading geneticists, researchers and lab technicians, working together to innovate in genetics and data analysis, we conduct research using the latest equipment and cutting-edge science. Our clients, including healthcare organizations and individual clinical practitioners, gain useful information about their patient’s unique genetic makeup that they can use to personalize their care and help improve their lives and make better and more informed health & lifestyle choices.</p><p><strong>Specialty areas</strong></p>",
+        "copy_block_button_text": "Learn more about AI GENETICS",
+        "copy_block_button_link": "https://aigenetics.ca/"
+      }
+    },
+    "1642191661aa1f4907": {
+      "type": "content-panel--list",
+      "blocks": {
+        "3133e838-1c27-45eb-8e8d-99822416e454": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Industry pioneer"
+          }
+        },
+        "554ee5dc-5ac4-4229-b924-53c3e08d9015": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Patient-centric approach"
+          }
+        },
+        "list_item_K6FDVP": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Advanced technology in genomics with a team of geneticists, scientists, and physicians"
+          }
+        },
+        "list_item_gWNYWG": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "State-of-the-art laboratory in Canada"
+          }
+        }
+      },
+      "block_order": [
+        "3133e838-1c27-45eb-8e8d-99822416e454",
+        "554ee5dc-5ac4-4229-b924-53c3e08d9015",
+        "list_item_K6FDVP",
+        "list_item_gWNYWG"
+      ],
+      "settings": {
+        "starting_orientation": "right",
+        "content_panel_image": "shopify://shop_images/Curion_Dental_Oral_Risk_Ai_Genetics_Dental_Supplies.jpg",
+        "content_panel_icon_image": "shopify://shop_images/CORAL-Dynamic-dentistry.png",
+        "copy_block_subtitle": "Unique & cutting-edge",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "We love them because",
+        "copy_block_text": "",
+        "copy_block_button_text": "",
+        "copy_block_button_link": ""
+      }
+    },
+    "16395112109db0cf18": {
+      "type": "icon-block",
+      "blocks": {
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "AI Technology",
+            "icon-content": "<p>Innovation in genetics and data analysis</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/CORAL-Expert-driven-solutions.png",
+            "icon-title": "Research Focused",
+            "icon-content": "<p>Using the latest equipment and cutting-edge science</p>",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7cedbf03-4b1b-4b87-83e1-db67eb5671fc",
+        "4cd24a88-fc42-493f-8afa-ed719ab41cbb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": "Key Innovations",
+        "icon-block-description": ""
+      }
+    },
+    "163951144998eeffbe": {
+      "type": "product-slider",
+      "blocks": {
+        "163951144998bcda93-0": {
+          "type": "product",
+          "settings": {
+            "product": "oralrisk"
+          }
+        }
+      },
+      "block_order": [
+        "163951144998bcda93-0"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Products we love"
+      }
+    },
+    "1642799291e0c18274": {
+      "type": "intro-block",
+      "settings": {
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "1639510395559bbc3b",
+    "1642552322146adb99",
+    "163951071412bb1bd6",
+    "1639511044e5ebb6a9",
+    "1642191661aa1f4907",
+    "16395112109db0cf18",
+    "163951144998eeffbe",
+    "1642799291e0c18274"
+  ]
+}

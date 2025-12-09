@@ -1,0 +1,102 @@
+<div class="page-section page-section--account-details">
+    <h2 class="account-details__title">{{ 'customer.account.details' | t }}</h2>
+
+    <div class='customer-details__container'>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Practitioner Name:  
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.first_name }} {{ customer.last_name }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                  Email:  
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.email }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Existing Curion or Bisco Cananda Account #:
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.metafields.customer_fields.bisco_account_number.value }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Profession Title:
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.metafields.customer_fields.profession_title.value }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Practice Name:
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.metafields.customer_fields.practice_name.value }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Practice Phone Number:
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.metafields.customer_fields.practice_phone_number.value }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Ordering Person Name:
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.metafields.customer_fields.ordering_person_first_name.value }} {{ customer.metafields.customer_fields.ordering_person_last_name.value }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Ordering Person Profession Title:
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.metafields.customer_fields.ordering_person_profession.value }}
+            </div>
+        </div>
+        <div class='customer-details__row'>
+            <div class='customer-details__label'>
+                <p>
+                    Mobile Phone Number:
+                </p>
+            </div>
+            <div class='customer-details__value'>
+                {{ customer.metafields.customer_fields.ordering_person_phone_numb.value }}
+            </div>
+        </div>
+
+        <button id="customer-edit__button">Edit</button>
+        <div id="customer-edit__form" hidden>
+            <h4 class="form__title">Edit account details</h4>
+            {% render "customer-fields", form_id: "r9tV87" %}
+        </div>
+    </div>
+</div> 

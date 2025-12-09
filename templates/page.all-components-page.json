@@ -1,0 +1,618 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+        "page-header-image": "shopify://shop_images/OptiShade.png",
+        "subtitle": "Subttile",
+        "subtitle_color": "blue",
+        "page-header-title": "Heading goes here",
+        "title_styling": "no-outline",
+        "page-header-text": "Subheading and description goes here.",
+        "background_color": "white",
+        "page-header-button-text": "Contact Us",
+        "page-header-link": "shopify://pages/contact-us-legacy"
+      }
+    },
+    "content-panel": {
+      "type": "content-panel",
+      "blocks": {
+        "1596069023232": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/OptiShade.png",
+            "content_panel_icon_image": "shopify://shop_images/CurionExperience_46x_0f96d5b7-e26f-40e3-bfd4-bb1a1cde4b62.png",
+            "copy_block_subtitle": "Curion Partners",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Content Panel",
+            "copy_block_text": "<p>Meet the exclusive, innovative brands that make us stronger and contribute to better care.</p>",
+            "copy_block_button_text": "Shop Our Brand",
+            "copy_block_button_link": "shopify://collections/all"
+          }
+        },
+        "1596069059306": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/OptiShade.png",
+            "content_panel_icon_image": "shopify://shop_images/CurionExperience_46x_0f96d5b7-e26f-40e3-bfd4-bb1a1cde4b62.png",
+            "copy_block_subtitle": "Curion Experience",
+            "content_panel_subtitle_color": "coral",
+            "copy_block_title": "Practice in Harmony",
+            "copy_block_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non sollicitudin arcu, sit amet euismod nibh. Fusce placerat sodales nisl, id mollis metus consequat vitae.</p>",
+            "copy_block_button_text": "Learn more",
+            "copy_block_button_link": "shopify://collections"
+          }
+        },
+        "1596069089415": {
+          "type": "content-panel",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/OptiShade.png",
+            "content_panel_icon_image": "shopify://shop_images/CurionExperience_46x_0f96d5b7-e26f-40e3-bfd4-bb1a1cde4b62.png",
+            "copy_block_subtitle": "",
+            "content_panel_subtitle_color": "blue",
+            "copy_block_title": "Content Panel",
+            "copy_block_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non sollicitudin arcu, sit amet euismod nibh. Fusce placerat sodales nisl, id mollis metus consequat vitae.</p>",
+            "copy_block_button_text": "",
+            "copy_block_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1596069023232",
+        "1596069059306",
+        "1596069089415"
+      ],
+      "settings": {
+        "starting_orientation": "right"
+      }
+    },
+    "content-panel-list": {
+      "type": "content-panel--list",
+      "blocks": {
+        "1596069275746": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Always pack lots of snacks & water"
+          }
+        },
+        "1596069337786": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Tell a friend where you will be and your time of return"
+          }
+        },
+        "1596069361073": {
+          "type": "list-item",
+          "settings": {
+            "content-panel-list-text": "Prepare for any unexpected wildlife encounters"
+          }
+        }
+      },
+      "block_order": [
+        "1596069275746",
+        "1596069337786",
+        "1596069361073"
+      ],
+      "settings": {
+        "starting_orientation": "left",
+        "content_panel_image": "shopify://shop_images/OptiShade.png",
+        "content_panel_icon_image": "shopify://shop_images/CurionExperience_46x_0f96d5b7-e26f-40e3-bfd4-bb1a1cde4b62.png",
+        "copy_block_subtitle": "Subtitle",
+        "content_panel_subtitle_color": "coral",
+        "copy_block_title": "Content Panel with List",
+        "copy_block_text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium:</p>",
+        "copy_block_button_text": "Learn More",
+        "copy_block_button_link": "shopify://pages/all-components-page"
+      }
+    },
+    "1638815142d60634a6": {
+      "type": "icon-block",
+      "blocks": {
+        "07b06270-f4ad-49c5-815f-5956fa1c3743": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/image_99_100x_d1a09548-edac-43d2-9931-5d5ee75cdcc8.png",
+            "icon-title": "DA Editors Choice",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "98ae1315-2c33-42ea-b7ee-8b7df7498e45": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/image_100_100x_83d7587d-3d03-4416-b7be-8900e1a39c26.png",
+            "icon-title": "Contains MDP",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        },
+        "ef3b3e97-7611-4458-94ca-bce4b58dfca6": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/ExclusiveProduct_107x_a4263050-f8bf-4177-bdb0-e43eb4b83c83.png",
+            "icon-title": "Featured Product",
+            "icon-content": "",
+            "icon-button-label": "",
+            "icon-button-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "07b06270-f4ad-49c5-815f-5956fa1c3743",
+        "98ae1315-2c33-42ea-b7ee-8b7df7498e45",
+        "ef3b3e97-7611-4458-94ca-bce4b58dfca6"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": ""
+      }
+    },
+    "icon-block": {
+      "type": "icon-block",
+      "blocks": {
+        "1596069933713": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Rectangle_679_233x_01927cef-258d-4ae8-b681-fa5dc7558778.png",
+            "icon-title": "Guy Lafortune",
+            "icon-content": "<p>Manager, Quebec Region<br/>Toll Free 1-855-402-2136<br/>Send email guy@biscocanada.com</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/single-product-five"
+          }
+        },
+        "1596069962821": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Rectangle_680_232x_06c8d382-8079-4740-be4e-47a341d88842.png",
+            "icon-title": "Cherry Ponio",
+            "icon-content": "<p>Representative, Ontario <br/>(Toronto, GTA East)<br/>Toll Free  1-855-606-4164<br/>Send email cherry@biscocanada.com</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/product-with-two-variants-two"
+          }
+        },
+        "1596069984840": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Rectangle_681_233x_c1c12a05-d40a-42f3-916b-40cdfe7598c6.png",
+            "icon-title": "Luai Mansor",
+            "icon-content": "<p>Representative, Ontario <br/>(Southern Ontario, GTA West)<br/>Toll Free 1-855-599-2977<br/>Send email luai@biscocanada.com</p>",
+            "icon-button-label": "Learn more",
+            "icon-button-link": "shopify://products/single-product-four"
+          }
+        }
+      },
+      "block_order": [
+        "1596069933713",
+        "1596069962821",
+        "1596069984840"
+      ],
+      "settings": {
+        "subtitle": "our representatives in canada",
+        "subtitle_color": "blue",
+        "icon-block-title": "Our Relationship Builders"
+      }
+    },
+    "1638985389a86cba3f": {
+      "type": "icon-block",
+      "blocks": {
+        "b0f0283f-18bf-4a05-9ae3-a26940935ebe": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Rectangle_652_180x_13e745a2-fb5a-490c-983d-018616a3a443.png",
+            "icon-title": "Bisco",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/all-components-page"
+          }
+        },
+        "e8c4a946-c841-4a1a-9d04-c260c55f1037": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Vector_117x_fb645818-9e1a-45f8-b10c-345607b0a55a.png",
+            "icon-title": "LM",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://pages/all-components-page"
+          }
+        },
+        "eba6ada6-a1d3-48b4-b5d2-2ac393629b27": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Rectangle_654_180x_58a573b6-ce36-419b-a1bc-7d9ceaa502d7.png",
+            "icon-title": "SmileLine",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://blogs/employee/susan"
+          }
+        },
+        "20bf6a2b-7929-4c94-8efd-f599f282aa98": {
+          "type": "icon-item",
+          "settings": {
+            "icon-image": "shopify://shop_images/Rectangle_655_233x_f308f315-ea0f-4718-bcd5-55d70ca27d8a.png",
+            "icon-title": "DiaShine",
+            "icon-content": "",
+            "icon-button-label": "Learn More",
+            "icon-button-link": "shopify://blogs/dentistry-events"
+          }
+        }
+      },
+      "block_order": [
+        "b0f0283f-18bf-4a05-9ae3-a26940935ebe",
+        "e8c4a946-c841-4a1a-9d04-c260c55f1037",
+        "eba6ada6-a1d3-48b4-b5d2-2ac393629b27",
+        "20bf6a2b-7929-4c94-8efd-f599f282aa98"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "icon-block-title": ""
+      }
+    },
+    "banner-block": {
+      "type": "banner-block",
+      "settings": {
+        "banner-block-image": "shopify://shop_images/Untitled_1440x_5a9107d2-5e74-4138-9c5f-33abb1037222.jpg",
+        "subtitle": "Subtitle",
+        "subtitle_color": "coral",
+        "banner-block-title": "Banner Block",
+        "banner-block-text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>",
+        "banner-block-button-text": "Learn more",
+        "banner-block-link": "shopify://products/product-with-two-variants-two"
+      }
+    },
+    "faqs": {
+      "type": "faqs",
+      "blocks": {
+        "1596069712549": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Is there a warranty on the products I purchase?",
+            "accordion-content": "<p>At vero eos et <a href=\"/pages/all-components-page\" title=\"All Components Page\">accusamus et iusto </a>odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>"
+          }
+        },
+        "1596069778469": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Can I get a discount if I am an outdoor enthusiast?",
+            "accordion-content": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>"
+          }
+        },
+        "1596069796712": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "How does your “trail it forward” program work?",
+            "accordion-content": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1596069712549",
+        "1596069778469",
+        "1596069796712"
+      ],
+      "settings": {
+        "accordion-section-title": "Accordion - FAQs",
+        "accordion-section-content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non sollicitudin arcu, sit amet euismod nibh. Fusce placerat sodales nisl, id mollis metus consequat vitae.</p>",
+        "faq_block_button_text": "Learn more",
+        "faq_block_button_link": "shopify://pages/faqs"
+      }
+    },
+    "1630626991dabca762": {
+      "type": "testimonial",
+      "blocks": {
+        "d89c1728-a5e3-4efe-81f4-2f3991fbaa55": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/James_Choi_410ccc9a-4707-4bc3-a700-3a3c261bcc8c.png",
+            "quote": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+            "author": "Emily, Snowboarder"
+          }
+        },
+        "7691d46e-c6c3-472d-a142-aed32f96e669": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/Miles_Reed_Cone.png",
+            "quote": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>",
+            "author": "Brenna, Climber"
+          }
+        },
+        "2e10e078-1fd8-44fd-81d1-e0e1a8df692c": {
+          "type": "quote",
+          "settings": {
+            "quote_image": "shopify://shop_images/James_Choi.png",
+            "quote": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+            "author": "Zara, Hiker"
+          }
+        }
+      },
+      "block_order": [
+        "d89c1728-a5e3-4efe-81f4-2f3991fbaa55",
+        "7691d46e-c6c3-472d-a142-aed32f96e669",
+        "2e10e078-1fd8-44fd-81d1-e0e1a8df692c"
+      ],
+      "settings": {
+        "subtitle": "Subtitle",
+        "subtitle_color": "coral",
+        "title": "Testimonial"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "1596069542797": {
+          "type": "collection",
+          "settings": {
+            "collection": "diagnostics"
+          }
+        },
+        "1596069565495": {
+          "type": "collection",
+          "settings": {
+            "collection": "core-materials"
+          }
+        },
+        "1596069570453": {
+          "type": "collection",
+          "settings": {
+            "collection": "commonsense"
+          }
+        },
+        "1596069577000": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-collection"
+          }
+        },
+        "1596069594408": {
+          "type": "collection",
+          "settings": {
+            "collection": "bisco"
+          }
+        }
+      },
+      "block_order": [
+        "1596069542797",
+        "1596069565495",
+        "1596069570453",
+        "1596069577000",
+        "1596069594408"
+      ],
+      "settings": {
+        "subtitle": "Curion PArtners",
+        "subtitle_color": "coral",
+        "title": "We Bring Brands to Life",
+        "description": "<p>We see the possibilities—and they are endless. We enhance visibility and build partnerships with evidence-backed brands that bring a new edge to dentistry.</p>",
+        "button_text": "Discover Our Partners",
+        "button_link": "shopify://pages/all-components-page"
+      }
+    },
+    "1638985306b0659665": {
+      "type": "product-slider",
+      "blocks": {
+        "16389853069db7fd82-0": {
+          "type": "product",
+          "settings": {
+            "product": "sickle-lm204s"
+          }
+        },
+        "16389853069db7fd82-1": {
+          "type": "product",
+          "settings": {
+            "product": "bisco-all-bond-2-total-etch-dental-adhesive"
+          }
+        },
+        "16389853069db7fd82-2": {
+          "type": "product",
+          "settings": {
+            "product": "aeliteflo-1"
+          }
+        },
+        "16389853069db7fd82-3": {
+          "type": "product",
+          "settings": {
+            "product": "arch-wire-tucker"
+          }
+        },
+        "9c4bbece-5083-4a14-a119-87ac59afdbb1": {
+          "type": "product",
+          "settings": {
+            "product": "sickle-lm204s"
+          }
+        }
+      },
+      "block_order": [
+        "16389853069db7fd82-0",
+        "16389853069db7fd82-1",
+        "16389853069db7fd82-2",
+        "16389853069db7fd82-3",
+        "9c4bbece-5083-4a14-a119-87ac59afdbb1"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "blue",
+        "title": "Product Slider"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Rich Text Block",
+        "text": "<p>Use this text to <a href=\"/pages/all-components-page\" title=\"All Components Page\">share information </a>about your brand with your customers. Describe a product, share announcements, or welcome customers to your store. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+      }
+    },
+    "video-block": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=FdG0MNqHuFY&t=3s",
+        "cover_image": "shopify://shop_images/Loupe_Shield_b2b7c068-65cb-4295-a2ac-d8111fda0c41.png"
+      }
+    },
+    "1638407158ce779aff": {
+      "type": "events-list",
+      "settings": {
+        "subtitle": "Subtitle",
+        "title": "Upcoming Events",
+        "blog": "continuing-education"
+      }
+    },
+    "1638407182529ba75c": {
+      "type": "employee-list",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Executive Team",
+        "title": "Our Team",
+        "employee_type": "Executive Team"
+      }
+    },
+    "16384071991c4e538d": {
+      "type": "employee-list",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Manager",
+        "title": "Our Team",
+        "employee_type": "Manager"
+      }
+    },
+    "163855544588b87556": {
+      "type": "logo-slider",
+      "blocks": {
+        "76d0fea6-d43f-47a3-9e97-a683e8f88de0": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Rectangle_654_180x_58a573b6-ce36-419b-a1bc-7d9ceaa502d7.png"
+          }
+        },
+        "dbda00cb-5331-4b53-a887-09ba43b92dc7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Rectangle_655_233x_f308f315-ea0f-4718-bcd5-55d70ca27d8a.png"
+          }
+        },
+        "e069dec6-d84a-45e2-a578-b41aadb1cef3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Rectangle_652_180x_1d18ff99-3711-47bf-94e4-3cfe89ff00c9.png"
+          }
+        },
+        "b7ad8219-4663-4eda-9f6d-d665589bfb03": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Rectangle_654_180x_58a573b6-ce36-419b-a1bc-7d9ceaa502d7.png"
+          }
+        },
+        "41631417-997b-4e19-9973-5f113a8095a3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Rectangle_655_233x_f308f315-ea0f-4718-bcd5-55d70ca27d8a.png"
+          }
+        },
+        "7fb6f1a5-2284-4cee-bb4f-2d354b887ccd": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/CurionLogo-Tagline_2.png"
+          }
+        },
+        "c83f31f4-cb37-4e07-850f-d9a21595e0bb": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Rectangle_654_180x_58a573b6-ce36-419b-a1bc-7d9ceaa502d7.png"
+          }
+        }
+      },
+      "block_order": [
+        "76d0fea6-d43f-47a3-9e97-a683e8f88de0",
+        "dbda00cb-5331-4b53-a887-09ba43b92dc7",
+        "e069dec6-d84a-45e2-a578-b41aadb1cef3",
+        "b7ad8219-4663-4eda-9f6d-d665589bfb03",
+        "41631417-997b-4e19-9973-5f113a8095a3",
+        "7fb6f1a5-2284-4cee-bb4f-2d354b887ccd",
+        "c83f31f4-cb37-4e07-850f-d9a21595e0bb"
+      ],
+      "settings": {
+        "title": "Heading",
+        "description": "<p>Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eaedem res maneant alio modo. </p>"
+      }
+    },
+    "1638484785a37519ab": {
+      "type": "vision-block",
+      "settings": {
+        "subtitle": "Our Vision",
+        "subtitle_color": "coral",
+        "title": "Talk about your brand",
+        "text": "Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store."
+      }
+    },
+    "1638816324c457ce84": {
+      "type": "intro-block",
+      "settings": {
+        "icon-image": "shopify://shop_images/Shop_110x_3eb48b9f-c785-4fe9-8755-9365b52b66ed.png",
+        "intro-block-title": "We bring the very best to you. Put your trust in the right hands … yours!",
+        "intro-block-button-text": "Shop Now",
+        "intro-block-link": "shopify://collections/all"
+      }
+    },
+    "1639002026ba9c7147": {
+      "type": "timeline-slider",
+      "blocks": {
+        "ff03d7f7-575b-46ee-a542-fade59a6eb38": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Customer_Service_iStock-1160753614_547x_55ca3391-6067-4b64-a169-6333a7cc94c4.png",
+            "copy_block_title": "2021",
+            "copy_block_text": "<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>"
+          }
+        },
+        "2c5cbc17-bb12-425e-9bb1-3ff5f00fce21": {
+          "type": "slide",
+          "settings": {
+            "content_panel_image": "shopify://shop_images/Customer_Service_iStock-1160753614_547x_55ca3391-6067-4b64-a169-6333a7cc94c4.png",
+            "copy_block_title": "2020",
+            "copy_block_text": "<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "ff03d7f7-575b-46ee-a542-fade59a6eb38",
+        "2c5cbc17-bb12-425e-9bb1-3ff5f00fce21"
+      ],
+      "settings": {
+        "subtitle": "test",
+        "title": "heading"
+      }
+    }
+  },
+  "order": [
+    "page-header",
+    "content-panel",
+    "content-panel-list",
+    "1638815142d60634a6",
+    "icon-block",
+    "1638985389a86cba3f",
+    "banner-block",
+    "faqs",
+    "1630626991dabca762",
+    "collection-list",
+    "1638985306b0659665",
+    "rich-text",
+    "video-block",
+    "1638407158ce779aff",
+    "1638407182529ba75c",
+    "16384071991c4e538d",
+    "163855544588b87556",
+    "1638484785a37519ab",
+    "1638816324c457ce84",
+    "1639002026ba9c7147"
+  ]
+}
