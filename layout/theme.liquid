@@ -315,12 +315,13 @@
     }
 </style>
 
-{% include 'store-credit-launcher' %}
+
 {% include 'pagefly-app-header' %}
 <script>
   var variantStock = {};
 </script>
   
+{% include 'store-credit-launcher' %}
 </head>
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
@@ -338,6 +339,7 @@
 
     <script type="text/javascript" async src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VFadrv"></script>
     {%- render 'flits_capture_code' with 'load_snippet',template:'flits_snippet' -%}
+
 
 {% include 'store-credit-launcher' %}
 </body>
